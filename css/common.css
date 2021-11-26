@@ -76,7 +76,13 @@ a{text-decoration:none;}
 	height: 24px;
 }
 .head--search--right{
-	float:right;
+	position: absolute;
+	right:16px;
+	top:17px;
+}
+.head--search--right img{
+	width: 24px;
+	height: 24px;
 }
 .head--cart{
 	position: absolute;
@@ -87,10 +93,11 @@ a{text-decoration:none;}
 	width: 24px;
 	height: 24px;
 }
-.head--done{
-	float:right;
-	padding:20px 18px 0 0;
-	font-size: 12px;
+.head--done a{
+	position: absolute;
+	top:17px;
+	right: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	color: #4A61A3;
 }
