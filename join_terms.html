@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/join_terms.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+    <title>회원가입-동의</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <ul>
+                <li class="head--back"><img src="image/back_icon.png" width="24px" height="24px"/></li>
+                <li class="head--title">회원가입</li>
+            </ul>
+        </div><!--head-->
+    </header>
+    <main>
+        <section class="join--head">
+            <div class="join--head--title">회원가입</div>
+            <div class="join--head--order">
+                <ul>
+                    <li class="order1">1</li>
+                    <li><img src="image/arrow_right.png" width="14px" height="14px"></li>
+                    <li class="order2">2</li>
+                    <li><img src="image/arrow_right.png" width="14px" height="14px"></li>
+                    <li class="order3">3</li>
+                </ul>
+            </div><!--joinheadorder-->
+        </section><!--jointermshead-->
+        <section class="join--terms--content">
+            <div class="terms--content--all">모두동의합니다
+                <span class="round"><input type='checkbox' id='checkbox1' name='agree' value='selectall' onclick='selectAll(this)'>
+                <label for="checkbox1"></label>
+                </span>
+            </div><!--termscontentall-->
+            <div class="terms--content--agree">
+                 <ul>
+                    <li>
+                        <p class="content--title">이용약관 동의</p>
+                        <p class="content--fs">(필수)</p>
+                        <a href="#">내용보기</a>
+                        <span class="round"> <input type='checkbox' id='checkbox2' name='agree' value='agree1' onclick='checkSelectAll()'>
+                        <label for='checkbox2'></label>
+                        </span>
+                    </li>
+                    <li>
+                        <p class="content--title">개인정보 수집 및 이용동의</p>
+                        <p class="content--fs">(필수)</p>
+                        <a href="#">내용보기</a>
+                        <span class="round"><input type='checkbox' id='checkbox3' name='agree' value='agree2' onclick='checkSelectAll()'>
+                        <label for='checkbox3'></label>
+                        </span>
+                    </li>
+                    <li>
+                        <p class="content--title">위치기반 서비스 이용 동의</p>
+                        <p class="content--fs">(필수)</p>
+                        <a href="#">내용보기</a>
+                        <span class="round"><input type='checkbox' id='checkbox4' name='agree' value='agree3' onclick='checkSelectAll()'>
+                        <label for='checkbox4'></label>
+                        </span>
+                    </li>
+                    <li>
+                        <p class="content--title">혜택 알림 동의</p>
+                        <p class="content--st">(선택)</p>
+                        <a href="#">내용보기</a>
+                        <span class="round"><input type='checkbox' id='checkbox5' name='agree' value='agree4' onclick='checkSelectAll()'>
+                        <label for='checkbox5'></label>
+                        </span>
+                    </li>
+                </ul>
+            </div><!--termscontentagree-->
+        </section><!--jointermscontent-->
+    </main>
+    <footer>
+        <section class="foot--next">
+            <p>다음</p>
+        </section>
+    </footer>
+</body>
+</html>

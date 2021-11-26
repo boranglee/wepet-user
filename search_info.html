@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/search_info.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+    <title>회원정보찾기</title>
+</head>
+<body>
+    <header>
+        <div class="head">           
+            <ul>
+                <li class="head--back"><img src="image/back_icon.png" width="24px" height="24px"/></li>
+                <li class="head--title">회원정보 찾기</li>
+            </ul>
+        </div><!--head-->
+    </header>
+    <div class="tab_wrap"> 
+        <div class="tab_menu_container">
+            <button class="tab_menu_btn on" type="button">아이디찾기</button>
+            <button class="tab_menu_btn" type="button">비밀번호찾기</button>
+        </div> <!-- tab_menu_container e -->
+        <div class="tab_box_container">
+            <div class="tab_box on">
+                <div class="box--content">
+                    <section class="join--confirm--content">
+                        <span class="confirm--content--img">
+                            <img src="image/phone_icon.png" width="70px" height="70px">
+                        </span>
+                        <p>원할한 서비스 이용을 위해 인증이 필요합니다.<br/> 본인명의의 휴대폰이 아닐 경우 본인 인증 확인이 <br/>불가합니다.</p>
+                    </section><!--joinconfirmcontent-->
+                    <section class="foot--btn">
+                        <p>인증하기</p>
+                    </section>
+                </div><!--boxcontent-->   
+            </div><!--tab_box_on-->
+            <div class="tab_box">
+                <section class="search--info--pw">
+                <div class="input--info">
+                    <p class="input--info--title">비밀번호</p>
+                    <input type="text" id="password" name="password" placeholder="비밀번호를 입력해주세요" autocomplete="off">
+                </div>
+                </section><!--searchinfopw-->  
+                <section class="foot--btn">
+                    <p>다음</p>
+                </section> 
+            </div><!--tab_box-->
+        </div> <!-- tab_box_container-->
+      </div> <!-- tab_wrap-->
+    </main>
+</body>
+</html>

@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.log_con {padding: 58px 16px 0;display: block; text-align: center; }
+.log_con h2 {margin-bottom: 15%; font-size: 24px; font-weight: 500;}
+.input--login{color:#757575; width: 100%;}
+textarea, input[type="text"] {
+    padding: 14.5px 14px;
+    border: 1px solid #9E9E9E;
+    box-sizing: border-box;
+    outline: none;
+    color:#9E9E9E;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom:8px;
+}
+textarea, input[type="text"]:focus{
+    background:#f6f7fc ;
+    border: 1px solid #4A61A3;
+}
+input[type="text"]::placeholder{color: #757575; font-weight: 400;}
+.onSubmit {
+	margin: 18px 0 32px;
+	font-size: 16px;
+	background: #4A61A3;
+	width: 100%;
+	height: 48px;
+	line-height: 46px;
+	color: #fff;
+	border-radius: 4px;
+}
+.join_search a {font-size: 14px; color: #9E9E9E;}
+.join_search a:nth-child(1)::after {
+	content: '';
+	display: inline-block;
+	margin:0 20px;
+	height: 14px;
+	border-right: 1px solid #9e9e9e;
+	vertical-align: middle;
+}
+.sns_login {
+	position:relative;
+	background: #FAFAFA;
+	padding: 16px 16px 20px;
+    margin-top:35px;
+}
+.sns_login span {font-weight: 500;}
+.sns_login ul {display: flex; justify-content: center;}
+.sns_login ul li { display: block; margin: 12px 9px;}
+

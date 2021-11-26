@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/pay.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>결제하기</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <ul>
+                <li class="head--back"><img src="image/back_icon.png" width="24px" height="24px"/></li>
+                <li class="head--title">결제하기</li>
+            </ul>
+        </div><!--head-->
+    </header>
+    <main>
+        <h1 class="info--title">주문자정보</h1>
+        <div class="pay--info">
+            <div class="info--address">
+                <h2 class="info--address--title">
+                    <img src="image/location_mini.png" width="24px" height="24px">배송주소
+                </h2>
+                <div class="info--address--detail">
+                    <p>전라북도 전주시 완산구 홍산북로 60-10</p>
+                    <p class="info--address--text2">[지번주소] 전라북도 전주시 완산구 효자동 60-10</p>
+                    <button class="info--address--change">주소변경</button>
+                </div>
+                <div class="input--text">
+                    <input type="text" id="searchText" placeholder="나머지 주소를 입력해주세요" autocomplete="off">
+                    <input type="text" id="searchText" placeholder="연락처를 입력해주세요" autocomplete="off">
+                </div>    
+            </div><!--infoaddress-->
+        </div><!--payinfo-->
+        <h1 class="list--title">주문내역</h1>
+        <div class="pay--list">
+            <div class="list--detail--title">주문상품 상세내역</div>
+                <div class="list--product--bg">
+                    <div class="list--product">
+                        <ul class="product--title">
+                            <li class="product--title--name">럭셔리 소나무 관</li>
+                            <li class="product--title--detail">10kg~15kg</li>
+                        </ul>
+                        <span>80,000원X2개</span>
+                    </div>
+                    <div class="list--product">
+                        <ul class="product--title">
+                            <li class="product--title--name">오동나무 관(고급형) 이름이 길어지는 경우</li>
+                            <li class="product--title--detail">선택한 옵션 정보가 표시됩니다</li>
+                        </ul>
+                        <span>30,000원X1개</span>
+                    </div><!--listproduct-->
+                </div><!--listbg-->
+                <div class="product--price">
+                    <p>상품금액 <span>190,000원</span></p>
+                    <p>배송비 <span>3,000원</span></p>
+                </div><!--productprice-->
+                <div class="all--price">
+                    <p>총 결제금액 <span>193,000원</span></p>
+                </div>
+        </div><!--paylist-->
+        <h1 class="payment--title">결제수단</h1>
+            <div class="payment">
+                <div class="payment--card">카드결제<span>변경</span></div>
+                <div class="info--accordian">
+                    <div class="payment--confirm">예약 조건 확인 및 결제진행 동의 내용보기<i class="material-icons accordian-arrow">expand_more</i></div>
+                </div>
+                        <div class="content" style="display: none;">
+                            <p>ㅇㅇㄻㄹㅇㄹㅇㄹㅇㅇ</p></div>
+                </div><!--infoaccordian-->
+                </div>
+                <div class="payment--agree">위 내용을 확인하였으며, 결제에 동의합니다
+                    <span class="round">
+                    <input type="checkbox" checked id="checkbox" />
+                    <label for="checkbox"></label>
+                    </span></div>
+            </div><!--payment-->
+    </main>
+    <footer>
+        <div class="foot--price">
+            <p>총 결제금액 <span>193,000원</span></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+.mainView img{width: 100%; min-height: 170px;}
+.mainTag{margin:24px 0 0 16px; float: left;}
+.mainTag li{
+    display: inline-block;
+    font-size: 10px;
+    color: #4A61A3;
+    padding:1px 4px;
+    border-radius: 2px;
+    background: #E9EDF2;
+    margin-right: 4px;
+}
+.storeTitle{clear: both; float:left; margin:12px 0 0 16px;}
+.storeTitle li{ text-align: left; line-height: 1.5em;}
+.storeTitle .storeTitle--title{font-size: 18px; font-weight: bold;}
+.storeTitle .storeTitle--address{font-size: 12px; color:#757575; margin-top: 1px;}
+.storeTitle .storeTitle--address span{
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4A61A3;
+}
+.storeTitle .storeTitle--address span img{vertical-align:text-bottom;}
+.storeTitle .storeTitle--review{font-size: 12px; font-weight: bold; margin-top: 12px;}
+.storeTitle .storeTitle--review span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+    margin-left:4px;
+}
+.storeTitle .storeTitle--review img{vertical-align: text-bottom;}
+.tab_wrap{clear: both;}
+button {background:none; border:0; outline:0;}
+.tab_menu_container {display: flex; flex-wrap: nowrap; line-height: 50px;}
+.tab_menu_btn {
+    height:50px;
+    margin:0 auto;
+    width:50%;
+    color:#757575;
+    font-size: 14px;
+    border-top: 6px solid #DDDFE5;
+    border-bottom:1px solid #e0e0e0;
+    margin-top:24px;
+}
+.tab_menu_btn.on {
+    border-bottom:5px solid #4A61A3;
+    font-weight:bold;
+    color:#757575;
+    width:50%;
+    font-size: 14px;
+    color:#4A61A3;
+}
+.tab_box {display:none;}
+.tab_box.on {display:block;}
+.menu{
+    height: 49px;
+    background: #E9EDF2;
+    text-align: left;
+    font-weight: bold;
+    line-height: 49px;
+    padding-left:16px;
+}
+.menu1{
+    height: 49px;
+    background: #E9EDF2;
+    text-align: left;
+    font-weight: bold;
+    line-height: 49px;
+    padding-left:16px;
+    border-top:6px solid #DDDFE5;
+}
+.box--content{
+    display: flex;
+    column-gap: 14px;
+    padding: 20px 16px;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  .serviceinfo{width: 68%;}
+  .list--img{
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+  }
+  .serviceinfo--title{text-align: left; margin-bottom: 4px;}
+  .serviceinfo--detail{text-align: left; font-size: 12px; color:#757575 ;}
+  .serviceinfo--price{
+     font-size: 16px;
+     text-align:left;
+     font-weight: bold;
+     margin-top:12px;
+}
+.foot--btn{
+    width: 100%;
+    background: #fafafa;
+    padding:16px 0;
+}
+.btn--call{
+    width:44%;
+    height: 48px;
+    border:1px solid #4A61A3;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 12%);
+    margin-right: 12px;
+}
+.btn--call span{color:#4A61A3; font-weight: bold;}
+.btn--buy{
+    width:44%;
+    height: 48px;
+    border:1px solid #4A61A3;
+    background: #4A61A3;
+    border-radius: 4px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 12%);
+}
+.btn--buy span{color:#ffffff; font-weight: bold;}
+.storeinfo--time, .storeinfo--call, .storeinfo--site, .storeinfo--biznum, .storeinfo--aninum{text-align: left; margin:3px;}
+.storeinfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:4px auto;
+}
+.facility{padding:20px 9px;}
+.facility ul{display: flex;}
+.facility li{width:33%; margin:0 7px;}
+.facility li img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.review--content{padding:20px 16px;}
+.review--title{text-align: left; font-weight: bold;}
+.star--icon{text-align: left; margin:4px 0 12px;}
+.review--text{
+  text-align: left;
+  font-size: 12px;
+  color:#757575;
+  margin-bottom:12px;
+}
+.review--photo img{
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom:16px;
+}
+.review--date{font-size: 12px; color: #9e9e9e; float:left;}
+.shopinfo p{
+    text-align: left;
+    font-size: 12px;
+    color: #424242;
+}
+.title-text{
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+.goods--title{text-align: left; margin-bottom: 4px;}
+.goods--detail{text-align: left; font-size: 12px; color:#757575 ;}
+.goods--price{
+   font-size: 16px;
+   text-align:left;
+   font-weight: bold;
+   margin-top:12px;
+}
+.accordian-arrow{float:right;padding:12px 16px;}
+.accordian-arrow{color:#212121;}
+.more{transform: rotateX(0deg);}
+.less{transform: rotateX(180deg);}

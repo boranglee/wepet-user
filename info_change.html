@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/info_change.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+    <title>정보수정</title>
+</head>
+<body>
+    <header>
+        <div class="head">           
+            <ul>
+                <li class="head--back"><img src="image/back_icon.png" width="24px" height="24px"/></li>
+                <li class="head--title">내정보 수정</li>
+                <li class="head--done">완료</li>
+            </ul>
+        </div><!--head-->
+        <div class="head">
+            <div class="head--back"><a href="#"><img src="image/back_icon.png"></a></div>
+            <div class="head--title">내정보 수정</div>
+            <div class="head--done"><a href="#"><img src="image/cart_icon.png"></a></div>
+    </div><!--head-->
+    </header>
+    <div class="tab_wrap"> 
+        <div class="tab_menu_container">
+            <button class="tab_menu_btn on" type="button">내 기본정보</button>
+            <button class="tab_menu_btn" type="button">마케팅정보 수신동의</button>
+        </div> <!-- tab_menu_container e -->
+        <div class="tab_box_container">
+            <div class="tab_box on">
+                <div class="box--content">
+                    <section class="info--top">
+                        <p><img src="image/info_img.png" width="56px" height="56px"></p>
+                        <p class="info--name">김아람</p>
+                    </section><!--infotop-->
+                    <section class="info--content">
+                        <div class="input--info">
+                            <p class="input--info--title">아이디</p>
+                            <input type="info" id="id" name="id" placeholder="kjm@uaram.co.kr" autocomplete="off">
+                            <p class="input--info--title">휴대폰 번호</p>
+                            <input type="info" id="password" name="password" placeholder="010-0000-0000" autocomplete="off">
+                            <span>휴대폰 인증을 통해 변경하실 수 있습니다.</span>
+                        </div><!--input--info-->
+                        <div class="info--button">
+                            <button>
+                                <p class="button--title">본인인증</p>
+                                <p class="phone">휴대폰인증</p>
+                            </button>
+                            <button>
+                                <p class="button--title">비밀번호 변경</p>
+                                <p class="pwchange">비밀번호 변경</p>
+                            </button>
+                        </div><!--infobutton-->
+                        <div class="input--info">
+                            <p class="input--info--title">이메일</p>
+                            <input type="text" id="id" name="id" placeholder="kjm@uaram.co.kr" autocomplete="off">
+                        </div><!--input--info-->
+                    </section><!--infocontent-->
+                </div><!--boxcontent-->   
+            </div><!--tab_box_on-->
+            <div class="tab_box">
+                <section class="info--agree--top">
+                    <p>주요 공지사항과 혜택 관련 알림을 받으실 수 있습니다.</p>
+                </section>
+                <section class="info--agree--content">
+                    <ul>
+                        <li class="agree">
+                            <p>메일수신동의</p>
+                            <span><input type="checkbox" id="chk1">
+                            <label for="chk1"></label></span>
+                        </li>
+                        <li class="agree">
+                            <p>SMS 수신동의</p>
+                            <span><input type="checkbox" id="chk2">
+                            <label for="chk2"></label></span>
+                        </li>
+                    </ul>
+                </section><!--infoagreecontent-->
+            </div><!--tab_box-->
+        </div> <!-- tab_box_container-->
+      </div> <!-- tab_wrap-->
+    </main>
+</body>
+</html>
