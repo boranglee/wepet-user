@@ -165,9 +165,18 @@ footer{background: #E9EDF2;}
     background: url("../image/side_next.png") no-repeat 0 0 /14px auto;
     vertical-align: middle;
 }
-.side--nav--icon{padding:20px 0; border-bottom: 6px solid #E9EDF2;}
-.side--nav--icon li{display: inline-block; width: 26%;}
-.side--nav--icon li span{display: block; margin-top:4px;}
+.side--nav--icon{
+    padding:20px 0;
+    border-bottom: 6px solid #E9EDF2;
+}
+.side--nav--icon li{
+    display: inline-block;
+    width: 26%;
+}
+.side--nav--icon li span{
+    display: block;
+    margin-top:4px;
+}
 .side--nav--menu li{
     list-style: none;
     height: 56px;

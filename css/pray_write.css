@@ -31,3 +31,11 @@ input[type="file"]{display: none;}
     height: 24px;
     background: url("../image/photo.png") no-repeat 9px -2px /24px auto;
 }
+#preview{
+    width: 95px;
+    display: block;
+    padding-left: 8px;
+    margin-top: 20px;
+    height: 95px;
+    border: none;
+}
