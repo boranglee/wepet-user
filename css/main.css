@@ -1,9 +1,28 @@
 @charset "UTF-8";
 
-header{background-color:#4A61A3; padding:20px 16px 0; min-height:362px ; height:100%;}
-.main_head{padding:20px 16px;}
-.head--logo { float: left;}
-.head--menu {float: right;}
+header{
+    background-color:#4A61A3;
+    padding:20px 16px 0;
+    min-height:362px;
+    height:100%;
+}
+.main_head{
+    padding:20px 16px;
+}
+.head--logo {
+    float: left;
+}
+.head--logo img{
+    width: 82px;
+    height: 24px;
+}
+.head--menu {
+    float: right;
+}
+.head--menu img{
+    width: 24px;
+    height: 24px;
+}
 .main--title{clear: both; position: relative;}
 .main--title span{
     text-align: left;
@@ -36,9 +55,10 @@ header{background-color:#4A61A3; padding:20px 16px 0; min-height:362px ; height:
 }
 .cate--go{
     font-size:12px;
-    margin-top: 24px;
+    margin: 24px 0 0 -4px;
     color: #4A61A3;
     font-weight: bold;
+    float:left;
 }
 .cate2 {
     position: relative;
@@ -87,17 +107,16 @@ header{background-color:#4A61A3; padding:20px 16px 0; min-height:362px ; height:
     margin-top: 12px;
 }
 .community--img {position:absolute; top:13%; right:16px;}
-.community button{
+.community a{
     height:48px;
     background: #4A61A3;
     width:100%;
     color:#fff;
     font-weight: bold;
     line-height: 48px;
-    border: 0;
-    outline: 0;
     border-radius: 4px;
     margin:27px 0 24px;
+    display: block;
 }
 footer{background: #E9EDF2;}
 .footer--logo{padding:24px 0 10px;}
@@ -151,12 +170,14 @@ footer{background: #E9EDF2;}
 .side--nav--info{margin-left:16px;}
 .side--nav--name{
     text-align: left;
+} 
+.side--nav--name a{
     font-weight: bold;
     font-size: 20px;
     color: #fff;
     margin-bottom: 4px;
 }
-.side--nav--change{color:#fff; font-weight: 300;}
+.side--nav--change a{color:#fff; font-weight: 300;}
 .side--nav--change::after{
     content: '';
     display: inline-block;
@@ -196,13 +217,14 @@ footer{background: #E9EDF2;}
     vertical-align: middle;
 }
 .side--nav--menu li:first-child:after{
-    content: '';
-    display: inline-block;
+    content: 'N';
+    color:#ffffff;
+    font-size: 10px;
     margin-left: 4px;
-    width: 16px;
-    height: 16px;
-    background: url("../image/side_new.png") no-repeat 0 0 /16px auto;
-    vertical-align: middle;
+    border-radius: 50%;
+    background:#FF6250;
+    padding: 1px 5px;
+    font-weight: 100;
 }
 .side--nav--foot{
     position: absolute;

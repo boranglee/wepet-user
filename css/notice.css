@@ -13,12 +13,13 @@
 }
 
 .notice--list li:first-child span:after{
-    content: '';
-    display: inline-block;
+    content: 'N';
+    color:#ffffff;
+    font-size: 10px;
     margin-left: 4px;
-    width: 16px;
-    height: 16px;
-    background: url("../image/side_new.png") no-repeat 0 0 /16px auto;
-    vertical-align: middle;
+    border-radius: 50%;
+    background:#FF6250;
+    padding: 1px 5px;
+    font-weight: 100;
 }
 

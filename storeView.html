@@ -3,22 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
     <link href="css/storeView.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="css/font.css" rel="stylesheet">
     <title>업체정보</title>
 </head>
 <body>
 <header>
     <div class="head">
-        <div class="head--back"><a href="#"><img src="image/back_icon.png"></a></div>
+        <div class="head--back"><a href="locationList.html"><img src="image/back_icon.png"></a></div>
         <div class="head--title">꿈나라 애견 장례식장</div>
-</div><!--head-->
+        <div class="head--cart"><a href="cart.html"><img src="image/cart_icon.png"></a></div>
+    </div><!--head-->
 </header>
 <main>
     <div class="storeInfo">
@@ -81,9 +78,10 @@
                 <div class="menu"><span>맞춤형</span></div>
                 <div class="box--content">
                     <div class="serviceinfo">
+                        <a href="custom.html">
                         <div class="serviceinfo--title">맞춤형</div>
                         <div class="serviceinfo--detail">원하는 옵션을 직접 선택하여 진행</div>
-                        <div class="serviceinfo--price">200,000~</div>
+                        <div class="serviceinfo--price">200,000~</div></a>
                     </div><!--serviceinfo-->
                 </div><!--boxcontent-->
             </div><!--tab_box_on-->
@@ -108,63 +106,67 @@
                         </div>
                     </section><!--storeinfo-->
                 </div><!--boxcontent-->
-                    <div class="info--accordian">
-                        <div class="menu1">위치정보<i class="material-icons accordian-arrow">expand_more</i></div>
-                    </div><!--infoaccordian-->
-                        <section class="content" style="display: none;">필수표기정보오</section>
-                    <div class="info--accordian">
-                        <div class="menu1">시설안내<i class="material-icons accordian-arrow">expand_more</i></div>
+                <div class="info--accordian">
+                    <div class="menu1">위치정보
+                        <p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
+                </div><!--infoaccordian-->
+                <section class="content">지도도도도도도도도</section>
+                <div class="info--accordian">
+                    <div class="menu1">시설안내
+                        <p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
+                </div><!--infoaccordian-->
+                <section class="facility content">
+                    <ul>
+                        <li><img src="image/no_image_w.png"></li>
+                        <li><img src="image/no_image_w.png"></li>
+                        <li><img src="image/no_image_w.png"></li>
+                    </ul>
+                </section><!--facility-->
+                <div class="info--accordian">
+                    <div class="menu1">업체소개
+                        <p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
+                </div><!--infoaccordian-->
+                <section class="shopinfo content">
+                    <div class="box--content">
+                        <p>펫 추모공원은 개별화장, 장례절차 참관을 기본으로 합니다. <br/>
+                        기본이 되어야 하는 절차는 지키되, <br/>
+                        장례식장의 높은 이익을 위한 불필요한 절차는 추천하지 않습니다.<br/> 
+                        아이를 보내는 슬픔 가득한 순간에<br/>
+                        다른 걱정은 하지 않으시도록 노력합니다.<br/>
+                        <br/>
+                        또한 아이의 마지막 순간을 억지로 예쁘게 꾸미려고 하지 않습니다.<br/>
+                        무지개 다리를 건너는 아이가 가장 편안하도록 하는 것이<br/>
+                        저희 펫 추모공원의 가장 큰 모토입니다.</p>
                     </div>
-                        <section class="facility content">
-                            <ul>
-                                <li><img src="image/no_image_w.png"></li>
-                                <li><img src="image/no_image_w.png"></li>
-                                <li><img src="image/no_image_w.png"></li>
-                            </ul>
-                        </section><!--facility-->
-                    <div class="info--accordian">
-                        <div class="menu1">업체소개<i class="material-icons accordian-arrow">expand_more</i></div>
-                    </div>
-                        <section class="shopinfo content">
-                            <div class="box--content">
-                                <p>펫 추모공원은 개별화장, 장례절차 참관을 기본으로 합니다. <br/>
-                                기본이 되어야 하는 절차는 지키되, <br/>
-                                장례식장의 높은 이익을 위한 불필요한 절차는 추천하지 않습니다.<br/> 
-                                아이를 보내는 슬픔 가득한 순간에<br/>
-                                다른 걱정은 하지 않으시도록 노력합니다.<br/>
-                                <br/>
-                                또한 아이의 마지막 순간을 억지로 예쁘게 꾸미려고 하지 않습니다.<br/>
-                                무지개 다리를 건너는 아이가 가장 편안하도록 하는 것이<br/>
-                                저희 펫 추모공원의 가장 큰 모토입니다.</p>
-                            </div>
-                        </section><!--shopinfo-->
-                    <div class="info--accordian">
-                        <div class="menu1">이용후기<i class="material-icons accordian-arrow">expand_more</i></div>
-                    </div>
-                        <section class="review--content content">
-                            <div class="review--title">친절하게 상담해 주시고 세심하게 신경 써주셨어요</div>
-                            <div class="star--icon">
-                                <span><img src="image/star.png" width="14px" height="14px"></span>
-                                <span><img src="image/star.png" width="14px" height="14px"></span>
-                                <span><img src="image/star.png" width="14px" height="14px"></span>
-                                <span><img src="image/star.png" width="14px" height="14px"></span>
-                                <span><img src="image/star_gray.png" width="14px" height="14px"></span>
-                            </div><!--staricon-->
-                            <div class="review--text">
-                                처음 겪는 일이라 많이 당황했지만 세심하게 신경써주셔서 잘 마무리 할 수 있었습니다 감사합니다 앱으로 예약 결제를 마치니 식장에서 오롯이 절차에만 집중할 수 있고  돈얘기를 따로 하지 않아서 좋았습니다 처음 겪는 일이라 많이 당황했지만 세심하게 신경써주셔서 잘 마무리 할 수 있었습니다 감사합니다 앱으로 예약 결제를 마치니 식장에서 오롯이 절차에만 집중할 수 있고  돈얘기를 따로 하지 않아서 좋았습니다
-                            </div><!--reviewtext-->
-                            <div class="review--photo"><img src="image/no_image_w.png"></div><!--reviewtext-->
-                            <span class="review--date">2021. 11. 09</span>
-                        </section><!--reviewcontent-->
+                </section><!--shopinfo-->
+                <div class="info--accordian">
+                    <div class="menu1">이용후기
+                        <p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
+                </div><!--infoaccordian-->
+                <section class="review--content content">
+                    <div class="review--title">친절하게 상담해 주시고 세심하게 신경 써주셨어요</div>
+                    <div class="star--icon">
+                        <span><img src="image/star.png" width="14px" height="14px"></span>
+                        <span><img src="image/star.png" width="14px" height="14px"></span>
+                        <span><img src="image/star.png" width="14px" height="14px"></span>
+                        <span><img src="image/star.png" width="14px" height="14px"></span>
+                        <span><img src="image/star_gray.png" width="14px" height="14px"></span>
+                    </div><!--staricon-->
+                    <div class="review--text">
+                        처음 겪는 일이라 많이 당황했지만 세심하게 신경써주셔서 잘 마무리 할 수 있었습니다 감사합니다 앱으로 예약 결제를 마치니 식장에서 오롯이 절차에만 집중할 수 있고  돈얘기를 따로 하지 않아서 좋았습니다 처음 겪는 일이라 많이 당황했지만 세심하게 신경써주셔서 잘 마무리 할 수 있었습니다 감사합니다 앱으로 예약 결제를 마치니 식장에서 오롯이 절차에만 집중할 수 있고  돈얘기를 따로 하지 않아서 좋았습니다
+                    </div><!--reviewtext-->
+                    <div class="review--photo"><img src="image/no_image_w.png"></div><!--reviewtext-->
+                    <span class="review--date">2021. 11. 09</span>
+                </section><!--reviewcontent-->
             </div><!--tab_box-->
             <div class="tab_box">
                 <div class="box--content">
                     <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
-                    <div class="goodsinfo">
+                    <div class="goodsinfo"><a href="goodsDetail.html">
                         <div class="goods--title">자연분해 원목 유골함</div>
                         <div class="goods--detail">화장한 유골을 오랫동안 보관할 수 있습니다.</div>
                         <div class="goods--price">60,000원</div>
-                    </div><!--goodsinfo-->
+                    </div><!--goodsinfo--></a>
                 </div><!--boxcontent-->
                 <div class="box--content">
                     <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
@@ -181,8 +183,11 @@
 <footer>
     <div class="foot--btn">
         <button class="btn--call"><span>전화상담</span></button>
-        <button class="btn--buy"><span>결제하기</span></button>
+        <button class="btn--buy"><a href="pay.html"><span>결제하기</span></a></button>
     </div>
 </footer>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

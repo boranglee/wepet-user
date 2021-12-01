@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
     <link href="css/login.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/script.js"></script>
+    <link href="css/font.css" rel="stylesheet">
     <title>로그인</title>
 </head>
 <body>
@@ -20,10 +17,10 @@
                 <input type="text" id="id" name="id" placeholder="아이디를 입력해주세요" autocomplete="off">
                 <input type="text" id="password" name="password" placeholder="비밀번호를 입력해주세요" autocomplete="off">
             </div>   
-            <button class="onSubmit" type="button">로그인</button>
+            <button class="onSubmit" type="button"><a href="main.html">로그인하기</a></button>
             <div class="join_search">
-                <a href="/idpw.user">회원정보찾기</a>
-                <a href="/join_term.user">회원가입하기</a>
+                <a href="search_info.html">회원정보찾기</a>
+                <a href="join_terms.html">회원가입하기</a>
             </div>
         </section><!--logcon-->
         <section class="login_btm">
@@ -44,5 +41,8 @@
             </div><!--snslogin-->
         </section><!--loginbtm-->
     </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

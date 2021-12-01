@@ -3,22 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
     <link href="css/locationList.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/script.js"></script>
+    <link href="css/font.css" rel="stylesheet">
     <title>장례식장목록</title>
 </head>
 <body>
     <header>
         <div class="head">
-            <div class="head--back"><a href="#"><img src="image/back_icon.png"></a></div>
-            <div class="head--title">장례용품</div>
-            <div class="head--search--right"><a href="#"><img src="image/search_icon.png" ></a></div>
-    </div><!--head-->
+            <div class="head--back"><a href="main.html"><img src="image/back_icon.png"></a></div>
+            <div class="head--title">장례식장</div>
+            <div class="head--search--right"><a href="search.html"><img src="image/search_icon.png" ></a></div>
+        </div><!--head-->
     </header>
     <main>
         <div class="tab_wrap"> 
@@ -26,11 +23,12 @@
                 <button class="tab_menu_btn on" type="button">목록보기</button>
                 <button class="tab_menu_btn" type="button">지도보기</button>
             </div> <!-- tab_menu_container e -->
-            <div class="locationTab">
-                <p><img src="image/location_icon.png"> 전라북도도 전주시 완산구 홍산북로 60-10</p>
+            <div class="locationTab"><a href="locationSet.html">
+                <p><img src="image/location_icon.png"> 전라북도도 전주시 완산구 홍산북로 60-10</p></a>
             </div>
             <div class="tab_box_container">
                 <div class="tab_box on">
+                    <a href="storeView.html">
                     <div class="box--content">
                         <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
                         <div class="store--list">
@@ -45,26 +43,29 @@
                                 <img src="image/location_mini.png"><span>12km</span>
                             </div>
                         </div><!--storelist-->
-                    </div><!--boxcontent-->
-                    <div class="box--content">
-                        <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
-                        <div class="store--list">
-                            <div class="store--title">봉봉 애견 장례식장</div>
-                            <div class="store--address">전라북도 익산시 영등동</div>
-                            <div class="store--icon">
-                                <span class="icon--pickup">픽업</span>
-                                <span class="icon--pot">납골당</span>
-                            </div>
-                            <div class="store--distance">
-                                <img src="image/location_mini.png"><span>32km</span>
-                            </div>
-                        </div><!--storelist-->
-                    </div><!--boxcontent-->
-                </div><!--tab_box_on-->
+                        </div><!--boxcontent--></a>
+                        <div class="box--content">
+                            <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
+                            <div class="store--list">
+                                <div class="store--title">봉봉 애견 장례식장</div>
+                                <div class="store--address">전라북도 익산시 영등동</div>
+                                <div class="store--icon">
+                                    <span class="icon--pickup">픽업</span>
+                                    <span class="icon--pot">납골당</span>
+                                </div>
+                                <div class="store--distance">
+                                    <img src="image/location_mini.png"><span>32km</span>
+                                </div>
+                            </div><!--storelist-->
+                        </div><!--boxcontent-->
+                    </div><!--tab_box_on-->
                 <div class="tab_box"><span>ff</span>
                 </div><!--tab_box-->
             </div> <!-- tab_box_container-->
           </div> <!-- tab_wrap-->
     </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

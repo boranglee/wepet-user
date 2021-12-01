@@ -15,10 +15,22 @@
     padding:4px 12px;
     display: inline-block;
 }
-.custom--option h1{text-align: left; color:#757575; margin:32px 0 12px;}
-.custom--option {padding:32px 16px ;}
-.custom--option li{text-align: left; margin-bottom:16px;}
-.custom--option li .radioText{display:inline; float:right;}
+.option--title{
+    text-align: left;
+    color:#757575;
+    margin:32px 0 12px;
+}
+.custom--option {
+    padding:32px 16px;
+}
+.custom--option li{
+    text-align: left; 
+    margin-bottom:16px;
+}
+.custom--option li .radioText{
+    display:inline; 
+    float:right;
+}
 .custom--option input[type="radio"] {display:none;}
 .custom--option input[type="radio"] + label p{
     display:inline-block;
@@ -53,10 +65,12 @@
     font-weight: bold;
     letter-spacing:0.05rem;
 }
-.foot--option--btn{
+.foot--option--btn a{
     color:#4a61a3;
-    background: #fff;
     font-weight: bold;
+}
+.foot--option--btn{
+    background: #fff;
     width: 45%;
     padding:10.5px 0;
     border-radius: 4px;

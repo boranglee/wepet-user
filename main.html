@@ -1,68 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
     <link href="css/main.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/script.js"></script>
+    <link href="css/font.css" rel="stylesheet">
     <title>메인</title>
 </head>
 <body>
     <header>
         <div class="main_head">
-            <ul>
-                <li class="head--logo"><img src="image/mainlogo.png" width="82px" height="24px"></li>
-                <li class="head--menu btn"><img src="image/mainmenu.png" width="24px" height="24px"></div>
-                    <div onclick="history.back();" class="page_cover"></div>
-                    <div id="menu">
-                        <div onclick="history.back();" class="close"><img src="image/close.png" width="24px" height="24px"></div>
-                            <div class="side--nav--top">
-                                <span><img src="image/side_profile.png" width="56px" height="56px"></span>
-                                <section class="side--nav--info">
-                                    <p class="side--nav--name">김아람</p>
-                                    <p class="side--nav--change">내 정보 수정 </p>
-                                </section><!--sidenavinfo-->
-                            </div><!--sidenavtop-->
-                            <section class="side--nav--icon">
-                                <ul>
-                                    <li><img src="image/side_pay.png" width="64px" height="64px"><span>결제관리</span></li>
-                                    <li><img src="image/side_review.png" width="64px" height="64px"><span>후기관리</span></li>
-                                    <li><img src="image/side_document.png" width="64px" height="64px"><span>게시글관리</span></li>
-                                </ul>
-                            </section><!--sidenavicon-->
-                            <section class="side--nav--menu">
-                                <ul>
-                                    <li>공지사항</li>
-                                    <li>고객센터</li>
-                                    <li>환경설정</li>
-                                </ul><!--sidenavmenu-->
-                            </section>
-                            <section class="side--nav--foot">
-                                <p>Copyright wepet. All rights reserved.</p>
-                            </section><!--sidenavfoot-->
-                    </div>
-                </li>
-            </ul>
+            <h1 class="head--logo"><img src="image/mainlogo.png" ></h1>
+            <div class="head--menu btn"><img src="image/mainmenu.png"></div>
+                <div onclick="history.back();" class="page_cover"></div>
+                <div id="menu">
+                    <div onclick="history.back();" class="close"><img src="image/close.png" width="24px" height="24px"></div>
+                        <div class="side--nav--top">
+                            <span><img src="image/side_profile.png" width="56px" height="56px"></span>
+                            <section class="side--nav--info">
+                                <p class="side--nav--name"><a href="login.html">김아람</a></p>
+                                <p class="side--nav--change"><a href="info_change.html">내 정보 수정 </a></p>
+                            </section><!--sidenavinfo-->
+                        </div><!--sidenavtop-->
+                        <section class="side--nav--icon">
+                            <ul>
+                                <li><a href="payment_list.html"><img src="image/side_pay.png" width="64px" height="64px"><span>결제관리</span></a></li>
+                                <li><a href="myreview.html"><img src="image/side_review.png" width="64px" height="64px"><span>후기관리</span></a></li>
+                                <li><a href="mypost.html"><img src="image/side_document.png" width="64px" height="64px"><span>게시글관리</span></a></li>
+                            </ul>
+                        </section><!--sidenavicon-->
+                        <section class="side--nav--menu">
+                            <ul>
+                                <li><a href="notice.html">공지사항</a></li>
+                                <li>고객센터</li>
+                                <li><a href="setting.html">환경설정</a></li>
+                            </ul><!--sidenavmenu-->
+                        </section>
+                        <section class="side--nav--foot">
+                            <p>Copyright wepet. All rights reserved.</p>
+                        </section><!--sidenavfoot-->
+                </div><!--menu-->
         </div><!--mainhead-->
         <div class="main--title">
             <span>반려동물과의 이별<br/>위펫이 함께해드릴게요.</span>
             <img src="image/rainbow.png" width="70px" height="42px">
         </div><!--maintitle-->
         <ul class="main--cate">
-            <a href="#"><li class="cate1">
+            <a href="locationList.html"><li class="cate1">
                 <p class="cate--title">장례식장</p>
                 <p class="cate--content">근처 장례식장을 살펴보고 예약할 수 있어요.</p>
-                <p class="cate--go">바로가기 ></p><img src="image/main_hall.png" width="48px" height="46px">
+                <button class="cate--go">바로가기 ></button><img src="image/main_hall.png" width="48px" height="46px">
             </a></li><!--cate1-->
-            <a href="#"><li class="cate2">
+            <a href="goodsList.html"><li class="cate2">
                 <p class="cate--title">장례용품</p>
                 <p class="cate--content">원하시는 장례용품을 구매할 수 있어요.</p>
-                <p class="cate--go">바로가기 ></p><img src="image/main_pot.png" width="48px" height="46px">
+                <button class="cate--go">바로가기 ></button><img src="image/main_pot.png" width="48px" height="46px">
             </a></li><!--cate2-->
         </ul><!--maincate-->
     </header>
@@ -74,7 +68,7 @@
             <p class="community--title">슬픔은 나누면 반이 된대요.</p>
             <p class="community--sub">반려가족을 보내고 난 후의 슬픔,<br/>커뮤니티에서 함께 나누고 위로해요.</p>
             <img class="community--img" src="image/dog_img.png" width="88px" height="88px">
-            <a href="#"><button>커뮤니티 바로가기</button></a>
+            <a href="community.html">커뮤니티 바로가기</a>
         </div><!--community-->
     </main>
     <footer>
@@ -91,5 +85,8 @@
             Copyright wepet. All rights reserved.
         </div><!--footer-info-->
     </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

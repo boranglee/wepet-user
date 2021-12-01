@@ -1,27 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
     <link href="css/pay.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="css/font.css" rel="stylesheet">
     <title>결제하기</title>
 </head>
 <body>
     <header>
         <div class="head">
-            <div class="head--back"><a href="#"><img src="image/back_icon.png"></a></div>
+            <div class="head--back"><a href="storeView.html"><img src="image/back_icon.png"></a></div>
             <div class="head--title">결제하기</div>
-    </div><!--head-->
+        </div><!--head-->
     </header>
     <main>
-        <h1 class="info--title">주문자정보</h1>
+        <div class="info--title">주문자정보</div>
         <div class="pay--info">
             <div class="info--address">
                 <h2 class="info--address--title">
@@ -38,7 +34,7 @@
                 </div>    
             </div><!--infoaddress-->
         </div><!--payinfo-->
-        <h1 class="list--title">주문내역</h1>
+        <div class="list--title">주문내역</div>
         <div class="pay--list">
             <div class="list--detail--title">주문상품 상세내역</div>
                 <div class="list--product--bg">
@@ -65,21 +61,24 @@
                     <p>총 결제금액 <span>193,000원</span></p>
                 </div>
         </div><!--paylist-->
-        <h1 class="payment--title">결제수단</h1>
+        <div class="payment--title">결제수단</div>
             <div class="payment">
-                <div class="payment--card">카드결제<span>변경</span></div>
+                <a href="#">
+                <div class="payment--card">카드결제<span>변경</span></div></a>
                 <div class="info--accordian">
-                    <div class="payment--confirm">예약 조건 확인 및 결제진행 동의 내용보기<i class="material-icons accordian-arrow">expand_more</i></div>
+                    <div class="payment--confirm">예약 조건 확인 및 결제진행 동의 내용보기
+                    <p class="accordian-arrow"><img src="image/blue_btn.png"></p>
+                    </div>
                 </div>
-                        <div class="content" style="display: none;">
-                            <p>ㅇㅇㄻㄹㅇㄹㅇㄹㅇㅇ</p></div>
+                    <div class="content" style="display: none;">
+                        <p>ㅇㅇㄻㄹㅇㄹㅇㄹㅇㅇ</p></div>
                 </div><!--infoaccordian-->
-                </div>
                 <div class="payment--agree">위 내용을 확인하였으며, 결제에 동의합니다
                     <span class="round">
                     <input type="checkbox" checked id="checkbox" />
                     <label for="checkbox"></label>
-                    </span></div>
+                    </span>
+                </div><!--paymentagree-->
             </div><!--payment-->
     </main>
     <footer>
@@ -87,5 +86,8 @@
             <p>총 결제금액 <span>193,000원</span></p>
         </div>
     </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

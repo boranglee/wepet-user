@@ -3,21 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
     <link href="css/payment_list.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/script.js"></script>
+    <link href="css/font.css" rel="stylesheet">
     <title>결제내역</title>
 </head>
 <body>
     <header>
         <div class="head">
-            <div class="head--back"><a href="#"><img src="image/back_icon.png"></a></div>
+            <div class="head--back"><a href="main.html"><img src="image/back_icon.png"></a></div>
             <div class="head--title">결제내역</div>
-    </div><!--head-->
+        </div><!--head-->
     </header>
     <div class="tab_wrap"> 
         <div class="tab_menu_container">
@@ -30,7 +27,7 @@
                 <section class="payment--list">
                     <div class="pay--date">
                         <p>2021-11-23 오전 10:10</p>
-                        <span>상세보기</span>
+                        <span><a href="booking_list.html">상세보기</a></span>
                     </div><!--paydate-->
                     <div class="pay--detail">
                         <p class="pay--detail--booking">예약중</p>
@@ -46,7 +43,7 @@
                     <section class="payment--list">
                         <div class="pay--date">
                             <p>2021-11-23 오전 10:10</p>
-                            <span>상세보기</span>
+                            <span><a href="#">상세보기</a></span>
                         </div><!--paydate-->
                         <div class="pay--detail">
                             <p class="pay--detail--del">배송준비중</p>
@@ -55,27 +52,30 @@
                             <p class="pay--detail--price">20,000원 (카드결제)</p>
                         </div><!--paydetail-->
                     </section><!--paymentlist-->
-                    </div><!--boxcontent-->
-                    <div class="box--content">
-                        <section class="payment--list">
-                            <div class="pay--date">
-                                <p>2021-11-23 오전 10:10</p>
-                                <span>상세보기</span>
-                            </div><!--paydate-->
-                            <div class="pay--detail">
-                                <p class="pay--detail--done">배송준비중</p>
-                                <p class="pay--detail--title">꿈나라 애견 장례식장</p>
-                                <p class="pay--detail--custom">자연분해 원목 유골함(10kg~15kg)외 1건</p>
-                                <p class="pay--detail--price">150,000원 (카드결제)</p>
-                            </div><!--paydetail-->
-                            <button class="reviewGo">
-                                <p>후기작성하기</p>
-                            </button><!--reviewgo-->
-                        </section><!--paymentlist-->
-                        </div><!--boxcontent-->
+                </div><!--boxcontent-->
+                <div class="box--content">
+                    <section class="payment--list">
+                        <div class="pay--date">
+                            <p>2021-11-23 오전 10:10</p>
+                            <span><a href="delivery_done.html">상세보기</a></span>
+                        </div><!--paydate-->
+                        <div class="pay--detail">
+                            <p class="pay--detail--done">배송완료</p>
+                            <p class="pay--detail--title">꿈나라 애견 장례식장</p>
+                            <p class="pay--detail--custom">자연분해 원목 유골함(10kg~15kg)외 1건</p>
+                            <p class="pay--detail--price">150,000원 (카드결제)</p>
+                        </div><!--paydetail-->
+                        <button class="reviewGo">
+                            <p>후기작성하기</p>
+                        </button><!--reviewgo-->
+                    </section><!--paymentlist-->
+                </div><!--boxcontent-->
             </div><!--tab_box-->
         </div> <!-- tab_box_container-->
       </div> <!-- tab_wrap-->
     </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

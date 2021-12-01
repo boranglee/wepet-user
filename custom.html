@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
     <link href="css/custom.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/script.js"></script>
+    <link href="css/font.css" rel="stylesheet">
     <title>맞춤형장례</title>
 </head>
 <body>
     <header>
         <div class="head">
-            <div class="head--back"><a href="#"><img src="image/back_icon.png"></a></div>
+            <div class="head--back"><a href="storeView.html"><img src="image/back_icon.png"></a></div>
             <div class="head--title">맞춤형</div>
-    </div><!--head-->
+        </div><!--head-->
     </header>
     <main>
         <div class="custom--main">
@@ -26,7 +23,7 @@
             <p class="custom--main--icon">기본 200,000~</p>
         </div><!--custommain-->
         <div class="custom--option">
-            <h1>염습</h1>
+            <p class="option--title">염습</p>
             <ul>
                 <li>
                     <input type="radio" id="opSelect01" name="radio1" value="" checked/>
@@ -47,7 +44,7 @@
                     </label>
                 </li>
             </ul>
-            <h1>입관</h1>
+            <p class="option--title">입관</p>
             <ul>
                 <li>
                     <input type="radio" id="opSelect03" name="radio2" value="" checked/>
@@ -77,7 +74,7 @@
                     </label>
                 </li>
             </ul>
-            <h1>수의</h1>
+            <p class="option--title">수의</p>
             <ul>
                 <li>
                     <input type="radio" id="opSelect06" name="radio3" value="" checked/>
@@ -98,7 +95,7 @@
                     </label>
                 </li>
             </ul>
-            <h1>유골</h1>
+            <p class="option--title">유골</p>
             <ul>
                 <li>
                     <input type="radio" id="opSelect08" name="radio4" value="" checked/>
@@ -145,8 +142,11 @@
                 <p class="all--price--text">총 주문금액</p>
                 <p class="all--price--num">270,000</p>
             </div>
-            <button class="foot--option--btn">결제하기</button>
+            <button class="foot--option--btn"><a href="pay.html">결제하기</a></button>
         </div>
     </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

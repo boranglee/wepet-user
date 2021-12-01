@@ -104,7 +104,7 @@ input[type="text"]::placeholder{
     font-size:16px;
     position: relative;
 }
-.payment--card span{
+.payment--card span {
     position: absolute;
     top:0;
     right:16px;
@@ -116,10 +116,20 @@ input[type="text"]::placeholder{
     color:#4a61a3;
     padding:24px 0 10px;
 }
-.accordian-arrow{color:#4a61a3; vertical-align: middle;}
-.more{transform: rotateX(0deg);}
-.less{transform: rotateX(180deg);}
-
+.accordian-arrow{
+    display: inline-block;
+    vertical-align: middle;
+}
+.accordian-arrow img{
+    width: 14px;
+    height: 14px;
+}
+.more{
+    transform: rotateX(0deg);
+}
+.less{
+    transform: rotateX(180deg) translateY(13%);
+}
 .payment--agree{font-size:12px; position: relative;}
 .round{
     position: absolute;

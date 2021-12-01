@@ -53,6 +53,7 @@ a{text-decoration:none;}
 .head--back{
 	position: absolute;
 	top: 17px;
+	z-index:500;
 }
 .head--back img{
 	width: 24px;

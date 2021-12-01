@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
-.input--location{padding:16px; border-bottom: 6px solid #dddfe5;}
+.input--location{
+    padding:16px; 
+    border-bottom: 6px solid #dddfe5;
+}
 .input--text{
     display:inline-block;
     color:#757575;
@@ -59,7 +62,16 @@ input[type="text"]::placeholder{
     position: relative;
     border-bottom: 1px solid #f5f5f5;
 }
-.recent--address p{text-align: left; margin-bottom: 4px;}
+.recent--address p{
+    text-align: left; 
+    margin-bottom: 4px;
+}
 .adr--text{width: 80%;}
-.adr--text2{font-size: 12px; color: #757575;}
-.closeBtn{width: 20%; text-align: right;}
+.adr--text2{
+    font-size: 12px; 
+    color: #757575;
+}
+.closeBtn{
+    width: 20%; 
+    text-align: right;
+}

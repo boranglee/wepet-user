@@ -1,25 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
     <link href="css/goodsList.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300,400&display=swap" rel="stylesheet">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/script.js"></script>
+    <link href="css/font.css" rel="stylesheet">
     <title>장례용품</title>
 </head>
 <body>
     <header>
         <div class="head">
-                <div class="head--back"><a href="#"><img src="image/back_icon.png"></a></div>
-                <div class="head--title">장례용품</div>
-                <div class="head--search--left"><a href="#"><img src="image/search_icon.png" ></a></div>
-                <div class="head--cart"><a href="#"><img src="image/cart_icon.png"></a></div>
+            <div class="head--back"><a href="main.html"><img src="image/back_icon.png"></a></div>
+            <div class="head--title">장례용품</div>
+            <div class="head--search--left"><a href="search.html"><img src="image/search_icon.png" ></a></div>
+            <div class="head--cart"><a href="cart.html"><img src="image/cart_icon.png"></a></div>
         </div><!--head-->
     </header>
     <main>
@@ -34,9 +30,9 @@
             <div class="tab_notice">
                 <p>해당 장례용품은 위펫에서 판매하는 상품입니다.</p>
             </div>
-        
             <div class="tab_box_container">
                 <div class="tab_box on">
+                    <a href="goodsDetail.html">
                     <div class="box--content">
                         <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
                         <div class="goods--list">
@@ -49,6 +45,7 @@
                             </div>
                         </div><!--goodslist-->
                     </div><!--boxcontent-->
+                    </a>
                     <div class="box--content">
                         <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
                         <div class="goods--list">
@@ -72,5 +69,8 @@
             </div> <!-- tab_box_container e -->
       </div> <!-- tab_wrap e -->
     </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
