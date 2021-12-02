@@ -60,19 +60,19 @@ button {background:none; border:0; outline:0;}
 .goods--icon{text-align: left; margin-top: 4px;}
 .icon--best{
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 300;
   color:#fff;
   padding:1px 4px;
-  background: #4A61A3;
+  background: #e36b6b;
   border-radius: 2px;
   margin-right: 4px;
 }
 .icon--freedel{
   font-size: 10px;
-  font-weight: 400;
-  color:#4A61A3;
+  font-weight: 300;
+  color:#ffffff;
   padding:1px 4px;
-  background: #E9EDF2;
+  background: #51B7B7;
   border-radius: 2px;
   margin-right: 4px;
 }
