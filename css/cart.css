@@ -16,22 +16,24 @@
     display: flex;
     column-gap: 14px;
     position: relative;
-  }
-  .cart--img{
-        width: 90px;
-        height: 90px;
-        object-fit: cover;
-        object-position: center;
-        border-radius: 6px;
-  }
-  .cart--list{width:55%;}
-  .cart--title{text-align: left; }
-  .cart--detail{
+}
+.cart--img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+}
+.cart--title{
+    text-align: left; 
+    font-size: 16px;
+    padding-right: 35px;
+}
+.cart--detail{
     text-align: left;
-    font-size: 12px;
     color:#757575 ;
-    margin:4px 0 12px;
-  }
+    margin:4px 40px 12px 0;
+}
 .cart--icon{text-align: left;}
 .icon--best{
   font-size: 10px;

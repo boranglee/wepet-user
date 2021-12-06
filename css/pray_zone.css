@@ -108,14 +108,12 @@
   vertical-align: middle;
   margin-right: 8px;
 }
-.comment{
-    background: #fafafa;
-}
 .comment p{
     color:#9e9e9e;
+    padding:calc(100vh - 90vh) 0;
 }
 .input--comment{
-    display: flex;
+    display: flex; 
     padding:8px 0;
     width: 100%;
     position: absolute;

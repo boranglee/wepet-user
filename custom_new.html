@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/custom_new.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>맞춤형장례</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="head--back"><a href="storeView.html"><img src="image/back_icon.png"></a></div>
+            <div class="head--title">맞춤형</div>
+        </div><!--head-->
+    </header>
+    <main>
+        <div class="custom--main">
+            <p class="custom--main--title">맞춤형</p>
+            <p class="custom--main--detail">원하는 옵션을 직접 선택하여 진행</p>
+            <p class="custom--main--icon">기본 200,000~</p>
+        </div><!--custommain-->
+        <div class="custom--option">
+            <p class="option--title">무게</p>
+            <ul>
+                <li>
+                    <input type="radio" id="opSelect01" name="radio1" value="" checked/>
+                    <label for="opSelect01" ></label>
+                    <span>5kg 이하</span>
+                    <div class="radioText"><span></span></div>
+                </li>
+                <li class="input">   
+                    <input type="radio" id="opSelect02" name="radio1" value="" />
+                    <label for="opSelect02"  class="info--accordian"></label>
+                    <span>5kg 초과(직접입력)</span>
+                    <div class="radioText"><span class="input--price">+ 50,000원</span></div>
+                <div class="input--weight content" style="display: none;">
+                    <p class="input--weight--title">무게입력(kg)</p>
+                    <p class="input--weight--explain">5kg 초과시 1kg당 10,000원의 추가요금이 발생합니다.</p>
+                    <input type="text" id="searchText" placeholder="무게를 입력해주세요" autocomplete="off">
+                    <button class="input--weight--btn">적용</button>
+                </div><!--inputweight-->
+                </li>
+            </ul>
+            <p class="option--title">픽업</p>
+            <ul>
+                <li>
+                    <input type="radio" id="opSelect03" name="radio2" value="" checked/>
+                    <label for="opSelect03" ></label>
+                    <span>픽업안함</span>
+                    <div class="radioText"><span></span></div>
+                </li>
+                <li>   
+                    <input type="radio" id="opSelect04" name="radio2" value=""  />
+                    <label for="opSelect04"></label>
+                    <span>전주시 인근 지역<p>전주시 완주군</p></span>
+                    <div class="radioText"><span>+ 50,000원</span></div>
+                </li>
+                <li>
+                    <input type="radio" id="opSelect05" name="radio2" value=""  />
+                    <label for="opSelect05"></label>
+                    <span>전주시 외 지역<p>익산시, 군산시, 김제시, 정읍시, 부안군, 임실군, 진안군</p></span>
+                    <div class="radioText"><span>+ 80,000원</span></div>
+                </li>
+            </ul>
+            <p class="option--title">염습</p>
+            <ul>
+                <li>
+                    <input type="radio" id="opSelect06" name="radio3" value="" checked/>
+                    <label for="opSelect06"></label>
+                    <span>염습옵션 A</span>
+                    <div class="radioText"><span></span></div>
+                </li>
+                <li>
+                    <input type="radio" id="opSelect07" name="radio3" value=""  />
+                    <label for="opSelect07"></label>
+                    <span>염습옵션 B</span>
+                    <div class="radioText"><span>+ 20,000원</span></div>
+                </li>
+            </ul>
+            <p class="option--title">입관</p>
+            <ul>
+                <li>
+                    <input type="radio" id="opSelect08" name="radio4" value="" checked/>
+                    <label for="opSelect08"></label>
+                    <span>입관안함</span>
+                    <div class="radioText"><span></span></div>
+                </li>
+                <li>
+                    <input type="radio" id="opSelect09" name="radio4" value=""  />
+                    <label for="opSelect09"></label>
+                    <span>오동나무관</span>
+                    <div class="radioText"><span>+ 20,000원</span></div>
+                </li>
+                <li>
+                    <input type="radio" id="opSelect10" name="radio4" value=""  />
+                    <label for="opSelect10"></label>
+                    <span>소나무관</span>
+                    <div class="radioText"><span>+ 30,000원</span></div>
+                </li>
+            </ul>
+            <p class="option--title">수의</p>
+            <ul>
+                <li>
+                    <input type="radio" id="opSelect11" name="radio5" value="" checked/>
+                    <label for="opSelect11"></label>
+                    <span>수의안함</span>
+                    <div class="radioText"><span></span></div>
+                </li>
+                <li>
+                    <input type="radio" id="opSelect12" name="radio5" value=""  />
+                    <label for="opSelect12"></label>
+                    <span>삼베수의</span>
+                    <div class="radioText"><span>+ 20,000원</span></div>
+                </li>
+            </ul>
+            <p class="option--title">유골</p>
+            <ul>
+                <li>
+                    <input type="radio" id="opSelect13" name="radio6" value="" checked/>
+                    <label for="opSelect13"></label>
+                    <span>기본유골함</span>
+                    <div class="radioText"><span></span></div>
+                </li>
+                <li>
+                    <input type="radio" id="opSelect14" name="radio6" value=""  />
+                    <label for="opSelect14"></label>
+                    <span>백자유골함</span>
+                    <div class="radioText"><span>+ 20,000원</span></div>
+                </li>
+                <li>
+                    <input type="radio" id="opSelect015" name="radio6" value=""  />
+                    <label for="opSelect015"></label>
+                    <span>진공유골함</span>
+                    <div class="radioText"><span>+ 20,000원</span></div>
+                </li>
+                <li>
+                    <input type="radio" id="opSelect16" name="radio6" value=""  />
+                    <label for="opSelect16"></label>
+                    <span>메모리얼스톤 제작</span>
+                    <div class="radioText"><span>+ 100,000원</span></div>
+                </li>
+            </ul>
+        </div><!--customoption-->
+        <section class="count">
+            <div class="count--title">수량</div>
+            <ul class="count--num">
+                <li class="count--icon plus"><img src="image/plusicon.png"></li>
+                <li><input type="number" value="1"/></li>
+                <li class="count--icon minus"><img src="image/minusicon.png"></li>
+            </ul>
+        </section><!--count-->
+        <section class="all--price">
+            <span class="all--price--title">총 주문금액</span>
+            <span class="all--price--total">270,000원</span>
+        </section><!--allprice-->
+    </main>
+    <footer>
+        <section class="foot--btn">
+            <button class="btn--call"><span>장바구니담기</span></button>
+            <button class="btn--buy"><span>바로 결제하기</span></button>
+        </section>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
