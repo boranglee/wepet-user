@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-button {background:none; border:0; outline:0;}
 .tab_menu_container {
   display: flex;
   flex-wrap: nowrap;
@@ -15,7 +14,6 @@ button {background:none; border:0; outline:0;}
   border-bottom:6px solid #DDDFE5;
 }
 .tab_notice p{
-  font-size: 12px;
   color:#757575;
   float: left;
   margin-left:16px;
@@ -33,46 +31,58 @@ button {background:none; border:0; outline:0;}
   width: auto;
   padding:0 12px;
 }
-.tab_box {display:none;}
-.tab_box.on {display:block;}
+.tab_box {
+  display:none;
+}
+.tab_box.on {
+  display:block;
+}
 .box--content{
   display: flex;
   column-gap: 14px;
   padding: 20px 16px;
   border-bottom: 1px solid #f5f5f5;
+  align-items: center;
 }
-.goods--list{width: 68%;}
 .list--img{
-      width: 90px;
-      height: 90px;
-      object-fit: cover;
-      object-position: center;
-      border-radius: 6px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 6px;
 }
-.goods--title{text-align: left; }
+.goods--title{
+  text-align: left; 
+}
 .goods--detail{
   text-align: left;
-  font-size: 12px;
   color:#757575 ;
   margin:2px 0 ;
 }
-.goods--price{font-size: 16px; text-align:left; font-weight: bold;}
-.goods--icon{text-align: left; margin-top: 4px;}
+.goods--price{
+  font-size: 16px; 
+  text-align:left; 
+  font-weight: bold;
+}
+.goods--icon{
+  text-align: left; 
+  margin-top: 4px;
+}
 .icon--best{
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
   color:#fff;
   padding:1px 4px;
-  background: #e36b6b;
+  background: #FF6250;
   border-radius: 2px;
   margin-right: 4px;
 }
 .icon--freedel{
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
   color:#ffffff;
   padding:1px 4px;
-  background: #51B7B7;
+  background: #5090FF;
   border-radius: 2px;
   margin-right: 4px;
 }

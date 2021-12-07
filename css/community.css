@@ -147,13 +147,16 @@ button{background:none; border:0; outline:0;}
   margin-right: 8px;
 }
 .write--btn{
-    position: fixed;
-    bottom:2%;
-    right:16px;
+  position: fixed;
+  bottom:2%;
+  right:16px;
+  width: 56px;
+  height: 56px;
+  background: #4A61A3;
+  border-radius: 50%;
+  box-shadow: 0 6px 5px rgb(0 0 0 / 12%);
 }
 .write--btn img{
-  padding:16px;
-  background: #4A61A3;
-  border-radius: 50px;
-  box-shadow: 0 6px 5px rgb(0 0 0 / 12%);
+  width: 24px;
+  height: 24px;
 }

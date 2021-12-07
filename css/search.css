@@ -1,13 +1,20 @@
 @charset "UTF-8";
 
-.input--search{padding:16px; border-bottom: 6px solid #dddfe5;}
+.input--search{
+    padding:16px; 
+    border-bottom: 6px solid #dddfe5;
+}
 .input--text{
     display:inline-block;
     color:#757575;
     width: 100%;
     position: relative;
 }
-textarea, input[type="text"] {
+.input--text img{
+    width: 24px;
+    height: 24px;
+}
+input[type="text"] {
     padding: 14.5px 14px;
     border: 1px solid #9E9E9E;
     box-sizing: border-box;
@@ -16,7 +23,7 @@ textarea, input[type="text"] {
     width: 100%;
     border-radius: 4px;
 }
-textarea, input[type="text"]:focus{
+input[type="text"]:focus{
     background:#f6f7fc ;
     border: 1px solid #4A61A3;
 }
@@ -34,31 +41,45 @@ input[type="text"]::placeholder{
     column-gap: 14px;
     padding: 20px 16px;
     border-bottom: 1px solid #f5f5f5;
-  }
-  .store--list{width:100%;}
-  .list--img{
-        width: 90px;
-        height: 90px;
-        object-fit: cover;
-        object-position: center;
-        border-radius: 6px;
-  }
-  .store--title{text-align: left; margin-bottom: 4px;}
-  .store--address{text-align: left; font-size: 12px; color:#757575 ;}
-  .store--icon{text-align: left; margin-top: 12px;}
-  .store--icon span{
-    font-size: 10px;
+}
+.store--list{width:100%;}
+.list--img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+}
+.store--title{
+    text-align: left; 
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+.store--address{
+    text-align: left; 
+    color:#757575 ;
+}
+.store--icon{
+    text-align: left; 
+    margin-top: 12px;
+}
+.store--icon span{
+    font-size: 12px;
     font-weight: 300;
     color:#4A61A3;
     padding:1px 4px;
     background: #E9EDF2;
     border-radius: 2px;
     margin-right: 4px;
-  }
-  .store--distance {text-align: right;}
-  .store--distance img{ width: 14px; height: 14px; vertical-align: middle;}
-  .store--distance span{
-    font-size: 12px;
+}
+.store--distance {
+    text-align: right;
+}
+.store--distance img{ 
+    width: 14px; 
+    height: 14px; 
+}
+.store--distance span{
     font-weight: bold;
     color: #4A61A3;
-  }
+}

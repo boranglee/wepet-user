@@ -26,7 +26,7 @@
 }
 .cart--title{
     text-align: left; 
-    font-size: 16px;
+    font-size: 15px;
     padding-right: 35px;
 }
 .cart--detail{
@@ -56,7 +56,11 @@
 .closebtn{
     position: absolute;
     top:0;
-    right:0;
+    right:-2%;
+}
+.closebtn img{
+    width: 24px;
+    height: 24px;
 }
 .cart-count {
     height:48px;
@@ -68,6 +72,10 @@
     float:right;
     margin:16px 16px 0 0;
 }
+.count--num img{
+    width: 24px;
+    height: 24px;
+}
 input{
     width: 7px;
     text-align: center;
@@ -78,15 +86,25 @@ input{
     float:left;
     padding:12px 16px;
     font-size: 16px;
-    font-weight: bold;
 }
 .count--total{
     padding:0 16px;
     height: 54px;
     line-height: 54px;
+    border-top: 6px solid #dddfe5;
+    border-bottom: 6px solid #dddfe5;
+    margin-bottom: 15px;
 }
-.total--title{float:left;}
-.total--price{float:right; font-weight: bold;}
+.total--title{
+    float:left;
+    font-weight: bold;
+    font-size: 18px;
+}
+.total--price{
+    float:right; 
+    font-weight: bold;
+    font-size: 18px;
+}
 .foot--btn{
     width: 100%;
     background: #fafafa;
@@ -103,7 +121,10 @@ input{
     box-shadow: 0 2px 15px rgb(0 0 0 / 12%);
     margin-right: 12px;
 }
-.btn--call span{color:#4A61A3; font-weight: bold;}
+.btn--call span{
+    color:#4A61A3; 
+    font-weight: bold;
+}
 .btn--buy{
     width:44%;
     height: 48px;
@@ -112,4 +133,7 @@ input{
     border-radius: 4px;
     box-shadow: 0 2px 15px rgb(0 0 0 / 12%);
 }
-.btn--buy span{color:#ffffff; font-weight: bold;}
+.btn--buy span{
+    color:#ffffff; 
+    font-weight: bold;
+}

@@ -10,7 +10,11 @@
     width: 100%;
     position: relative;
 }
-textarea, input[type="text"] {
+.input--text img{
+    width: 24px;
+    height: 24px;
+}
+input[type="text"] {
     padding: 14.5px 14px;
     border: 1px solid #9E9E9E;
     box-sizing: border-box;
@@ -20,7 +24,7 @@ textarea, input[type="text"] {
     border-radius: 4px;
     margin-bottom:8px;
 }
-textarea, input[type="text"]:focus{
+input[type="text"]:focus{
     background:#f6f7fc ;
     border: 1px solid #4A61A3;
 }
@@ -66,7 +70,9 @@ input[type="text"]::placeholder{
     text-align: left; 
     margin-bottom: 4px;
 }
-.adr--text{width: 80%;}
+.adr--text{
+    width: 100%;
+}
 .adr--text2{
     font-size: 12px; 
     color: #757575;
@@ -74,4 +80,8 @@ input[type="text"]::placeholder{
 .closeBtn{
     width: 20%; 
     text-align: right;
+}
+.closeBtn img{
+    width: 24px;
+    height: 24px;
 }

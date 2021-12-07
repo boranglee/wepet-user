@@ -14,7 +14,7 @@
         <div class="head">
             <div class="head--back"><a href="goodsList.html"><img src="image/back_icon.png"></a></div>
             <div class="head--title">럭셔리소나무관</div>
-            <div class="head--cart"><a href="cart.html"><img src="image/cart_icon.png"></a></div>
+            <div class="head--cart"><a href="cart.html"><img src="image/cart_icon.png"><p>2</p></a></div>
         </div><!--head-->
     </header>
     <main>
@@ -39,33 +39,21 @@
             <ul>
                 <li>
                     <input type="radio" id="opSelect01" name="radio" value="" checked/>
-                    <label for="opSelect01">
-                        <p></p><span>10kg ~ 15kg</span>
-                        <div class="radioText">
-                            <span style="font-weight: bold";>+ 0</span>
-                            <span> 원</span>
-                        </div>
-                    </label>
+                    <label for="opSelect01" ></label>
+                    <span>10kg ~ 15kg</span>
+                    <div class="radioText"><span>+ 0원</span></div>
+                </li>
+                <li>   
+                    <input type="radio" id="opSelect02" name="radio" value=""/>
+                    <label for="opSelect02"></label>
+                    <span>15kg ~ 20kg</span>
+                    <div class="radioText"><span>+ 34,000원</span></div>
                 </li>
                 <li>
-                    <input type="radio" id="opSelect02" name="radio" value=""  />
-                    <label for="opSelect02">
-                        <p></p><span>15kg ~ 20kg</span>
-                        <div class="radioText">
-                            <span style="font-weight: bold";>+ 34,000</span>
-                            <span> 원</span>
-                        </div>
-                    </label>
-                </li>
-                <li>
-                    <input type="radio" id="opSelect03" name="radio" value="" />
-                    <label for="opSelect03">
-                        <p></p><span>20kg ~ 30kg</span>
-                        <div class="radioText">
-                            <span style="font-weight: bold";>+ 57,000</span>
-                            <span> 원</span>
-                        </div>
-                    </label>
+                    <input type="radio" id="opSelect03" name="radio" value=""/>
+                    <label for="opSelect03"></label>
+                    <span>20kg ~ 30kg</span>
+                    <div class="radioText"><span>+ 57,000원</span></div>
                 </li>
             </ul>
         </div><!--option_radio-->
@@ -80,18 +68,18 @@
         <div class="info--accordian">
             <div class="menu1">필수표기정보<p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
         </div><!--infoaccordian-->
-            <div class="content" style="display: none;">
+            <div class="content">
             <p>필수표기정보오</p></div>
         <div class="info--accordian">
             <div class="menu1">상품상세정보<p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
         </div><!--infoaccordian-->
-            <div class="content" style="display: none;">
+            <div class="content">
             <p><img src="image/infodetail.png" width="100%" height="100%"></p></div>
     </main>
     <footer>
         <div class="foot--btn">
             <button class="btn--call"><span>장바구니담기</span></button>
-            <button class="btn--buy"><a href="pay.html"><span>바로결제하기</span></a></button>
+            <button class="btn--buy" onclick="location.href='pay.html'"><span>바로결제하기</span></button>
         </div>
     </footer>
     <script src="js/jquery-3.5.1.js"></script>

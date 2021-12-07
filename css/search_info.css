@@ -20,9 +20,12 @@
 }
 .tab_box {display:none;}
 .tab_box.on {display:block;}
-.confirm--content--img img{padding-top: 18vh;}
+.confirm--content--img img{
+  padding-top: 18vh; 
+  width: 70px; 
+  height: 70px;
+}
 .join--confirm--content p{
-    font-size: 12px;
     line-height: 1.5rem;
     margin:30px auto 0;
     font-weight: 400;
@@ -37,7 +40,7 @@
   text-align: left; 
   margin:28px 0 8px;
 }
-textarea, input[type="text"] {
+input[type="text"] {
     padding: 14.5px 14px;
     border: 1px solid #9E9E9E;
     box-sizing: border-box;
@@ -47,7 +50,7 @@ textarea, input[type="text"] {
     border-radius: 4px;
     margin-bottom:8px;
 }
-textarea, input[type="text"]:focus{
+input[type="text"]:focus{
   background:#f6f7fc ;
   border: 1px solid #4A61A3;
 }
@@ -63,4 +66,8 @@ input[type="text"]::placeholder{
     position: absolute;
     bottom: 0;
 }
-.foot--btn p{color:#fff; font-weight: bold; }
+.foot--btn p{
+  color:#fff; 
+  font-weight: bold;
+  font-size: 16px;
+}

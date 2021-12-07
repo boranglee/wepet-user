@@ -18,55 +18,34 @@
     </header>
     <main>
         <h1 class="store--name">위펫</h1>
-        <div class="cart--list--container">
-            <div class="box--content">
-                <div class="thumb--img"><img class="cart--img" src="image/no_image_w.png"></div>
-                <div class="cart--list">
-                    <div class="cart--title">럭셔리 소나무관</div>
-                    <button class="closebtn"><img src="image/close.png" width="24px" height="24px"></button>
-                    <div class="cart--detail">10kg~15kg</div>
-                    <div class="cart--icon">
-                        <span class="icon--best">인기상품</span>
-                        <span class="icon--freedel">무료배송</span>
-                    </div><!--carticon-->
-                </div><!--cartlist-->
-            </div><!--boxcontent-->
-            <div class="cart-count">
-                <div class="count--price">160,000원</div>
-                <ul class="count--num">
-                    <li class="count--icon plus"><img src="image/plusicon.png" width="24px" height="24px"></li>
-                    <li><input type="text" style="font-weight: bold" value="2"/></li>
-                    <li class="count--icon minus"><img src="image/minusicon.png" width="24px" height="24px" ></li>
-                </ul>
-            </div><!--count-->
-        </div><!--cartcontainer-->
+        
         <div class="cart--list--container">
             <div class="box--content">
                 <div class="thumb--img"><img class="cart--img" src="image/no_image_w.png"></div>
                 <div class="cart--list">
                     <div class="cart--title">오동나무 관(고급형) 이름이 길어지는 경우</div>
-                    <button class="closebtn"><img src="image/close.png" width="24px" height="24px"></button>
                     <div class="cart--detail">선택한 옵션정보가 표시됩니다</div>
                 </div><!--cartlist-->
+                <button class="closebtn" onclick="location.href=''"><img src="image/close.png"></button>
             </div><!--boxcontent-->
             <div class="cart-count">
                 <div class="count--price">30,000원</div>
                 <ul class="count--num">
-                    <li class="count--icon plus"><img src="image/plusicon.png" width="24px" height="24px"></li>
-                    <li><input type="text" style="font-weight: bold" value="1"/></li>
-                    <li class="count--icon minus"><img src="image/minusicon.png" width="24px" height="24px" ></li>
+                    <li class="count--icon plus"><img src="image/plusicon.png"></li>
+                    <li><input type="text" value="1"/></li>
+                    <li class="count--icon minus"><img src="image/minusicon.png"></li>
                 </ul>
             </div><!--count-->
         </div><!--cartcontainer-->
         <div class="count--total">
             <span class="total--title">총 주문금액</span>
-            <span class="total--price">190,000원</span>
+            <span class="total--price">30,000원</span>
         </div>
     </main>
     <footer>
         <div class="foot--btn">
             <button class="btn--call"><span>추가하기</span></button>
-            <button class="btn--buy"><a href="pay.html"><span>결제하기</span></a></button>
+            <button class="btn--buy" onclick="location.href='pay.html'"><span>결제하기</span></button>
         </div>
     </footer>
     <script src="js/jquery-3.5.1.js"></script>

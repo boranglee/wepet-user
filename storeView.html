@@ -14,7 +14,7 @@
     <div class="head">
         <div class="head--back"><a href="locationList.html"><img src="image/back_icon.png"></a></div>
         <div class="head--title">꿈나라 애견 장례식장</div>
-        <div class="head--cart"><a href="cart.html"><img src="image/cart_icon.png"></a></div>
+        <div class="head--cart"><a href="store_cart.html"><img src="image/cart_icon.png"><p>2</p></a></div>
     </div><!--head-->
 </header>
 <main>
@@ -30,10 +30,10 @@
         <ul class="storeTitle">
             <li class="storeTitle--title">꿈나라 애견 장례식장</li>
             <li class="storeTitle--address">전라북도 전주시 완산구 효자로 43-42
-                <span><img src="image/location_mini.png" width="14px" height="14px">12km</span>
+                <span><img src="image/location_mini.png">12km</span>
             </li>
             <li class="storeTitle--review">
-                <img src="image/star.png" width="14px" height="14px">5.0<span>(후기 1건)</span></li>
+                <img src="image/star.png">5.0<span>(후기 1건)</span></li>
         </ul><!--storeTitle-->
     </div><!--storeinfo-->
     <div class="tab_wrap">
@@ -78,7 +78,7 @@
                 <div class="menu"><span>맞춤형</span></div>
                 <div class="box--content">
                     <div class="serviceinfo">
-                        <a href="custom.html">
+                        <a href="custom_new.html">
                         <div class="serviceinfo--title">맞춤형</div>
                         <div class="serviceinfo--detail">원하는 옵션을 직접 선택하여 진행</div>
                         <div class="serviceinfo--price">200,000~</div></a>
@@ -182,8 +182,9 @@
 </main>
 <footer>
     <div class="foot--btn">
-        <button class="btn--call"><span>전화상담</span></button>
-        <button class="btn--buy"><a href="pay.html"><span>결제하기</span></a></button>
+        <button class="btn--call" onclick="location.href=''"><img src="image/call.png"></button>
+        <button class="btn--cart" onclick="location.href='store_cart.html'"><img src="image/cart_icon.png"><p>2</p></button>
+        <button class="btn--buy" onclick="location.href='pay.html'"><span>결제하기</span></button>
     </div>
 </footer>
 <script src="js/jquery-3.5.1.js"></script>

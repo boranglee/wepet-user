@@ -16,6 +16,8 @@
 .join--head--order li img{
     vertical-align: middle; 
     padding:0 4px;
+    width: 14px;
+    height: 14px;
 }
 .order1 {
     font-size: 13px;
@@ -88,7 +90,11 @@
     position: absolute;
     bottom: 0;
 }
-.foot--next p{color:#fff; font-weight: bold;}
+.foot--next p{
+    color:#fff; 
+    font-weight: bold;
+    font-size: 16px;
+}
 .round input[type="checkbox"]{display: none;}
 .round input[type="checkbox"] + label{
     display:inline-block;
