@@ -12,8 +12,8 @@
 <body>
     <header>
         <div class="head">
-            <div class="head--back"><a href="community.html"><img src="image/back_icon.png"></a></div>
-            <div class="head--title">추모공간</div>
+            <div class="head__back"><a href="community.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">추모공간</div>
         </div><!--head-->
     </header>
     <main>
@@ -25,7 +25,7 @@
                         <li class="pray--name">김아람</li>
                         <li class="pray--date">2021. 11. 09. 오전 10:59</li>
                     </ul>
-                    <button class="pray--etc"><img src="image/etc_icon.png"></button>   
+                    <button class="pray--etc" id="myBtn" onclick="location.href='#'"><img src="image/etc_icon.png"></button>   
                 </div><!--prayprofile-->
                 <div class="pray--text">
                     네가 있어 우린 너무 행복했어 잘 지냈으면 좋겠다 나중에 다시 만날 때까지 안녕 </div><!--praytext-->
@@ -52,6 +52,13 @@
                 </div><!--commentprofile-->
             </div><!--boxcontent-->
         </section><!--comment-->
+        <section id="myModal" class="modal">
+            <div class="modal-content">
+                <p class="edit"><a href="#">수정</a></p> 
+                <p class="delete"><a href="#">삭제</a></p>
+                <p class="close"></p>
+            </div>
+            </section>
     </main>
     <footer>
         <div class="input--comment">

@@ -50,16 +50,16 @@ a{text-decoration:none;}
 	position: relative;
 	border-bottom: 1px solid #eeeeee;
 }
-.head--back{
+.head__back{
 	position: absolute;
 	top: 17px;
 	z-index:500;
 }
-.head--back img{
+.head__back img{
 	width: 24px;
 	height: 24px;
 }
-.head--title{
+.head__title{
 	position:absolute;
 	top:0;
 	left: 0;
@@ -67,34 +67,34 @@ a{text-decoration:none;}
 	line-height: 56px;
 	font-size: 16px;
 }
-.head--search--left{
+.head__search--left{
 	position: absolute;
 	right:50px;
 	top:17px;
 }
-.head--search--left img{
+.head__search--left img{
 	width: 24px;
 	height: 24px;
 }
-.head--search--right{
+.head__search--right{
 	position: absolute;
 	right:16px;
 	top:17px;
 }
-.head--search--right img{
+.head__search--right img{
 	width: 24px;
 	height: 24px;
 }
-.head--cart{
+.head__cart{
 	position: absolute;
 	right:16px;
 	top:17px;
 }
-.head--cart img{
+.head__cart img{
 	width: 24px;
 	height: 24px;
 }
-.head--cart p{
+.head__cart p{
 	position: absolute;
 	top: -14%;
 	right: -14%;
@@ -106,7 +106,7 @@ a{text-decoration:none;}
 	height: 16px;
 	text-align: center;
 }
-.head--done a{
+.head__done a{
 	position: absolute;
 	top:17px;
 	right: 16px;

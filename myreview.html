@@ -12,8 +12,8 @@
 <body>
     <header>
         <div class="head">
-            <div class="head--back"><a href="main.html"><img src="image/back_icon.png"></a></div>
-            <div class="head--title">후기관리</div>
+            <div class="head__back"><a href="main.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">후기관리</div>
         </div><!--head-->
     </header>
     <main>
@@ -43,7 +43,7 @@
             </div><!--boxcontent-->
             <div class="review--btn">
                 <a href="#"><p>수정</p></a>
-                <a href="#"><p>삭제</p></a>
+                <a href="#"  id="myBtn"><p>삭제</p></a>
             </div><!--reviewbtn--> 
         </section><!--reviewcontent-->
         <section class="review--content">
@@ -75,9 +75,16 @@
             </div><!--boxcontent-->
             <div class="review--btn">
                 <a href="#"><p>수정</p></a>
-                <a href="#"><p>삭제</p></a>
+                <a href="#" id="myBtn"><p>삭제</p></a>
             </div><!--reviewbtn--> 
         </section><!--reviewcontent-->
+        <section id="myModal" class="modal">
+        <div class="modal-content">                                                              
+            <span>게시글을 삭제하시겠습니까?</span>
+            <p class="delete">네</p> 
+            <p class="close">아니오</p> 
+        </div>
+        </section>
     </main>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/jquery.bxslider.js"></script>

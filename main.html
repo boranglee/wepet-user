@@ -12,42 +12,15 @@
 <body>
     <header>
         <div class="main_head">
-            <h1 class="head--logo"><img src="image/mainlogo.png" ></h1>
-            <div class="head--menu btn"><img src="image/mainmenu.png"></div>
-                <div onclick="history.back();" class="page_cover"></div>
-                <div id="menu">
-                    <div onclick="history.back();" class="close"><img src="image/close.png"></div>
-                        <div class="side--nav--top">
-                        <span><img src="image/side_profile.png"></span>
-                        <section class="side--nav--info">
-                            <p class="side--nav--name"><a href="login.html">김아람</a></p>
-                            <p class="side--nav--change"><a href="info_change.html">내 정보 수정 </a></p>
-                        </section><!--sidenavinfo-->
-                    </div><!--sidenavtop-->
-                    <section class="side--nav--icon">
-                        <ul>
-                            <li><a href="payment_list.html"><img src="image/side_pay.png"><span>결제관리</span></a></li>
-                            <li><a href="myreview.html"><img src="image/side_review.png"><span>후기관리</span></a></li>
-                            <li><a href="mypost.html"><img src="image/side_document.png"><span>게시글관리</span></a></li>
-                        </ul>
-                    </section><!--sidenavicon-->
-                    <section class="side--nav--menu">
-                        <ul>
-                            <li><a href="notice.html">공지사항</a></li>
-                            <li>고객센터</li>
-                            <li><a href="setting.html">환경설정</a></li>
-                        </ul><!--sidenavmenu-->
-                    </section>
-                    <section class="side--nav--foot">
-                        <p>Copyright wepet. All rights reserved.</p>
-                    </section><!--sidenavfoot-->
-                </div><!--menu-->
+            <h1 class="head__logo"><img src="image/mainlogo.png" >로고</h1>
+            <div class="head__menu btn"><img src="image/mainmenu.png"></div>
+                <div onclick="history.back();" class="page_cover"></div> 
         </div><!--mainhead-->
-        <div class="main--title">
+        <div class="main__title">
             <span>반려동물과의 이별<br/>위펫이 함께해드릴게요.</span>
             <img src="image/rainbow.png">
         </div><!--maintitle-->
-        <ul class="main--cate">
+        <ul class="main__cate">
             <a href="locationList.html"><li class="cate1">
                 <p class="cate--title">장례식장</p>
                 <p class="cate--content">근처 장례식장을 살펴보고 예약할 수 있어요.</p>
@@ -70,15 +43,43 @@
             <img class="community--img" src="image/dog_img.png">
             <a href="community.html">커뮤니티 바로가기</a>
         </div><!--community-->
+        <div class="side__menu">
+            <div onclick="history.back();" class="close"><img src="image/close.png"></div>
+                <div class="side__nav--top">
+                <span><img src="image/side_profile.png"></span>
+                <section class="side__nav--info">
+                    <p class="side__nav--name"><a href="login.html">김아람</a></p>
+                    <span class="side__nav--change"><a href="info_change.html">내 정보 수정 </a></span>
+                </section><!--sidenavinfo-->
+            </div><!--sidenavtop-->
+            <section class="side__nav--icon">
+                <ul>
+                    <li><a href="payment_list.html"><img src="image/side_pay.png"><span>결제관리</span></a></li>
+                    <li><a href="myreview.html"><img src="image/side_review.png"><span>후기관리</span></a></li>
+                    <li><a href="mypost.html"><img src="image/side_document.png"><span>게시글관리</span></a></li>
+                </ul>
+            </section><!--sidenavicon-->
+            <section class="side__nav--menu">
+                <ul>
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="setting.html">환경설정</a></li>
+                </ul><!--sidenavmenu-->
+            </section>
+            <section class="side__nav--foot">
+                <span class="nav--logout">로그아웃</span>
+                <span class="nav--accountDrop">회원탈퇴</span>
+            </section><!--sidenavfoot-->
+        </div><!--sidemenu-->
     </main>
     <footer>
-        <h1 class="footer--logo"><img src="image/footerlogo.png"></h1>
-        <div class="footer--menu">
+        <h1 class="footer__logo"><img src="image/footerlogo.png"></h1>
+        <div class="footer__menu">
             <a href="#" class="ft-menu1">이용약관</a>
             <a href="#" class="ft-menu2">개인정보처리방침</a>
             <a href="#" class="ft-menu3">위치기반</a>
         </div><!--footer--menu-->
-        <div class="footer--info">
+        <div class="footer__info">
             (주)아람솔루션<br/>
             주소 : 전라북도 전주시 완산구 홍산북로 60-10 다옴빌딩 2층<br/>
             사업자등록번호 : 402-81-85785 (대표자 : 이준)<br/>
