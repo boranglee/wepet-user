@@ -93,7 +93,7 @@ input{
     line-height: 54px;
     border-top: 6px solid #dddfe5;
     border-bottom: 6px solid #dddfe5;
-    margin-bottom: 15px;
+    margin-bottom: 95px;
 }
 .total--title{
     float:left;
@@ -109,8 +109,9 @@ input{
     width: 100%;
     background: #fafafa;
     padding:16px 0;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    width: 100%;
 }
 .btn--call{
     width:44%;

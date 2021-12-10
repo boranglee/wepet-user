@@ -147,7 +147,7 @@ input[type="number"]{
     font-size: 15px;
 }
 .all--price{
-    padding:0 16px;
+    padding:0 16px 85px;
     height: 65px;
     line-height: 65px;
 }
@@ -166,7 +166,9 @@ input[type="number"]{
     width: 100%;
     background: #fafafa;
     padding:16px 0;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .btn--call{
     width:44%;

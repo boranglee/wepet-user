@@ -43,13 +43,23 @@ table {
 	border-spacing: 0;
 }
 a{text-decoration:none;}
-
+.header{
+	position: fixed;
+	width: 100%;
+	height: 56px;
+	background: #ffffff;
+	z-index: 100;
+}
+.main{
+	padding: 56px 0 0;
+}
 .head{
 	padding:0 16px;
 	height: 56px;
 	position: relative;
 	border-bottom: 1px solid #eeeeee;
 }
+
 .head__back{
 	position: absolute;
 	top: 17px;
@@ -115,6 +125,9 @@ a{text-decoration:none;}
 	color: #4A61A3;
 	width: 26px;
 	height: 19px;
+}
+.tab_wrap{
+	padding-top: 56px;
 }
 .menu{
     height: 49px;

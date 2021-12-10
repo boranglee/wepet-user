@@ -128,10 +128,16 @@ input{
     border-style: none;
     background: none;
 }
+.footer{
+    padding-bottom: 90px;
+}
 .foot--btn{
     width: 100%;
     background: #fafafa;
     padding:16px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .btn--call{
     width:44%;

@@ -10,69 +10,45 @@
     <title>결제내역</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="head">
             <div class="head__back"><a href="main.html"><img src="image/back_icon.png"></a></div>
             <div class="head__title">결제내역</div>
         </div><!--head-->
     </header>
-    <div class="tab_wrap"> 
-        <div class="tab_menu_container">
-            <button class="tab_menu_btn on" type="button">장례서비스</button>
-            <button class="tab_menu_btn" type="button">장례용품</button>
-        </div> <!-- tab_menu_container e -->
-        <div class="tab_box_container">
-            <div class="tab_box on">
-                <div class="box--content">
-                <section class="payment--list">
-                    <div class="pay--date">
-                        <p>2021-11-23 오전 10:10</p>
-                        <span><a href="booking_list.html">상세보기</a></span>
-                    </div><!--paydate-->
-                    <div class="pay--detail">
-                        <p class="pay--detail--booking">예약중</p>
-                        <p class="pay--detail--title">꿈나라 애견 장례식장</p>
-                        <p class="pay--detail--custom">맞춤형(염습A/입관X/삼베수의/메모리얼스톤)</p>
-                        <p class="pay--detail--price">270,000원 (카드결제)</p>
-                    </div><!--paydetail-->
-                </section><!--paymentlist-->
-                </div><!--boxcontent-->
-            </div><!--tab_box_on-->
-            <div class="tab_box">
-                <div class="box--content">
-                    <section class="payment--list">
-                        <div class="pay--date">
-                            <p>2021-11-23 오전 10:10</p>
-                            <span><a href="#">상세보기</a></span>
-                        </div><!--paydate-->
-                        <div class="pay--detail">
-                            <p class="pay--detail--del">배송준비중</p>
-                            <p class="pay--detail--title">위펫</p>
-                            <p class="pay--detail--custom">오동나무 관(기본형) 외 4건</p>
-                            <p class="pay--detail--price">20,000원 (카드결제)</p>
-                        </div><!--paydetail-->
-                    </section><!--paymentlist-->
-                </div><!--boxcontent-->
-                <div class="box--content">
-                    <section class="payment--list">
-                        <div class="pay--date">
-                            <p>2021-11-23 오전 10:10</p>
-                            <span><a href="delivery_done.html">상세보기</a></span>
-                        </div><!--paydate-->
-                        <div class="pay--detail">
-                            <p class="pay--detail--done">배송완료</p>
-                            <p class="pay--detail--title">꿈나라 애견 장례식장</p>
-                            <p class="pay--detail--custom">자연분해 원목 유골함(10kg~15kg)외 1건</p>
-                            <p class="pay--detail--price">150,000원 (카드결제)</p>
-                        </div><!--paydetail-->
-                        <button class="reviewGo" onclick="location.href='review_write.html'">
-                            <p>후기작성하기</p>
-                        </button><!--reviewgo-->
-                    </section><!--paymentlist-->
-                </div><!--boxcontent-->
-            </div><!--tab_box-->
-        </div> <!-- tab_box_container-->
-      </div> <!-- tab_wrap-->
+    <main class="main">
+        <section class="payment--list">
+            <div class="box--content">
+            <div class="pay--date">
+                <p>2021-11-23 오전 10:10</p>
+                <span><a href="booking_list.html">상세보기</a></span>
+            </div><!--paydate-->
+            <div class="pay--detail">
+                <p class="pay--detail--going">진행중</p>
+                <p class="pay--detail--title">꿈나라 애견 장례식장</p>
+                <p class="pay--detail--custom">맞춤형(염습A/입관X/삼베수의/메모리얼스톤)</p>
+                <p class="pay--detail--price">270,000원 (카드결제)</p>
+            </div><!--paydetail-->
+            </div><!--boxcontent-->
+        </section><!--paymentlist-->
+        <section class="payment--list">
+            <div class="box--content">
+            <div class="pay--date">
+                <p>2021-11-23 오전 10:10</p>
+                <span><a href="delivery_done.html">상세보기</a></span>
+            </div><!--paydate-->
+            <div class="pay--detail">
+                <p class="pay--detail--done">완료</p>
+                <p class="pay--detail--title">위펫</p>
+                <p class="pay--detail--custom">자연분해 원목 유골함(10kg~15kg)외 1건</p>
+                <p class="pay--detail--price">150,000원 (카드결제)</p>
+            </div><!--paydetail-->
+            <button class="reviewGo" onclick="location.href='review_write.html'">
+                <p>후기작성하기</p>
+            </button><!--reviewgo-->
+        </div><!--boxcontent-->
+        </section><!--paymentlist-->
+    </div><!--tab_box-->
     </main>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/jquery.bxslider.js"></script>

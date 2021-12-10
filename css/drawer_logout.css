@@ -71,6 +71,7 @@
 .side__nav--icon li span{
     display: block;
     margin-top:4px;
+    font-size: 15px;
 }
 .side__nav--menu li{
     list-style: none;
@@ -80,6 +81,9 @@
     text-align: left;
     padding:0 16px;
     font-weight: 300;
+}
+.side__nav--menu li a{
+    font-size: 15px;
 }
 .side__nav--menu li::before{
     content: '';

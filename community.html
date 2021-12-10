@@ -10,18 +10,19 @@
     <title>커뮤니티</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="head">
             <div class="head__back"><a href="main.html"><img src="image/back_icon.png"></a></div>
             <div class="head__title">커뮤니티</div>
         </div><!--head-->
+        <div class="tab_menu_container">
+            <button class="tab_menu_btn on" type="button">추모공간</button>
+            <button class="tab_menu_btn" type="button">이용후기</button>
+        </div> <!-- tab_menu_container e -->
     </header>
-    <main>
+    <main class="main">
         <div class="tab_wrap"> 
-            <div class="tab_menu_container">
-                <button class="tab_menu_btn on" type="button">추모공간</button>
-                <button class="tab_menu_btn" type="button">이용후기</button>
-            </div> <!-- tab_menu_container e -->
+            
             <div class="tab_box_container">
                 <div class="tab_box on">
                     <section class="pray--content">
@@ -79,7 +80,7 @@
                         </div><!--praybtm-->
                     </section><!--praycontent-->
                     <button class="write--btn" onclick="location.href='pray_write.html'">
-                        <img src="image/writeBtn3.png" width="24px" height="24px">
+                        <img src="image/writeBtn.png" width="24px" height="24px">
                     </button>
                 </div><!--tab_box_on-->
                 <div class="tab_box">
@@ -159,7 +160,7 @@
                         </div><!--boxcontent-->
                     </section><!--reviewcontent-->
                     <button class="write--btn" onclick="location.href='review_write.html'">
-                        <img src="image/writeBtn3.png">
+                        <img src="image/writeBtn.png">
                     </button>
                 </div><!--tab_box-->
             </div> <!-- tab_box_container-->
