@@ -28,13 +28,17 @@
     text-align: left; 
     font-size: 15px;
     padding-right: 35px;
+    font-weight: bold;
 }
 .cart--detail{
     text-align: left;
     color:#757575 ;
-    margin:4px 40px 12px 0;
+    margin:4px 41px 0 0;
 }
-.cart--icon{text-align: left;}
+.cart--icon{
+    text-align: left; 
+    margin-top: 12px;
+}
 .icon--best{
   font-size: 12px;
   color:#fff;
@@ -58,7 +62,7 @@
     background: #E9EDF2;
     border-radius: 2px;
     margin-right: 4px;
-  }
+}
 .closebtn{
     position: absolute;
     top:0;
