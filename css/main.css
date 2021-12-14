@@ -31,7 +31,7 @@ header{
 .main__title span{
     text-align: left;
     display: block;
-    font-size: 20px;
+    font-size: 24px;
     color:#ffffff;
     font-weight: bold;
     padding: 60px 16px 40px;
@@ -70,17 +70,17 @@ header{
     text-align: left;
 }
 .cate--title{
-    font-size:16px; 
+    font-size:18px; 
     font-weight: bold;
 }
 .cate--content{
-    font-size: 12px;
     color:#757575;
     margin-top: 6px;
     font-weight: 300;
+    font-size: 16px;
 }
 .cate--go{
-    font-size:12px;
+    font-size:18px;
     margin: 24px 0 0 -4px;
     color: #4A61A3;
     font-weight: bold;
@@ -108,17 +108,7 @@ header{
     font-size:16px; 
     font-weight: bold;
 }
-.cate--content{
-    font-size: 12px;
-    color:#757575;
-    margin-top: 6px;
-}
-.cate--go{
-    font-size:12px;
-    margin-top: 24px;
-    color: #4A61A3;
-    font-weight: bold;
-}
+
 .routine{
     height:48px;
     width:100%;
@@ -131,6 +121,7 @@ header{
 .routine .routine--ment{
     line-height: 46px; 
     color:#fff;
+    font-size: 18px;
 }
 .routine img{
     margin:0 8px 0 16px; 
@@ -143,12 +134,12 @@ header{
     position: relative;
 }
 .community--title {
-    font-size:16px;
+    font-size:20px;
     font-weight: bold;
     text-align: left;
 }
 .community--sub {
-    font-size:12px;
+    font-size:16px;
     color:#757575;
     text-align: left;
     margin-top: 12px;
@@ -170,6 +161,7 @@ header{
     border-radius: 4px;
     margin:27px 0 24px;
     display: block;
+    font-size: 20px;
 }
 footer{
     background: #E9EDF2;
@@ -307,12 +299,13 @@ footer{
 .side__nav--menu li:first-child:after{
     content: 'N';
     color:#ffffff;
+    width: 16px;
+    height: 16px;
     font-size: 10px;
     margin-left: 4px;
     border-radius: 50%;
     background:#FF6250;
-    padding: 1px 5px;
-    font-weight: 100;
+    padding: 1px 5px 1px 4px;
 }
 .side__nav--foot{
     position: absolute;
