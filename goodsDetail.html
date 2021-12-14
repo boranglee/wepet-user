@@ -29,7 +29,7 @@
             <p class="content--title">자연분해 원목 유골함</p>
             <p class="content--price"><em>80,000</em>원</p>
             <ul class="content--icon">
-                <li class="content--icon--best">인기상품</li>
+                <li class="content--icon--best">BEST</li>
                 <li class="content--icon--freedel">무료배송</li>
             </ul>
             <p class="content--text">화장한 유골을 오랫동안 보관 할 수 있습니다.</p>
@@ -61,15 +61,14 @@
             <div class="count--title">수량</div>
             <ul class="count--num">
                 <li class="count--icon plus"><img src="image/plusicon.png" width="24px" height="24px"></li>
-                    <li><input type="text" style="font-weight: bold" value="1"/></li>
-                    <li class="count--icon minus"><img src="image/minusicon.png" width="24px" height="24px" ></li>
+                <li><input type="text" value="1"/></li>
+                <li class="count--icon minus"><img src="image/minusicon.png" width="24px" height="24px" ></li>
             </ul>
         </div><!--count-->
-        <div class="info--accordian">
-            <div class="menu1">필수표기정보<p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
-        </div><!--infoaccordian-->
-            <div class="content">
-            <p>필수표기정보오</p></div>
+        <div class="all--price">
+            <span class="all--price--title">총 주문 금액</span>
+            <span class="all--price--total">80,000원</span>
+        </div><!--allprice-->
         <div class="info--accordian">
             <div class="menu1">상품상세정보<p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
         </div><!--infoaccordian-->
@@ -78,7 +77,7 @@
     </main>
     <footer class="footer">
         <div class="foot--btn">
-            <button class="btn--call"><span>장바구니담기</span></button>
+            <button class="btn--call" onclick="location.href='goods_cart.html'"><span>장바구니담기</span></button>
             <button class="btn--buy" onclick="location.href='pay.html'"><span>바로결제하기</span></button>
         </div>
     </footer>

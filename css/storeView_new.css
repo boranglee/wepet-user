@@ -133,6 +133,32 @@
     font-size: 14px;
     color:#4A61A3;
 }
+.tab_menu_round_container{
+    padding:16px;
+    display: flex;
+   flex-wrap: nowrap;
+   overflow-x: auto;
+}
+.tab_menu_round {
+    height:39px;
+    width:82px;
+    color:#bdbdbd;
+    border: 1px solid #bdbdbd;
+    border-radius: 100px;
+    font-size: 14px;
+    margin-right: 8px;
+    flex: 0 0 auto;
+}
+.tab_menu_round.on {
+    height:39px;
+    width:82px;
+    color:#ffffff;
+    background: #4a61a3;
+    border: 1px solid #fafafa;
+    border-radius: 100px;
+    font-size: 14px;
+    flex: 0 0 auto;
+}
 .tab_box {
     display:none;
     padding-bottom: 80px;

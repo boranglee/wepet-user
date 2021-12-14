@@ -122,11 +122,28 @@
     float:left; 
     margin:17px 0 0 16px;
 }
-input{
+input[type="text"]{
     width: 7px;
     text-align: center;
     border-style: none;
     background: none;
+    font-weight: bold;
+}
+.all--price{
+    height: 71px;
+    line-height: 71px;
+    padding:0 16px;
+    border-top: 6px solid #dddfe5;
+}
+.all--price--title{
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+.all--price--total{
+    float: right;
+    font-weight: bold;
+    font-size: 18px;
 }
 .footer{
     padding-bottom: 90px;

@@ -12,20 +12,25 @@
 <body>
     <header class="header">
         <div class="head">
-            <div class="head__back"><a href="goodsDetail.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__back"><a href="goodsList.html"><img src="image/back_icon.png"></a></div>
             <div class="head__title">장바구니</div>
         </div><!--head-->
     </header>
     <main class="main">
         <h1 class="store--name">위펫</h1>
-        
-        <div class="cart--list--container">
+        <section class="cart--list--container">
+            <div class="product--list">
             <div class="box--content">
                 <div class="thumb--img"><img class="cart--img" src="image/no_image_w.png"></div>
                 <div class="cart--list">
-                    <div class="cart--title">오동나무 관(고급형) 이름이 길어지는 경우</div>
-                    <div class="cart--detail">선택한 옵션정보가 표시됩니다</div>
+                    <p class="cart--title">럭셔리 소나무 관</p>
+                    <p class="cart--detail">10kg ~ 15kg</p>
+                    <div class="cart--icon">
+                        <span class="icon--best">BEST</span>
+                        <span class="icon--freedel">무료배송</span>
+                    </div>
                 </div><!--cartlist-->
+                
                 <button class="closebtn" onclick="location.href=''"><img src="image/close.png"></button>
             </div><!--boxcontent-->
             <div class="cart-count">
@@ -36,7 +41,29 @@
                     <li class="count--icon minus"><img src="image/minusicon.png"></li>
                 </ul>
             </div><!--count-->
-        </div><!--cartcontainer-->
+            </div><!--cartlist-->
+            <div class="product--list">
+                <div class="box--content">
+                    <div class="thumb--img"><img class="cart--img" src="image/no_image_w.png"></div>
+                    <div class="cart--list">
+                        <div class="cart--title">오동나무 관(고급형) 이름이 길어지는 경우</div>
+                        <div class="cart--detail">선택한 옵션 정보가 표시됩니다 옵션정보가 내용이 길어지면 길어지게 이미지는 상단고정</div>
+                    <div class="cart--icon">
+                        <span class="icon--delfee">배송비 2,500원</span>
+                    </div>
+                    </div><!--cartlist-->
+                    <button class="closebtn" onclick="location.href=''"><img src="image/close.png"></button>
+                </div><!--boxcontent-->
+                <div class="cart-count">
+                    <div class="count--price">30,000원</div>
+                    <ul class="count--num">
+                        <li class="count--icon plus"><img src="image/plusicon.png"></li>
+                        <li><input type="text" value="1"/></li>
+                        <li class="count--icon minus"><img src="image/minusicon.png"></li>
+                    </ul>
+                </div><!--count-->
+                </div><!--cartlist-->
+        </section><!--cartcontainer-->
         <div class="count--total">
             <span class="total--title">총 주문금액</span>
             <span class="total--price">30,000원</span>

@@ -13,10 +13,26 @@
       $('.tab_box').eq(idx).show();
   });
 
+  $('.tab_menu_round').on('click',function(){
+    $('.tab_menu_round').removeClass('on');
+    $(this).addClass('on')
+    var idx = $('.tab_menu_round').index(this);
+    $('.tab_round_box').hide();
+    $('.tab_round_box').eq(idx).show();
+});
+
+
   $(document).ready(function(){
     $(".info--accordian").click(function() {
       $(this).nextAll(".content:first").slideToggle("fast");
       $(this).find(".accordian-arrow").toggleClass("less");
+    });
+
+    $(document).ready(function(){
+      $(".info--accordian_mini").click(function() {
+        $(this).nextAll(".content_mini:first").slideToggle("fast");
+        $(this).find(".accordian-arrow_mini").toggleClass("less");
+      });
     });
 
   $(document).ready(function(){

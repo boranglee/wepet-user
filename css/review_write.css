@@ -61,7 +61,7 @@ input[type="file"]{display: none;}
     float: right;
     font-size: 12px;
     color: #424242;
-    margin-top: 15px;
+    margin: 15px 0 0 4px;
 }
 .input--button::before{
     content: '';
@@ -72,8 +72,8 @@ input[type="file"]{display: none;}
 }
 .preview{
     display: flex;
-    justify-content: space-evenly;
     margin: 15px 0;
+    float: right;
 }
 .preview img{
     width:96px;
@@ -84,6 +84,7 @@ input[type="file"]{display: none;}
 }
 .preview li{
     position: relative;
+    margin: 0 4px;
 }
 .preview li::before{
     content: '';

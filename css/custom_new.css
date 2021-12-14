@@ -1,35 +1,39 @@
 @charset "UTF-8";
 
-.custom--main{padding:40px 0 20px;}
-.custom--main--title{font-size: 18px;}
-.custom--main--detail{
-    font-size: 14px;
-    color: #757575;
-    margin:4px 0 16px;
-    font-weight: 300;
+.custom--main--mainview img{
+    width:100%;
+    height:170px;
+    object-fit: cover;
+    object-position: center;
 }
-.custom--main--icon{
-    font-size: 12px;
-    color:#4a61a3;
-    background: #E9EDF2;
-    border-radius: 4px;
-    padding:4px 12px;
-    display: inline-block;
+.custom--main--title{
+    font-size: 18px;
+    padding:32px 0 4px;
+}
+.custom--main--price{
+    font-size: 18px;
+    font-weight: bold;
+}
+.custom--main--detail{
+    color: #757575;
+    padding:20px 0;
+    font-weight: 300;
+    background: #f5f5f5;
+    margin-top: 32px;
 }
 .option--title{
     text-align: left;
     background: #E9EDF2;
-    margin:20px 0;
     font-weight: bold;
     height: 48px;
     line-height: 48px;
     padding:0 16px;
-    border-top: 1px solid #e0e0e0;
+    border-top: 6px solid #dddfe5;
     border-bottom: 1px solid #e0e0e0;
     clear: both;
 }
 .custom--option ul{
-    padding:0 16px;    
+    padding:20px 16px;    
 }
 .custom--option li{
     text-align: left; 
@@ -75,7 +79,7 @@
 .input{
     flex-wrap: wrap;
 }
-.input--price{text-align: right; }
+.input--price{text-align: right; color: #4a61a3;}
 .input--weight{
     background: #f6f7fc;
     padding:20px 14px;
@@ -124,7 +128,6 @@ input[type="text"]::placeholder{
     height:64px; 
     border-top: 6px solid #dddfe5;
     border-bottom: 6px solid #dddfe5;
-    margin-top: 20px;
 }
 .count li{
     float:right; 

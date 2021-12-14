@@ -8,8 +8,8 @@
     font-size: 16px;
     border-bottom: 6px solid #DDDFE5;
 }
-.cart--list--container{
-    padding:20px 16px; 
+.product--list{
+    padding:20px 16px;
     border-bottom: 1px solid #f5f5f5;
 }
 .box--content{
@@ -36,23 +36,29 @@
 }
 .cart--icon{text-align: left;}
 .icon--best{
-  font-size: 10px;
-  font-weight: 300;
+  font-size: 12px;
   color:#fff;
   padding:1px 4px;
-  background: #E36B6B;
+  background: #FF6250;
   border-radius: 2px;
   margin-right: 4px;
 }
 .icon--freedel{
-  font-size: 10px;
-  font-weight: 300;
+  font-size: 12px;
   color:#ffffff;
   padding:1px 4px;
-  background: #51B7B7;
+  background: #5090FF;
   border-radius: 2px;
   margin-right: 4px;
 }
+.icon--delfee{
+    font-size: 12px;
+    color:#4A61A3;
+    padding:1px 4px;
+    background: #E9EDF2;
+    border-radius: 2px;
+    margin-right: 4px;
+  }
 .closebtn{
     position: absolute;
     top:0;
