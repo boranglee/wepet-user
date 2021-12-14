@@ -20,22 +20,27 @@
     height: 14px;
 }
 .order2 {
-    font-size: 13px;
-    font-weight: bold;
-    color:#fff;
+    position: relative;
     background: #4a61a3;
     width: 24px;
     height: 24px;
     border-radius: 50px;
 }
 .order1, .order3 {
-    font-size: 13px;
-    font-weight: bold;
-    color:#fff;
+    position: relative;
     background: #BDBDBD;
     width: 24px;
     height: 24px;
     border-radius: 50px;
+}
+.order_num{
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 2px;
+    right:0;
+    left: 0;
+    color:#ffffff;
 }
 .join--confirm--content{
     padding:0 16px;

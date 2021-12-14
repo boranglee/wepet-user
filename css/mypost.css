@@ -2,20 +2,22 @@
 
 .tab_menu_container {
   display: flex;
-  line-height: 45px;
+  line-height: 50px;
 }
 .tab_menu_btn {
-  height:45px;
+  height:50px;
   margin:0 auto;
   width:50%;
   color:#757575;
   border-bottom:1px solid #e0e0e0;
+  font-size: 15px;
 }
 .tab_menu_btn.on {
   border-bottom:4px solid #4A61A3;
   font-weight:bold;
   color:#4A61A3;
   width:50%;
+  font-size: 15px;
 }
 .tab_box {
     display:none;
@@ -28,7 +30,6 @@
 }
 .box--content p{
     text-align: left; 
-    font-size: 12px;
 }
 .pray--content span{
     float: left; 
@@ -36,15 +37,18 @@
 }
 .pray--name{
     color:#424242;
+    font-weight: bold;
 }
 .pray--date{
     color:#9e9e9e;
+    font-size: 12px;
 }
 .pray--text{
     text-align: left;
     padding:16px 0;
     font-weight: 300;
     color: #424242;
+    font-size: 15px;
 }
 .pray--photo ul{
     display: flex; 
@@ -95,6 +99,7 @@
 }
 .comment--content{
     color:#424242;
+    font-size: 15px;
 }
 .comment--date{
     color:#9e9e9e;

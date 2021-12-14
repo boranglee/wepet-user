@@ -19,23 +19,28 @@ input[type="file"]{display: none;}
 .input--button{
     padding:27px;
     background: #f6f7fc;
-    float: right;
+    float:left;
     font-size: 12px;
     color: #424242;
-    margin-top:20px;
     border-radius: 4px;
+    margin-right: 4px;
 }
 .input--button::before{
     content: '';
     display:block;
-    width: 40px;
+    width: 45px;
     height: 24px;
-    background: url("../image/photo.png") no-repeat 9px -2px /24px auto;
+    background: url("../image/photo.png") no-repeat 12px -2px /24px auto;
+}
+.input--photo{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    align-items: center;
 }
 .preview{
     display: flex;
-    justify-content: space-evenly;
-    margin: 20px 0;
+    overflow-x: auto;
 }
 .preview img{
     width:96px;
@@ -46,6 +51,7 @@ input[type="file"]{display: none;}
 }
 .preview li{
     position: relative;
+    margin: 0 4px;
 }
 .preview li::before{
     content: '';

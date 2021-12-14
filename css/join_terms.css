@@ -20,18 +20,14 @@
     height: 14px;
 }
 .order1 {
-    font-size: 13px;
-    font-weight: bold;
-    color:#fff;
+    position: relative;
     background: #4a61a3;
     width: 24px;
     height: 24px;
     border-radius: 50px;
 }
 .order2, .order3 {
-    font-size: 13px;
-    font-weight: bold;
-    color:#fff;
+    position: relative;
     background: #BDBDBD;
     width: 24px;
     height: 24px;
@@ -40,6 +36,15 @@
 .join--terms--content{
     padding:0 16px; 
     position: relative;
+}
+.order_num{
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 2px;
+    right:0;
+    left: 0;
+    color:#ffffff;
 }
 .terms--content--all{
     font-size: 16px;
