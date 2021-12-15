@@ -11,17 +11,42 @@
 .info--address{
     padding:0 16px 32px;
     border-bottom: 6px solid #DDDFE5;
+    clear: both;
 }
+.pay--info{
+    border-top: 1px solid #e0e0e0;
+}
+.booking--info{
+    padding:0 16px 20px;
+}
+.booking--info--title, 
 .info--address--title{
     float: left;
     font-weight: bold;
-    padding:34.5px 0 10.5px;
+    padding:20px 0 10.5px;
     font-size: 15px;
 }
+.booking--info--title img,
 .info--address--title img{
     vertical-align: middle;
     width: 24px;
     height: 24px;
+    margin: -3px 4px 0 0;
+}
+.booking--date{
+    width: 100%;
+    border: 1px solid #4a61a3;
+    background:#F6F7FC;
+    height: 48px;
+    font-size: 15px;
+    border-radius: 4px;
+    position: relative;
+}
+.booking--date span{
+    position: absolute;
+    right: 16px;
+    color: #4a61a3;
+    font-weight: bold;
 }
 .info--address--detail{
     float: left;
@@ -52,6 +77,11 @@
     color:#757575;
     width: 100%;
 }
+.input--text p{
+    text-align: left;
+    color:#424242;
+    margin: 16px 0 8px;
+}
 input[type="text"] {
     padding: 14.5px 14px;
     border: 1px solid #9E9E9E;
@@ -74,12 +104,6 @@ input[type="text"]::placeholder{
     padding:16px 16px 32px; 
     border-bottom: 6px solid #DDDFE5;
 }
-.list--detail--title{
-    display: flex;
-    font-weight: bold;
-    color:#4a61a3;
-    margin:16px 0 12px;
-}
 .list--product--bg{
     background: #F5F5F5;
     padding:0 16px;
@@ -92,9 +116,8 @@ input[type="text"]::placeholder{
 }
 .product--title {width:70%;}
 .product--title li{text-align: left;}
-.product--title--name{font-size: 16px;}
+.product--title--name{font-size: 15px;}
 .product--title--detail{
-    font-size: 12px;
     color:#757575;
     margin-top: 2px;
 }
@@ -103,6 +126,30 @@ input[type="text"]::placeholder{
     font-weight: bold;
     width: 30%;
     text-align: right;
+}
+.product--price{
+    height: 51px;
+    line-height: 51px;
+}
+.product--price--name{
+    float: left;
+}
+.product--price--pay{
+    float: right;
+}
+.all--price{
+    padding: 16px 0 20px;
+    border-top: 1px solid #e0e0e0;
+}
+.all--price--name{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+.all--price--pay{
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
 }
 .payment{padding:16px;}
 .payment--card{
@@ -124,7 +171,7 @@ input[type="text"]::placeholder{
 .payment--confirm{
     font-size:12px;
     font-weight: bold;
-    color:#4a61a3;
+    color:#5090FF;
     padding:24px 0 10px;
 }
 .accordian-arrow{
@@ -194,5 +241,3 @@ input[type="text"]::placeholder{
     font-size: 18px;
     margin-left: 8px;
 }
-
-  

@@ -38,17 +38,16 @@
 .custom--option li{
     text-align: left; 
     display: flex;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
+    align-items:flex-start;
 }
 .custom--option li span{
     font-size: 16px;
-    width: 60%;
-    text-align: left;
 }
 .custom--option li span p{
     text-align: left;
-    font-weight: 300;
     color: #757575;
+    margin-left: 28px;
 }
 .custom--option li .radioText{
     font-weight: bold;
@@ -57,24 +56,34 @@
 }
 .custom--option input[type="radio"] {display:none;}
 .custom--option input[type="radio"] + label {
+   width: 70%;
+   text-align: left;
+}
+.custom--option input[type="radio"]:checked + label{
+    width: 70%;
+    text-align: left;
+}
+.custom--option input[type="radio"]:checked + label::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 5px solid #4a61a3;
+    background-color: #ffffff;
+    vertical-align:text-top;
+    margin-right: 8px;
+}
+.custom--option input[type="radio"] + label::before{
+    content: '';
     display:inline-block;
     width:16px;
     height:16px;
     border-radius: 50px;
     border:2px solid #bdbdbd;
     background-color: #fff;
-    vertical-align: middle;
-    margin:3px 8px 0 0; 
-}
-.custom--option input[type="radio"]:checked + label{
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    border-radius: 50px;
-    border: 3px solid #ffffff;
-    background-color: #4a61a3;
-    box-shadow: 0px 0px 0px 2px #4a61a3;
-    margin-left:2px;
+    vertical-align:text-top;
+    margin-right: 8px;
 }
 .input{
     flex-wrap: wrap;

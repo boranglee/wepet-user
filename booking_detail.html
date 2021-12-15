@@ -12,17 +12,27 @@
 <body>
     <header class="header">
         <div class="head">
-            <div class="head__back"><a href="#"><img src="image/back_icon.png"></a></div>
-            <div class="head__title">결제하기</div>
+            <div class="head__back"><a href="storeView_new.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">주문하기</div>
         </div><!--head-->
     </header>
     <main class="main">
-        <h1 class="info--title">예약자정보</h1>
+        <div class="info--title">주문정보</div>
+
+        <div class="booking--info">
+            <div class="booking--info--title"><img src="image/booking_icon.png">예약정보</div>
+            <button class="booking--date" onclick="location.href='booking_setting.html'">예약일시를 선택해주세요.<span>변경</span></button>
+            <div class="input--text">
+                <p>반려동물 이름</p>
+                <input type="text" id="searchText" placeholder="반려동물 이름을 입력해주세요." autocomplete="off">
+                <p>주문자(보호자) 연락처</p>
+                <input type="text" id="searchText" placeholder="연락처를 입력해주세요." autocomplete="off">
+            </div>  
+        </div><!--bookinginfo-->
+
         <div class="pay--info">
             <div class="info--address">
-                <h2 class="info--address--title">
-                    <img src="image/location_mini.png">픽업위치
-                </h2>
+                <div class="info--address--title"><img src="image/location_mini.png">픽업정보</div>
                 <div class="info--address--detail">
                     <p>전라북도 전주시 완산구 홍산북로 60-10</p>
                     <p class="info--address--text2">[지번주소] 전라북도 전주시 완산구 효자동 60-10</p>
@@ -30,22 +40,28 @@
                 </div>
                 <div class="input--text">
                     <input type="text" id="searchText" placeholder="나머지 주소를 입력해주세요" autocomplete="off">
-                    <input type="text" id="searchText" placeholder="연락처를 입력해주세요" autocomplete="off">
                 </div>    
             </div><!--infoaddress-->
         </div><!--payinfo-->
-        <h1 class="list--title">예약내역</h1>
+        <div class="list--title">주문내역</div>
         <div class="pay--list">
-            <div class="list--detail--title">서비스 예약 내역</div>
-                <div class="list--product--bg">
-                    <div class="list--product">
-                        <ul class="product--title">
-                            <li class="product--title--name">맞춤형</li>
-                            <li class="product--title--detail">염습A/삼베수의/추모실/화장/메모리얼스톤</li>
-                        </ul>
-                        <span>270,000원</span>
-                    </div>
-                </div><!--listbg-->
+            <div class="list--product--bg">
+                <div class="list--product">
+                    <ul class="product--title">
+                        <li class="product--title--name">맞춤형 장례</li>
+                        <li class="product--title--detail">5kg 이하 / 픽업안함 / 염습 옵션 A / 입관안함 / 삼베수의 / 메모리얼스톤 제작</li>
+                    </ul>
+                    <span>270,000원</span>
+                </div>
+            </div><!--listbg-->
+            <div class="product--price">
+                <span class="product--price--name">주문금액</span>
+                <span class="product--price--pay">270,000원</span>
+            </div>
+            <div class="all--price">
+                <span class="all--price--name">총 결제금액</span>
+                <span class="all--price--pay">270,000원</span>
+            </div>
         </div><!--paylist-->
         <h1 class="payment--title">결제수단</h1>
             <div class="payment">

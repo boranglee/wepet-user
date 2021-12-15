@@ -12,7 +12,7 @@
 <body>
 <header class="header">
     <div class="head">
-        <div class="head__back"><a href="locationList.html"><img src="image/back_icon.png"></a></div>
+        <div class="head__back"><a href="storeList.html"><img src="image/back_icon.png"></a></div>
         <div class="head__title">꿈나라 애견 장례식장</div>
         <div class="head__cart"><a href="store_cart.html"><img src="image/cart_icon.png"><p>2</p></a></div>
     </div><!--head-->
@@ -59,14 +59,14 @@
           <button class="tab_menu_btn" type="button">업체정보</button>
           <button class="tab_menu_btn" type="button">이용후기</button>
         </div> <!-- tab_menu_container e -->
-        <div class="tab_menu_round_container">
-            <button class="tab_menu_round on" type="button">기본장례</button>
-            <button class="tab_menu_round" type="button">고급장례</button>
-            <button class="tab_menu_round" type="button">맞춤장례</button>
-            <button class="tab_menu_round" type="button">장례용품</button>
-        </div> <!-- tab_menu_container e -->
         <div class="tab_box_container">
             <div class="tab_box on">
+                <div class="tab_menu_round_container">
+                    <button class="tab_menu_round on" type="button">기본장례</button>
+                    <button class="tab_menu_round" type="button">고급장례</button>
+                    <button class="tab_menu_round" type="button">맞춤장례</button>
+                    <button class="tab_menu_round" type="button">장례용품</button>
+                </div> <!-- tab_menu_container e -->
                 <div class="menu"><span>기본장례</span></div>
                 <div class="box--content">
                     <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
@@ -116,8 +116,8 @@
                 <div class="menu"><span>장례용품</span></div>
                 <div class="box--content">
                     <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
-                    <div class="goodsinfo"><a href="goodsDetail.html">
-                        <div class="goods--title">자연분해 원목 유골함</div>
+                    <div class="goodsinfo"><a href="goodsDetail_store.html">
+                        <div class="goods--title">럭셔리 소나무 관</div>
                         <div class="goods--detail">화장한 유골을 오랫동안 보관할 수 있습니다.</div>
                         <div class="goods--price">60,000원</div>
                     </div><!--goodsinfo--></a>
@@ -132,7 +132,27 @@
                 </div><!--boxcontent-->
             </div><!--tab_box_on-->
             <div class="tab_box">
-                <div class="menu"><span>기본정보</span></div>
+                <div class="tab_menu_round_container">
+                    <button class="tab_menu_round on" type="button">업체소개</button>
+                    <button class="tab_menu_round" type="button">영업정보</button>
+                    <button class="tab_menu_round" type="button">위치정보</button>
+                    <button class="tab_menu_round" type="button">시설안내</button>
+                </div> <!-- tab_menu_container e -->
+                <div class="menu1">업체소개</div>
+                <div class="box--content">
+                    <section class="storePresent">
+                    <p>꿈나라 애견 장례식장은 개별화장, 장례절차 참관을 기본으로 합니다. <br/>
+                    기본이 되어야 하는 절차는 지키되,
+                    장례식장의 높은 이익을 위한 불필요한 절차는 추천하지 않습니다.<br/> 
+                    아이를 보내는 슬픔 가득한 순간에
+                    다른 걱정은 하지 않으시도록 노력합니다.<br/>
+                    <br/>
+                    또한 아이의 마지막 순간을 억지로 예쁘게 꾸미려고 하지 않습니다.<br/>
+                    무지개 다리를 건너는 아이가 가장 편안하도록 하는 것이
+                    저희 펫 추모공원의 가장 큰 모토입니다.</p>
+                    </section>
+                </div>
+                <div class="menu1"><span>영업정보</span></div>
                 <div class="box--content">
                     <section class="storeinfo">
                         <div class="storeinfo--time">
@@ -147,95 +167,85 @@
                         <div class="storeinfo--biznum">
                             <span class="title-text">사업자번호</span><span class="info-text">402 - 81 - 85785</span>
                         </div>
-                        <div class="storeinfo--aninum">
-                            <span class="title-text">동물장묘업등록번호</span><span class="info-text">10000000-1000-100-11000</span>
-                        </div>
                     </section><!--storeinfo-->
                 </div><!--boxcontent-->
-                <div class="accordian--container">
-                    <div class="info--accordian">
-                        <div class="menu1">위치정보
-                            <p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
-                    </div><!--infoaccordian-->
-                    <section class="content">지도도도도도도도도</section>
-                </div>
-                <div class="accordian--container">
-                    <div class="info--accordian1">
-                        <div class="menu1">시설안내
-                            <p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
-                    </div><!--infoaccordian-->
-                    <section class="facility content1">
+                <div class="menu1">위치정보</div>
+                    <section>지도도도도도도도도</section>
+
+                <div class="menu1">시설안내</div>
+                    <section class="facility">
                         <ul>
                             <li><img src="image/no_image_w.png"></li>
                             <li><img src="image/no_image_w.png"></li>
                             <li><img src="image/no_image_w.png"></li>
                         </ul>
                     </section><!--facility-->
-                </div>
-                <div class="accordian--container">
-                    <div class="info--accordian2">
-                        <div class="menu1">업체소개
-                            <p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
-                    </div><!--infoaccordian-->
-                    <section class="shopinfo content2">
-                        <div class="box--content">
-                            <p>펫 추모공원은 개별화장, 장례절차 참관을 기본으로 합니다. <br/>
-                            기본이 되어야 하는 절차는 지키되, <br/>
-                            장례식장의 높은 이익을 위한 불필요한 절차는 추천하지 않습니다.<br/> 
-                            아이를 보내는 슬픔 가득한 순간에<br/>
-                            다른 걱정은 하지 않으시도록 노력합니다.<br/>
-                            <br/>
-                            또한 아이의 마지막 순간을 억지로 예쁘게 꾸미려고 하지 않습니다.<br/>
-                            무지개 다리를 건너는 아이가 가장 편안하도록 하는 것이<br/>
-                            저희 펫 추모공원의 가장 큰 모토입니다.</p>
-                        </div>
-                    </section><!--shopinfo-->
-                </div>
-                <div class="accordian--container">
-                    <div class="info--accordian3">
-                        <div class="menu1">이용후기
-                            <p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
-                    </div><!--infoaccordian-->
-                    <section class="review--content content3">
-                            <span class="profile--img"><img src="image/side_profile.png"></span>
-                            <div class="profile--name">
-                                <p class="review--name">김아람</p>
-                                <span class="star--icon">
-                                    <img src="image/star.png">
-                                    <img src="image/star.png">
-                                    <img src="image/star.png">
-                                    <img src="image/star.png">
-                                    <img src="image/star_gray.png">
-                                </span><!--staricon-->
-                            </div><!--profilename-->
-                            <p class="review--date">2021. 11. 09. 오전 10:59</p>
-                            <div class="custom--option">
-                                <p class="custom--name">꿈나라 애견 장례식장</p>
-                                <p class="custom--content">맞춤형(염습A/입관X/삼베수의/메로리얼스톤)</p>
-                            </div><!--customoption-->
-                            <div class="review--text">
-                                처음 겪는 일이라 많이 당황했지만 세심하게 신경써주셔서 잘 마무리 할 수 있었습니다 감사합니다 앱으로 예약 결제를 마치니 식장에서 오롯이 절차에만 집중할 수 있고  돈얘기를 따로 하지 않아서 좋았습니다 처음 겪는 일이라 많이 당황했지만 세심하게 신경써주셔서 잘 마무리 할 수 있었습니다 감사합니다 앱으로 예약 결제를 마치니 식장에서 오롯이 절차에만 집중할 수 있고  돈얘기를 따로 하지 않아서 좋았습니다 </div><!--praytext-->
-                            <div class="review--photo"><img src="image/no_image_w.png"></div><!--reviewphoto-->
-                    </section><!--reviewcontent-->
-                </div>
             </div><!--tab_box-->
             <div class="tab_box">
-                <div class="box--content">
-                    <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
-                    <div class="goodsinfo"><a href="goodsDetail.html">
-                        <div class="goods--title">자연분해 원목 유골함</div>
-                        <div class="goods--detail">화장한 유골을 오랫동안 보관할 수 있습니다.</div>
-                        <div class="goods--price">60,000원</div>
-                    </div><!--goodsinfo--></a>
-                </div><!--boxcontent-->
-                <div class="box--content">
-                    <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
-                    <div class="goodsinfo">
-                        <div class="goods--title">삼베수의 (고급형)</div>
-                        <div class="goods--detail">고급형 프리미엄 삼베로 만들어진 수의</div>
-                        <div class="goods--price">70,000원</div>
-                    </div><!--serviceinfo-->
-                </div><!--boxcontent-->
+                <section class="review--content">
+                    <span class="profile--img"><img src="image/side_profile.png"></span>
+                    <div class="profile--name">
+                        <p class="review--name">김아람</p>
+                        <span class="star--icon">
+                            <img src="image/star.png">
+                            <img src="image/star.png">
+                            <img src="image/star.png">
+                            <img src="image/star.png">
+                            <img src="image/star_gray.png">
+                        </span><!--staricon-->
+                    </div><!--profilename-->
+                    <p class="review--date">2021. 11. 09. 오전 10:59</p>
+                    <div class="custom--option">
+                        <p class="custom--content">맞춤형 장례(염습A/입관X/삼베수의/메로리얼스톤)</p>
+                    </div><!--customoption-->
+                    <div class="review--text">
+                        처음 겪는 일이라 많이 당황했지만 세심하게 신경써주셔서 잘 마무리 할 수 있었습니다 감사합니다 앱으로 예약 결제를 마치니 식장에서 오롯이 절차에만 집중할 수 있고  돈얘기를 따로 하지 않아서 좋았습니다 처음 겪는 일이라 많이 당황했지만 세심하게 신경써주셔서 잘 마무리 할 수 있었습니다 감사합니다 앱으로 예약 결제를 마치니 식장에서 오롯이 절차에만 집중할 수 있고  돈얘기를 따로 하지 않아서 좋았습니다 </div><!--praytext-->
+                    <div class="review--photo"><img src="image/no_image_w.png"></div><!--reviewphoto-->
+                </section><!--reviewcontent-->
+                <section class="review--content">
+                    <span class="profile--img"><img src="image/side_profile.png"></span>
+                    <div class="profile--name">
+                        <p class="review--name">김아람</p>
+                        <span class="star--icon">
+                            <img src="image/star.png">
+                            <img src="image/star.png">
+                            <img src="image/star.png">
+                            <img src="image/star.png">
+                            <img src="image/star_gray.png">
+                        </span><!--staricon-->
+                    </div><!--profilename-->
+                    <p class="review--date">2021. 11. 09. 오전 10:59</p>
+                    <div class="custom--option">
+                        <p class="custom--content">맞춤형 장례(염습A/입관X/삼베수의/메로리얼스톤)</p>
+                    </div><!--customoption-->
+                    <div class="review--text">
+                        다른곳은 어떤지 모르겠지만 슬픔을 이용해서 이것 저것 추가 상품을 하라고 권유하지 않고 처음에 정한 그대로 최선을 다해주셔서 좋았습니다 </div><!--praytext-->
+                </section><!--reviewcontent-->
+                <section class="review--content">
+                    <span class="profile--img"><img src="image/side_profile.png"></span>
+                    <div class="profile--name">
+                        <p class="review--name">김아람</p>
+                        <span class="star--icon">
+                            <img src="image/star.png">
+                            <img src="image/star.png">
+                            <img src="image/star.png">
+                            <img src="image/star.png">
+                            <img src="image/star_gray.png">
+                        </span><!--staricon-->
+                    </div><!--profilename-->
+                    <p class="review--date">2021. 11. 09. 오전 10:59</p>
+                    <div class="custom--option">
+                        <p class="custom--content">맞춤형 장례 외 1건</p>
+                    </div><!--customoption-->
+                    <div class="review--text">
+                        아이 화장하고 장례용품 몇가지 구매했는데 좋았습니다. </div><!--praytext-->
+                    <div class="review--photo">
+                        <ul>
+                            <li><img src="image/no_image_w.png"></li>
+                            <li><img src="image/no_image_w.png"></li>
+                        </ul>
+                    </div><!--reviewphoto-->
+                </section><!--reviewcontent-->
             </div><!--tab_box-->
         </div> <!-- tab_box_container-->
       </div> <!-- tab_wrap-->
@@ -244,7 +254,7 @@
     <div class="foot--btn">
         <button class="btn--call" onclick="location.href=''"><img src="image/call.png"></button>
         <button class="btn--cart" onclick="location.href='store_cart.html'"><img src="image/cart_icon.png"><p>2</p></button>
-        <button class="btn--buy" onclick="location.href='pay.html'"><span>결제하기</span></button>
+        <button class="btn--buy" onclick="location.href='booking_detail.html'"><span>주문하기</span></button>
     </div>
 </footer>
 <script src="js/jquery-3.5.1.js"></script>

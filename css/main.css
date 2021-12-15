@@ -77,7 +77,6 @@ header{
     font-size: 12px;
     color:#757575;
     margin-top: 6px;
-    font-weight: 300;
 }
 .cate--go{
     font-size:12px;
@@ -103,21 +102,6 @@ header{
 .cate2 p{
     display: block; 
     text-align: left;
-}
-.cate--title{
-    font-size:16px; 
-    font-weight: bold;
-}
-.cate--content{
-    font-size: 12px;
-    color:#757575;
-    margin-top: 6px;
-}
-.cate--go{
-    font-size:12px;
-    margin-top: 24px;
-    color: #4A61A3;
-    font-weight: bold;
 }
 .routine{
     height:48px;
@@ -234,6 +218,7 @@ footer{
     width: 100%;
     display: flex;
     padding:64px 0 29px 32px;
+    align-items: center;
 }
 .side__nav--top img{
     width: 56px;

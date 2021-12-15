@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/booking_setting.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>예약설정</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="booking_detail.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">예약일시설정</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <section class="booking--date">
+            <p>예약일자</p>
+            <button class="booking--date-set" >
+                <img src="image/booking_icon_mini.png">예약일자를 선택해주세요.
+            </button>
+        </section>
+        <section class="booking--time">
+            <p>예약시간</p>
+            <div class="booking--state">
+                <span class="book-select">예약선택</span>
+                <span class="book-ok">예약가능</span>
+                <span class="book-no">예약마감</span>
+            </div>
+            <div class="booking--time-set">예약일자를 먼저 선택해 주세요.</div>
+            <button class="set-done">설정완료</button>
+        </section>
+    </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
