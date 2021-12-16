@@ -132,7 +132,7 @@
     float:left; 
     margin:17px 0 0 16px;
 }
-input[type="text"]{
+input[type="number"]{
     width: 7px;
     text-align: center;
     border-style: none;
