@@ -72,20 +72,16 @@
     color: #9e9e9e;
     text-decoration: underline;
     text-decoration-color: #9e9e9e;
-    font-weight: 300;
 }
-.content--title{font-weight: 500;}
 .content--fs{
     font-size: 12px; 
     color: #4a61a3; 
     margin-left: 4px; 
-    font-weight: 300;
 }
 .content--st{
     font-size: 12px; 
     color: #9e9e9e; 
     margin-left: 4px; 
-    font-weight: 300;
 }
 .foot--next{
     width: 100%;

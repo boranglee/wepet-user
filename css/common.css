@@ -74,7 +74,7 @@ a{text-decoration:none;}
 	left: 0;
 	right: 0;
 	line-height: 56px;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 }
 .head__search--left{
@@ -152,7 +152,6 @@ input[type="text"] {
     border: 1px solid #9E9E9E;
     box-sizing: border-box;
     outline: none;
-    color:#9E9E9E;
     width: 100%;
     border-radius: 4px;
     margin-bottom:8px;
@@ -169,5 +168,5 @@ input[type="password"],
 input[type="tel"],
 input[type="text"]::placeholder{
     color: #757575; 
-    font-weight: 400;
+	font-size: 15px;
 }
