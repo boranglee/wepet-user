@@ -204,9 +204,9 @@
     width: 24px;
     height: 24px;
 }
-.btn--call, .btn--cart{
-    width: 48px;
-    height: 48px;
+.btn--call{
+    width: 52px;
+    height: 52px;
     background-color: #ffffff;
     border: 1px solid #9e9e9e;
     border-radius: 4px;
@@ -214,21 +214,9 @@
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
     position: relative;
 }
-.btn--cart p{
-    position: absolute;
-    top: 7%;
-    right: 10%;
-    font-size: 10px;
-    color:#ffffff;
-    background: #ff6250;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-}
 .btn--buy{
-    width:60%;
-    height: 48px;
-    border:1px solid #4A61A3;
+    width:74%;
+    height:52px;
     background: #4A61A3;
     border-radius: 4px;
     vertical-align: top;
@@ -237,7 +225,18 @@
 .btn--buy span{
     color:#ffffff; 
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
+}
+.btn--buy em{
+    color: #4A61A3;
+    font-weight:400;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: inline-block;
+    line-height: 16px;
+    margin-left: 4px;
 }
 .storePresent p{
     text-align: left;

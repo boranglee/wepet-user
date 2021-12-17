@@ -60,7 +60,7 @@
 .store--title{
   text-align: left; 
   margin-bottom: 4px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .store--address{
   text-align: left; 
@@ -72,23 +72,26 @@
 }
 .store--icon span{
   font-size: 12px;
-  font-weight:300;
   color:#4A61A3;
   padding:1px 4px;
   background: #E9EDF2;
   border-radius: 2px;
   margin-right: 4px;
 }
-.store--distance {
-  text-align: right;
-}
 .store--distance img{
   width: 14px; 
-  height: 14px; 
+  height: 14px;
+  vertical-align: text-bottom;
 }
-.store--distance span{
+.store--distance{
   font-weight: bold;
   color: #4A61A3;
+  font-size: 12px;
+  padding:0 6px 0 4px;
+  height: 19px;
+  background: #F0F2F9;
+  border-radius: 100px;
+  margin-left: 4px;
 }
 .accordian--up{
   height: 63px;
