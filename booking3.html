@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/booking3.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>예약3</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="booking2.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">장례식장 예약하기</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <section class="process--head"> 
+            <div class="process--head--title">예약접수 완료</div>
+            <div class="process--head--order">
+                <ul>
+                    <li class="order1"><span class="order_num">1</span></li>
+                    <li><img src="image/arrow_right.png"></li>
+                    <li class="order2"><span class="order_num">2</span></li>
+                    <li><img src="image/arrow_right.png"></li>
+                    <li class="order3"><span class="order_num">3</span></li>
+                </ul>
+            </div><!--processheadorder-->
+        </section><!--processhead-->
+        <section class="booking--done">
+            <p><img src="image/check_icon.png"></p>
+            <div class="booking--done--title">예약 접수 완료</div>
+            <div class="booking--done--content">
+                장례식장에 예약을 접수했어요.<br/>
+                예약이 확정되면 결제요청 알림을 보내드릴게요.</div>
+            <button class="orderDetail-btn" onclick="location.href='booking_list.html'">
+                <span>주문내역 바로가기</span>
+            </button>
+        </section><!--bookingdone-->
+    </main>
+    <footer>
+        <button class="foot--btn" onclick="location.href='main.html'"><span>확인</span></button>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

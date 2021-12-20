@@ -178,6 +178,7 @@ input[type="number"]{
 .btn--call span{
     color:#4A61A3; 
     font-weight: bold;
+    font-size: 16px;
 }
 .btn--buy{
     width:44%;

@@ -61,22 +61,45 @@
   text-align: left; 
   margin-bottom: 4px;
   font-size: 16px;
+  font-weight: bold;
 }
 .store--address{
   text-align: left; 
   color:#757575 ;
 }
+.store--review{
+  text-align: left;
+}
+.store--review::before{
+  content: '';
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background:url("../image/star.png") no-repeat 0 -1px /14px auto;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+.store--review em{
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+.store--review span{
+  font-size: 14px;
+  color: #757575;
+  font-weight: 300;
+}
 .store--icon{
   text-align: left; 
-  margin-top: 10px;
 }
 .store--icon span{
-  font-size: 12px;
+  font-size: 10px;
   color:#4A61A3;
-  padding:1px 4px;
+  padding:2px 5px;
   background: #E9EDF2;
   border-radius: 2px;
-  margin-right: 4px;
+  margin-right:2px;
+  font-weight:500;
 }
 .store--distance img{
   width: 14px; 
@@ -87,7 +110,7 @@
   font-weight: bold;
   color: #4A61A3;
   font-size: 12px;
-  padding:0 6px 0 4px;
+  padding:1px 6px 1px 4px;
   height: 19px;
   background: #F0F2F9;
   border-radius: 100px;

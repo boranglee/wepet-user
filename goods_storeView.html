@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
-    <link href="css/storeView_new.css" rel="stylesheet"/>
+    <link href="css/goods_storeView.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
     <link href="css/font.css" rel="stylesheet">
-    <title>업체정보2</title>
+    <title>용품-업체정보</title>
 </head>
 <body>
 <header class="header">
     <div class="head">
-        <div class="head__back"><a href="storeList.html"><img src="image/back_icon.png"></a></div>
-        <div class="head__title">꿈나라 애견 장례식장</div>
-        <div class="head__cart"><a href="store_cart.html"><img src="image/cart_icon.png"><p>2</p></a></div>
+        <div class="head__back"><a href="goodsList2.html"><img src="image/back_icon.png"></a></div>
+        <div class="head__title">21그램 반려동물 장례식장</div>
+        <div class="head__cart"><a href="goods_cart.html"><img src="image/cart_icon.png"><p>2</p></a></div>
     </div><!--head-->
 </header>
 <main class="main">
@@ -23,97 +23,69 @@
         </div><!--main_view-->
     <div class="storeInfo">
         <ul class="mainTag">
-            <li>픽업</li>
-            <li>운구</li>
-            <li>납골당</li>
+            <li class="icon--quick">당일발송</li>
+            <li class="icon--free">무료배송</li>
         </ul><!--maintag-->
         <ul class="storeTitle">
-            <li class="storeTitle--title">꿈나라 애견 장례식장</li>
-            <li class="storeTitle--address">전라북도 전주시 완산구 효자로 43-42
+            <li class="storeTitle--title">21그램 반려동물 장례식장</li>
+            <li class="storeTitle--address">결제 1일 이내 발송
                 <span><img src="image/location_mini.png">12km</span>
             </li>
             <li class="storeTitle--review">
                 <img src="image/star.png">5.0<span>(후기 1건)</span></li>
         </ul><!--storeTitle-->
-        <div class="storeTitle--register_num">
-            <div class="accordian--container">
-                <div class="info--accordian_mini">
-                    <div class="register_num--title"><em>e동물장례포털</em>에 등록된 합법 장례업체입니다.
-                        <p class="accordian-arrow_mini"><img src="image/downBtn.png"></p></div>
-                </div><!--infoaccordian-->
-                <section class="content_mini" style="display: none;">
-                    <div class="content--register">
-                        <p class="content--register-title">동물 장묘업 등록번호</p>
-                        <p class="content--register-number">100000-1000-100-11000</p>
-                    </div>
-                    <div class="content--detail">
-                        농림축산식품부령으로 정한 기준에 따라 동물장묘업으로 허가받아 시설, 환경, 안전, 운영에 대한 주기적인 검사를 받으며, 동물장묘업 허가사항(장례, 화장/건조/수분해, 봉안) 중 허가받은 항목에 대한 합법적 운영을 하는 장례식장입니다.
-                    </div>
-                </section>
-            </div>
-        </div>
     </div><!--storeinfo-->
     <div class="tab_container">
         <div class="tab_menu_container">
-          <button class="tab_menu_btn on" type="button">장례서비스</button>
+          <button class="tab_menu_btn on" type="button">장례용품</button>
           <button class="tab_menu_btn" type="button">업체정보</button>
           <button class="tab_menu_btn" type="button">이용후기</button>
         </div> <!-- tab_menu_container e -->
         <div class="tab_box_container">
             <div class="tab_box on">
                 <div class="tab_menu_round_container">
-                    <button class="tab_menu_round on" type="button">기본장례</button>
-                    <button class="tab_menu_round" type="button">고급장례</button>
-                    <button class="tab_menu_round" type="button">맞춤장례</button>
-                    <button class="tab_menu_round" type="button">장례용품</button>
+                    <button class="tab_menu_round on" type="button">관</button>
+                    <button class="tab_menu_round" type="button">수의</button>
+                    <button class="tab_menu_round" type="button">유골함</button>
+                    <button class="tab_menu_round" type="button">생화장식</button>
+                    <button class="tab_menu_round" type="button">메모리스톤</button>
                 </div> <!-- tab_menu_container e -->
-                <div class="menu"><span>기본장례</span></div>
+                <div class="menu1"><span>관</span></div>
+                <a href="goodsDetail2.html">
                 <div class="box--content">
                     <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
                     <div class="serviceinfo">
-                        <div class="serviceinfo--title">기본형</div>
-                        <div class="serviceinfo--detail">염습/오동나무관/추모실/화장/기본유골함</div>
-                        <div class="serviceinfo--price">300,000원</div>
+                        <div class="serviceinfo--title">럭셔리 소나무관</div>
+                        <div class="serviceinfo--detail">소나무로 제작된 럭셔리한 스타일의 관</div>
+                        <div class="serviceinfo--price">80,000원</div>
                     </div><!--serviceinfo-->
                 </div><!--boxcontent-->
-                <div class="menu"><span>고급장례</span></div>
+                </a>
                 <div class="box--content">
+                    <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
                     <div class="serviceinfo">
-                        <a href="option_select.html">
-                        <div class="serviceinfo--title">고급형 A</div>
-                        <div class="serviceinfo--detail">염습/오동나무관/추모실/화장/기본유골함</div>
-                        <div class="serviceinfo--price">300,000원</div>
-                        </a>
-                    </div><!--serviceinfo-->
-                </div><!--boxcontent-->
-                <div class="box--content">
-                    <div class="serviceinfo">
-                        <a href="option_select.html">
-                        <div class="serviceinfo--title">고급형 B</div>
-                        <div class="serviceinfo--detail">염습/오동나무관/추모실/화장/기본유골함</div>
-                        <div class="serviceinfo--price">300,000원</div>
-                        </a>
+                        <div class="serviceinfo--title">오동나무 관(기본형)</div>
+                        <div class="serviceinfo--detail">품질좋은 오동나무로 만든 기본형 관</div>
+                        <div class="serviceinfo--price">30,000원</div>
                     </div><!--serviceinfo-->
                 </div><!--boxcontent-->
                 <div class="box--content">
+                    <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
                     <div class="serviceinfo">
-                        <a href="option_select.html">
-                        <div class="serviceinfo--title">고급형 C</div>
-                        <div class="serviceinfo--detail">염습/오동나무관/추모실/화장/기본유골함</div>
-                        <div class="serviceinfo--price">300,000원</div>
-                        </a>
+                        <div class="serviceinfo--title">오동나무 관 (고급형)</div>
+                        <div class="serviceinfo--detail">품질좋은 오동나무로 만든 고급형 관</div>
+                        <div class="serviceinfo--price">50,000원</div>
                     </div><!--serviceinfo-->
                 </div><!--boxcontent-->
-                <div class="menu"><span>맞춤장례</span></div>
+                <div class="menu1"><span>수의</span></div>
                 <div class="box--content">
                     <div class="serviceinfo">
                         <a href="custom_new.html">
-                        <div class="serviceinfo--title">맞춤형</div>
-                        <div class="serviceinfo--detail">원하는 옵션을 직접 선택하여 진행</div>
-                        <div class="serviceinfo--price">200,000~</div></a>
+                        <div class="serviceinfo--title">삼베수의</div>
+                        <div class="serviceinfo--detail">간단한 상품설명을 작성합니다</div>
+                        <div class="serviceinfo--price">20,000</div></a>
                     </div><!--serviceinfo-->
                 </div><!--boxcontent-->
-                
             </div><!--tab_box_on-->
             <div class="tab_box">
                 <div class="tab_menu_round_container">
@@ -237,7 +209,7 @@
 <footer>
     <div class="foot--btn">
         <button class="btn--call" onclick="location.href=''"><img src="image/call.png"></button>
-        <button class="btn--buy" onclick="location.href='booking1.html'"><span>예약하기<em>1</em></span></button>
+        <button class="btn--buy" onclick="location.href='goodsPay1.html'"><span>구매하기<em>1</em></span></button>
     </div>
 </footer>
 <script src="js/jquery-3.5.1.js"></script>

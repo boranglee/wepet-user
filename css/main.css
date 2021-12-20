@@ -84,6 +84,15 @@ header{
     float:left;
     padding: 0;
 }
+.cate--go::after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url("../image/next_icon.png") no-repeat 0 -1px /14px auto;
+    vertical-align: middle;
+
+}
 .cate2 {
     position: relative;
     padding:20px 16px; 

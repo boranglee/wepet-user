@@ -178,14 +178,18 @@ input[type="number"]{
     float: right;
 }
 .foot--btn{
-    width: 100%;
+    width: 100%; 
     background: #fafafa;
     padding:16px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-.btn--call{
+.foot--btn span{
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn--cart{
     width:44%;
     height: 48px;
     border:1px solid #4A61A3;
@@ -194,7 +198,9 @@ input[type="number"]{
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
     margin-right: 12px;
 }
-.btn--call span{color:#4A61A3; font-weight: bold;}
+.btn--cart span{
+    color:#4A61A3; 
+}
 .btn--buy{
     width:44%;
     height: 48px;
@@ -205,5 +211,4 @@ input[type="number"]{
 }
 .btn--buy span{
     color:#ffffff; 
-    font-weight: 500;
 }

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+.locationTab{
+  padding:16px; 
+  border-bottom: 6px solid #DDDFE5;
+}
+.locationTab p{
+  width:100%;
+  height:40px;
+  border-radius: 4px;
+  background:#F6F7FC ;
+  line-height: 40px;
+}
+.locationTab p img{
+  width: 24px;
+  height: 24px;
+  vertical-align:middle;
+}
+.box--content{
+  display: flex;
+  column-gap: 14px;
+  padding: 20px 16px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.store--list{width:100%;}
+.list--img{
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 6px;
+}
+.store--title{
+  text-align: left; 
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.store--address{
+  text-align: left; 
+  color:#757575 ;
+}
+.store--review{
+  text-align: left;
+  margin-top: 2px;
+}
+.store--review::before{
+  content: '';
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background:url("../image/star.png") no-repeat 0 -1px /14px auto;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+.store--review em{
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+.store--review span{
+  font-size: 14px;
+  color: #757575;
+  font-weight: 300;
+}
+.store--icon{
+  text-align: left; 
+  margin-top: 8px;
+}
+.icon--quick{
+    font-size: 10px;
+    color: #ffffff;
+    background:#FF6250;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.icon--free{
+    font-size: 10px;
+    color: #ffffff;
+    background:#5090FF;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.icon--del{
+    font-size: 10px;
+    color: #4a61a3;
+    background:#f5f5f5;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.store--distance img{
+  width: 14px; 
+  height: 14px;
+  vertical-align: text-bottom;
+}
+.store--distance{
+  font-weight: bold;
+  color: #4A61A3;
+  font-size: 12px;
+  padding:1px 6px 1px 4px;
+  height: 19px;
+  background: #F0F2F9;
+  border-radius: 100px;
+}
