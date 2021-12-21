@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/booking_state.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>예약내역</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="payment_list.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">내역상세</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <section class="booking--top">
+            <p class="booking--state--done">예약완료</p>
+            <p class="booking--title">꿈나라 애견 장례식장</p>
+            <p class="booking--content">맞춤형 (염습A/입관X/삼베수의/추모실/화장/메모리얼스톤)</p>
+            <p class="booking--date">2021. 11. 23 오전 10:10</p>
+            <button class="call">문의전화</button>
+            <button class="cancel">예약취소</button>
+        </section><!--bookingtop-->
+        <section class="booking--pay--info">
+            <p class="pay--info--title">예약정보</p>
+            <div class="pay--info--bg">
+            <div class="pay--info">
+                <ul>
+                    <li class="info--title">맞춤형</li>
+                    <li class="info--content">염습A/입관X/삼베수의/추모실/화장/메모리얼스톤</li>
+                </ul>
+                <span>270,000원</span>
+            </div><!--payinfo-->
+            </div><!--payinfobg-->
+            <div class="last--pay">
+                <ul>
+                    <li>총결제금액<span>270,000원</span></li>
+                    <li>결제수단<span>카드결제</span></li>
+                </ul>
+            </div><!--lastpay-->
+        </section><!--bookingpayinfo-->
+        <section class="pickup--info">
+            <p class="pickup--info--title">픽업정보</p>
+            <div class="pickup--adr">
+                <ul>
+                    <li>반려동물 이름<span>멍뭉이</span></li>
+                    <li>연락처<span>010-1234-5678</span></li>
+                    <li>배송주소
+                        <p class="adr1">전라북도 전주시 완산구 홍산북로 60-10</p>
+                        <p class="adr2">전라북도 전주시 완산구 효자동 60-10</p>
+                    </li>
+                </ul>
+            </div><!--lastpay-->
+        </section><!--pickupinfo-->
+    </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

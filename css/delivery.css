@@ -1,36 +1,29 @@
 @charset "UTF-8";
 
 .del--top{
-    padding:24px 16px; 
+    padding:24px 16px 16px; 
     border-bottom: 6px solid #dddfe5;
 }
 .del--top p{
     text-align: left;
 }
-.del--state{
-    font-size: 12px; 
+.del--state--done{
     color: #9e9e9e;
 }
+.del--state--ready{
+    color: #FF6250;
+}
+.del--state--ing{
+    color: #5090FF;
+}
 .del--title{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     padding:2px 0;
 }
-.del--content{color:#424242;}
 .del--date{
-    font-size: 12px;
     color:#9e9e9e;
-    padding:8px 0 16px;
-}
-.store{
-    font-weight: bold;
-    color: #4a61a3;
-    border:1px solid #4a61a3;
-    border-radius: 4px;
-    width: 100%;
-    height: 48px;
-    line-height: 46px;
-    box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
+    padding:8px 0;
 }
 .del--pay--info{
     padding:20px 16px; 
@@ -42,11 +35,44 @@
     padding-bottom:12px;
     border-bottom: 2px solid #212121;
 }
+.pay--info--top{
+    display: flex;
+    padding-top: 16px;
+}
+.top--title{
+    text-align: left;
+    width: 80%;
+    color: #4A61A3;
+    font-weight: bold;
+}
+.top--title::after{
+    content: '';
+    width:14px;
+    height: 14px;
+    display: inline-block;
+    background: url("../image/next_icon.png") no-repeat 0 0 / 14px auto;
+    vertical-align: middle;
+}
+.top--state--done{
+    text-align: right;
+    width: 20%;
+    color: #9e9e9e;
+}
+.top--state--ing{
+    text-align: right;
+    width: 20%;
+    color: #5090FF;
+}
+.top--state--ready{
+    text-align: right;
+    width: 20%;
+    color: #FF6250;
+}
 .pay--info--bg{
     background: #F5F5F5;
     border-radius: 4px;
     padding: 0 14px;
-    margin:16px 0;
+    margin-top: 16px;
 }
 .pay--info{
     display: flex;
@@ -57,11 +83,10 @@
 .pay--info ul{width: 60%;}
 .pay--info li{text-align: left;}
 .info--title{
-    font-size: 16px; 
+    font-size: 15px; 
     margin-bottom: 2px;
 }
 .info--content{
-    font-size: 12px; 
     color:#757575;
 }
 .pay--info span{
@@ -73,6 +98,9 @@
 .product--pay {
     padding-bottom:8px; 
     border-bottom: 1px solid #E0E0E0;
+}
+.product--pay ul{
+    margin-top: 16px;
 }
 .product--pay li{
     text-align: left; 
@@ -100,6 +128,7 @@
 .del--adr li{
     text-align: left; 
     padding:12px 0;
+    font-size: 15px;
 }
 .del--adr li:first-child{
     border-bottom: 1px solid #f5f5f5;
@@ -122,4 +151,15 @@
     border:1px solid #9e9e9e;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
+    font-size: 16px;
 }
+.top_delete{
+    width: 100%; 
+    height: 48px;
+    border:1px solid #9e9e9e;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
+    display: block;
+    margin: 16px 0;
+}
+.top_delete span{font-size: 16px;}

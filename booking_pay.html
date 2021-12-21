@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/booking_pay.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>결제하기</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="pay_wait.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">예약 결제하기</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <div class="menu">결제수단</div>
+        <div class="option_radio">
+            <ul>
+                <li>
+                    <input type="radio" id="opSelect01" name="radio" value="" checked/>
+                    <label for="opSelect01" ><span>신용카드</span></label> 
+                </li>
+                <li>   
+                    <input type="radio" id="opSelect02" name="radio" value=""/>
+                    <label for="opSelect02"><span>계좌이체</span></label>
+                </li>
+                <li>
+                    <input type="radio" id="opSelect03" name="radio" value=""/>
+                    <label for="opSelect03"><span>카카오페이</span></label>
+                </li>
+                <li>
+                    <input type="radio" id="opSelect04" name="radio" value=""/>
+                    <label for="opSelect04"><span>네이버페이</span></label>
+                </li>
+            </ul>
+        </div><!--option_radio-->
+        <div class="payment">
+            <div class="info--accordian">
+                <div class="payment--confirm">예약 조건 확인 및 결제진행 동의 내용보기
+                <p class="accordian-arrow"><img src="image/blue_btn.png"></p>
+                </div>
+            </div><!--infoaccordian-->
+                <div class="content" style="display: none;">
+                    <p>내용보기내용보기내용보오오오오옹옹기</p></div>
+            </div><!--infoaccordian-->
+            <div class="payment--agree">위 내용을 확인하였으며, 결제에 동의합니다
+                <span class="round">
+                <input type="checkbox" checked id="checkbox" />
+                <label for="checkbox"></label>
+                </span>
+            </div><!--paymentagree-->
+        </div><!--payment-->
+    </main>
+    <footer>
+        <div class="foot--price">
+            <p>총 결제금액 <span>193,000원</span></p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
