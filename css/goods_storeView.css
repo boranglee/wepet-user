@@ -59,12 +59,12 @@
     right: 16px;
     font-weight: bold;
     color: #4A61A3;
-    font-size: 16px;
+    font-size: 18px;
 }
 .storeTitle .storeTitle--address span img{
     vertical-align:revert;
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
 }
 .storeTitle .storeTitle--review{
     font-weight: bold; 
