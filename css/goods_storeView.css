@@ -10,21 +10,24 @@
 }
 .mainTag li{display: inline-block;}
 .icon--quick{
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 500;
     color: #ffffff;
     background:#FF6250;
     padding: 2px 5px;
     border-radius: 2px;
 }
 .icon--free{
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 500;
     color: #ffffff;
     background:#5090FF;
     padding: 2px 5px;
     border-radius: 2px;
 }
 .icon--del{
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 500;
     color: #4a61a3;
     background:#f5f5f5;
     padding: 2px 5px;
@@ -43,11 +46,12 @@
     line-height: 1.5em;
 }
 .storeTitle .storeTitle--title{
-    font-size: 18px; 
+    font-size:20px; 
     font-weight: bold;
 }
 .storeTitle .storeTitle--address{
     color:#757575;
+    font-size: 16px;
 }
 .storeTitle .storeTitle--address span{
     display: inline-block;
@@ -55,6 +59,7 @@
     right: 16px;
     font-weight: bold;
     color: #4A61A3;
+    font-size: 16px;
 }
 .storeTitle .storeTitle--address span img{
     vertical-align:revert;
@@ -63,12 +68,14 @@
 }
 .storeTitle .storeTitle--review{
     font-weight: bold; 
-    margin: 12px 0;
+    margin: 10px 0 0;
+    font-size: 16px;
 }
 .storeTitle .storeTitle--review span{
     font-weight: 400;
     color: #757575;
     margin-left:4px;
+    font-size: 14px;
 }
 .storeTitle .storeTitle--review img{
     vertical-align:middle;
@@ -87,7 +94,6 @@
 .tab_menu_container {
     display: flex; 
     flex-wrap: nowrap; 
-    line-height: 50px;
 }
 .tab_menu_btn {
     height:56px;
@@ -201,7 +207,6 @@
 }
 .btn--buy em{
     color: #4A61A3;
-    font-weight:400;
     width: 16px;
     height: 16px;
     border-radius: 50%;
@@ -209,6 +214,7 @@
     display: inline-block;
     line-height: 16px;
     margin-left: 4px;
+    font-size: 10px;
 }
 .storePresent p{
     text-align: left;

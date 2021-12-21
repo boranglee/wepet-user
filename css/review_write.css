@@ -32,7 +32,6 @@
     font-size: 0;
 }
 .star--icon p{
-    font-size:12px;
     color:#757575;
     margin-top:8px;
 }
@@ -57,20 +56,20 @@ textarea:focus{
 }
 input[type="file"]{display: none;}
 .input--button{
-    padding:27px;
+    padding:27px 23px;
     background: #f6f7fc;
     float:left;
-    font-size: 12px;
     color: #424242;
     border-radius: 4px;
     margin-right: 4px;
+    font-weight: bold;
 }
 .input--button::before{
     content: '';
     display:block;
     width: 45px;
     height: 24px;
-    background: url("../image/photo.png") no-repeat 12px -2px /24px auto;
+    background: url("../image/photo.png") no-repeat 13px -2px /24px auto;
 }
 .input--photo{
     display: flex;
