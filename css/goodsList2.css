@@ -54,7 +54,6 @@
   margin-right: 2px;
 }
 .store--review em{
-  font-size: 16px;
   font-weight: bold;
   margin-right: 4px;
 }
@@ -69,6 +68,7 @@
 }
 .icon--quick{
     font-size: 10px;
+    font-weight: bold;
     color: #ffffff;
     background:#FF6250;
     padding: 2px 5px;
@@ -76,6 +76,7 @@
 }
 .icon--free{
     font-size: 10px;
+    font-weight: bold;
     color: #ffffff;
     background:#5090FF;
     padding: 2px 5px;
@@ -83,6 +84,7 @@
 }
 .icon--del{
     font-size: 10px;
+    font-weight: bold;
     color: #4a61a3;
     background:#f5f5f5;
     padding: 2px 5px;

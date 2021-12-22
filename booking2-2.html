@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/booking2.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>예약2-2</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="booking1.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">장례식장 예약하기</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <section class="process--head"> 
+            <div class="process--head--title">예약정보 입력</div>
+            <div class="process--head--order">
+                <ul>
+                    <li class="order1"><span class="order_num">1</span></li>
+                    <li><img src="image/arrow_right.png"></li>
+                    <li class="order2"><span class="order_num">2</span></li>
+                    <li><img src="image/arrow_right.png"></li>
+                    <li class="order3"><span class="order_num">3</span></li>
+                </ul>
+            </div><!--processheadorder-->
+        </section><!--processtermshead-->
+        <div class="info--title">예약정보</div>
+        <div class="booking--info">
+            <div class="booking--info--title"><img src="image/booking_icon.png">예약정보</div>
+            <button class="booking--date" onclick="location.href='booking_setting2.html'">2021-12-10 09 : 00<span>변경</span></button>
+            <div class="input--text">
+                <p>반려동물 이름</p>
+                <input type="text" id="searchText" placeholder="반려동물 이름을 입력해주세요." autocomplete="off">
+                <p>주문자(보호자) 연락처</p>
+                <input type="tel" id="searchText" placeholder="연락처를 입력해주세요." autocomplete="off">
+            </div>  
+        </div><!--bookinginfo-->
+        <div class="pay--info">
+            <div class="info--address">
+                <div class="info--address--title"><img src="image/location_mini.png">픽업정보</div>
+                <div class="info--address--detail">
+                    <p>전라북도 전주시 완산구 홍산북로 60-10</p>
+                    <p class="info--address--text2">[지번주소] 전라북도 전주시 완산구 효자동 60-10</p>
+                    <button class="info--address--change">주소변경</button>
+                </div>
+                <div class="input--text">
+                    <input type="text" id="searchText" placeholder="나머지 주소를 입력해주세요" autocomplete="off">
+                </div>    
+            </div><!--infoaddress-->
+        </div><!--payinfo-->
+        <div class="list--title">예약내역</div>
+        <div class="pay--list">
+            <div class="list--product--bg">
+                <div class="list--product">
+                    <ul class="product--title">
+                        <li class="product--title--name">맞춤형 장례</li>
+                        <li class="product--title--detail">5kg 이하 / 픽업안함 / 염습 옵션 A / 입관안함 / 삼베수의 / 메모리얼스톤 제작</li>
+                    </ul>
+                    <span>270,000원</span>
+                </div>
+            </div><!--listbg-->
+            <div class="all--price">
+                <span class="all--price--name">총 결제금액</span>
+                <span class="all--price--pay">270,000원</span>
+            </div>
+        </div><!--paylist-->
+    </main>
+    <footer>
+        <button class="foot--price" onclick="location.href='booking3.html'">
+            <p>예약 접수하기</p>
+        </button>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

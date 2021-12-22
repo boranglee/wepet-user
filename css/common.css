@@ -120,11 +120,11 @@ a{text-decoration:none;}
 	position: absolute;
 	top:17px;
 	right: 16px;
-	font-size: 14px;
 	font-weight: bold;
 	color: #4A61A3;
-	width: 26px;
-	height: 19px;
+	width: 29px;
+	height: 23px;
+	font-size: 16px;
 }
 .menu{
     height: 49px;

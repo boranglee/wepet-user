@@ -23,6 +23,7 @@ input[type=date] {
     border-radius: 4px;
     margin-top: 8px;
     border: 1px solid #9e9e9e;
+    background: #ffffff;
 }  
 .booking--date-set img{
   width: 20px;

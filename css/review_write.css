@@ -12,10 +12,21 @@
     width: 100%;
     padding: 12px 0;
     border-radius: 2px;
+    position: relative;
 }
 .custom--option p{
     margin-left:12px;
     text-align: left;
+}
+.custom--option span{
+    position: absolute;
+    top: 19px;
+    right: 12px;
+    font-weight: bold;
+    color: #4a61a3;
+    background: #ffffff;
+    padding:4px 12px;
+    border-radius: 100px;
 }
 .custom--name{
     color:#424242;

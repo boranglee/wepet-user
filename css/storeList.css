@@ -15,7 +15,7 @@
 .locationTab p img{
   width: 24px;
   height: 24px;
-  vertical-align:middle;
+  vertical-align:sub;
 }
 .tab_menu_container {
   display: flex;
@@ -60,8 +60,8 @@
 .store--title{
   text-align: left; 
   margin-bottom: 4px;
-  font-size: 16px;
   font-weight: bold;
+  font-size: 16px;
 }
 .store--address{
   text-align: left; 
@@ -69,6 +69,7 @@
 }
 .store--review{
   text-align: left;
+  margin:2px 0 5px;
 }
 .store--review::before{
   content: '';
@@ -80,12 +81,10 @@
   margin-right: 2px;
 }
 .store--review em{
-  font-size: 16px;
   font-weight: bold;
   margin-right: 4px;
 }
 .store--review span{
-  font-size: 14px;
   color: #757575;
   font-weight: 300;
 }
