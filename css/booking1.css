@@ -38,6 +38,17 @@
     font-weight: bold;
     line-height: 24px;
 }
+.none-comment{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.none-comment p{
+    font-size: 15px;
+    color: #757575;
+}
 .store--name{
     background: #E9EDF2;
     height: 48px;
@@ -125,11 +136,13 @@
     width: 24px;
     height: 24px;
 }
-input {
+input{
     width: 7px;
     text-align: center;
     border-style: none;
     background: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 .count--price{
     float:left;
@@ -179,12 +192,23 @@ input {
 .btn--buy{
     width:44%;
     height: 48px;
-    border:1px solid #4A61A3;
     background: #4A61A3;
     border-radius: 4px;
     box-shadow: 0 2px 15px rgb(0 0 0 / 12%);
 }
 .btn--buy span{
+    color:#ffffff; 
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn--buy-none{
+    width:44%;
+    height: 48px;
+    background: #BDBDBD;
+    border-radius: 4px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 12%);
+}
+.btn--buy-none span{
     color:#ffffff; 
     font-weight: bold;
     font-size: 16px;

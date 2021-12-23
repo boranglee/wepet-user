@@ -2,10 +2,10 @@
 
 .tab_menu_container {
     display: flex;
-    line-height: 50px;
+    line-height: 56px;
 }
 .tab_menu_btn {
-    height:50px;
+    height:56px;
     margin:0 auto;
     width:50%;
     color:#757575;
