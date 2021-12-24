@@ -115,6 +115,14 @@
     line-height: 56px;
     background: #E9EDF2;
 }
-.side__nav-foot p{ 
-    color:#9e9e9e;
+.side__nav-foot span{
+    color:#616161;
+}
+.nav--logout::after{
+    content: '';
+    width: 1px;
+    height: 10px;
+    display: inline-block;
+    border-right: 1px solid #bdbdbd;
+    margin:0 10px;
 }
