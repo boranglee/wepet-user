@@ -120,7 +120,7 @@ input[type="radio"].end + label {
 input[type="radio"].end + label span{
     color:#e0e0e0;
 }
-.set-done{
+.set-doneBtn{
     font-weight: bold;
     background: #4a61a3;
     padding:14.5px ;
@@ -129,7 +129,7 @@ input[type="radio"].end + label span{
     border-radius: 4px;
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
 }
-.set-done span{
+.set-doneBtn span{
     color: #ffffff;
     font-size: 16px;
 }

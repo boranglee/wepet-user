@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
-.custom--main--mainview img{
+.custom--main-mainview img{
     width:100%;
     height:170px;
     object-fit: cover;
     object-position: center;
 }
-.custom--main--title{
+.custom--main-title{
     font-size:20px;
     font-weight: bold;
     padding:32px 0 4px;
 }
-.custom--main--price{
+.custom--main-price{
     font-size: 18px;
     font-weight: bold;
 }
-.custom--main--detail{
+.custom--main-detail{
     color: #757575;
     padding:20px 0;
     font-weight: 300;
@@ -97,17 +97,17 @@
     width: 100%;
     margin-top: 10px;
 }
-.input--weight--title{
+.input--weight-title{
     text-align: left;
     font-size: 15px;
 }
-.input--weight--explain{
+.input--weight-explain{
     color: #757575;
     font-weight: 300;
     text-align: left;
     margin-top: 2px;
 }
-.input--weight--btn{
+.input--weightBtn{
     font-size: 15px;
     font-weight: bold;
     color: #ffffff;
@@ -161,7 +161,7 @@ input[type="number"]{
     width: 24px;
     text-align: center;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
 }
 .all--price{
     padding:0 16px 85px;
@@ -173,10 +173,10 @@ input[type="number"]{
     font-weight: bold;
     display: block;
 }
-.all--price--title{
+.all--price-title{
     float: left;
 }
-.all--price--total{
+.all--price-total{
     float: right;
 }
 .foot--btn{
@@ -191,7 +191,7 @@ input[type="number"]{
     font-weight: bold;
     font-size: 16px;
 }
-.btn--cart{
+.cartBtn{
     width:44%;
     height: 48px;
     border:1px solid #4A61A3;
@@ -200,10 +200,10 @@ input[type="number"]{
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
     margin-right: 12px;
 }
-.btn--cart span{
+.cartBtn span{
     color:#4A61A3; 
 }
-.btn--buy{
+.buyBtn{
     width:44%;
     height: 48px;
     border:1px solid #4A61A3;
@@ -211,6 +211,6 @@ input[type="number"]{
     border-radius: 4px;
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
 }
-.btn--buy span{
+.buyBtn span{
     color:#ffffff; 
 }

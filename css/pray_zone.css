@@ -6,7 +6,7 @@
 .pray--profile span, 
 .comment--profile span{
     float: left;
-    margin-right: 10px;
+    margin:2px 10px 0 0;
 }
 .pray--profile img, 
 .comment--profile img{
@@ -33,7 +33,6 @@
 .pray--date, 
 .comment--date{
     color:#9e9e9e;
-    font-size:12px
 }
 .pray--etc{
     text-align: right;
@@ -46,7 +45,6 @@
 .pray--text{
     text-align: left;
     padding:16px 0;
-    font-weight: 300;
     color: #424242;
     font-size: 15px;
 }
@@ -110,7 +108,6 @@
 }
 .input--comment{
     display: flex; 
-    padding:8px 0;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -119,57 +116,17 @@
     align-items: center;
 }
 .input--comment p{
-    width: 10%;
-    margin:0 10px 0 16px;
-    text-align: left;
+    padding:8px 10px 8px 16px;
 }
 .input--comment img{
     width: 36px;
     height: 36px;
 }
+.input--comment input{
+    margin:8px  16px 0 0;
+    height: 40px;
+}
 .input--btn img{
     width: 24px;
     height: 24px;
-}
-.input--text{
-    display:inline-block;
-    color:#757575;
-}
-input[type="text"] {
-    border: 1px solid #9E9E9E;
-    box-sizing: border-box;
-    outline: none;
-    border-radius: 4px;
-    width: 90%;
-    padding:0 14px;
-    margin-right: 16px;
-}
-input[type="text"]:focus{
-    background:#f6f7fc ;
-    border: 1px solid #4A61A3;
-}
-input[type="text"]::placeholder{
-    color: #9e9e9e;
-    font-weight: 300;
-} 
-.modal {
-    display: none; 
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%; 
-}
-.modal-content {
-    margin: 18vh 22px;
-    padding: 0 20px;
-    width: 15%;
-    background: #fafafa;  
-    border-radius: 10px;  
-    float: right;
-    box-shadow: 0 2px 5px rgb(0 0 0 / 12%);                   
-}
-.edit, .delete {
-    text-align: center;
-    font-weight: 500;
-    margin:20px 0;
 }

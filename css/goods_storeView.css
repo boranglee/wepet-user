@@ -179,7 +179,7 @@
     width: 24px;
     height: 24px;
 }
-.btn--call{
+.callBtn{
     width: 52px;
     height: 52px;
     background-color: #ffffff;
@@ -189,7 +189,7 @@
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
     position: relative;
 }
-.btn--buy{
+.buyBtn{
     width:74%;
     height:52px;
     background: #4A61A3;
@@ -197,12 +197,12 @@
     vertical-align: top;
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
 }
-.btn--buy span{
+.buyBtn span{
     color:#ffffff; 
     font-weight: bold;
     font-size: 16px;
 }
-.btn--buy em{
+.buyBtn em{
     color: #4A61A3;
     width: 16px;
     height: 16px;

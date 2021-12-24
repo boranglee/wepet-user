@@ -139,6 +139,7 @@ input[type="number"]{
     border-style: none;
     background: none;
     font-weight: bold;
+    font-size: 16px;
 }
 .all--price{
     height: 71px;
@@ -167,7 +168,7 @@ input[type="number"]{
     bottom: 0;
     width: 100%;
 }
-.btn--call{
+.callBtn{
     width:44%;
     height: 48px;
     border:1px solid #4A61A3;
@@ -176,12 +177,12 @@ input[type="number"]{
     box-shadow: 0 2px 15px rgb(0 0 0 / 12%);
     margin-right: 12px;
 }
-.btn--call span{
+.callBtn span{
     color:#4A61A3; 
     font-weight: bold;
     font-size: 16px;
 }
-.btn--buy{
+.buyBtn{
     width:44%;
     height: 48px;
     border:1px solid #4A61A3;
@@ -189,7 +190,7 @@ input[type="number"]{
     border-radius: 4px;
     box-shadow: 0 2px 15px rgb(0 0 0 / 12%);
 }
-.btn--buy span{
+.buyBtn span{
     color:#ffffff; 
     font-weight: bold;
     font-size: 16px;

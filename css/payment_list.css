@@ -57,36 +57,36 @@
     transform: rotate(-90deg);
 }
 .pay--detail p{text-align: left;}
-.pay--detail--wait{
+.pay--detail-wait{
     color: #7B61FF;
     margin:10px 0 2px;
 }
-.pay--detail--going,
-.pay--detail--ready{
+.pay--detail-going,
+.pay--detail-ready{
     color:#FF6250;
     margin:10px 0 2px;
 }
-.pay--detail--done{
+.pay--detail-done{
     color:#9e9e9e;
     margin:10px 0 2px;
 }
-.pay--detail--book,
-.pay--detail--ing{
+.pay--detail-book,
+.pay--detail-ing{
     color:#5090FF;
     margin:10px 0 2px;
 }
-.pay--detail--title{
+.pay--detail-title{
     font-size: 16px; 
     font-weight: bold;
     margin-bottom: 2px;
 }
-.pay--detail--custom{
+.pay--detail-custom{
     color:#757575; 
 }
-.pay--detail--price{
+.pay--detail-price{
     margin-top: 8px;
 }
-.payGo{
+.payBtn{
     width: 100%;
     height: 52px;
     background: #4A61A3;
@@ -94,12 +94,12 @@
     margin-top: 16px;
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
 }
-.payGo p{
+.payBtn p{
     font-weight: bold; 
     color: #ffffff;
     font-size: 16px;
 }
-.payGo p::before{
+.payBtn p::before{
     content: '';
     display: inline-block;
     width:24px;
@@ -108,7 +108,7 @@
     vertical-align: middle;
     margin-right: 5px;
 }
-.reviewGo{
+.reviewBtn{
     width: 100%;
     height: 52px;
     border: 1px solid #4A61A3;
@@ -116,12 +116,12 @@
     margin-top: 16px;
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
 }
-.reviewGo p{
+.reviewBtn p{
     font-weight: bold; 
     color: #4A61A3;
     font-size: 16px;
 }
-.reviewGo p::before{
+.reviewBtn p::before{
     content: '';
     display: inline-block;
     width:24px;
