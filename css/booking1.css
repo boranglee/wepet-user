@@ -66,7 +66,7 @@
     column-gap: 14px;
     position: relative;
 }
-.cart--img{
+.list--img{
     width: 90px;
     height: 90px;
     object-fit: cover;
@@ -76,8 +76,8 @@
 .cart--title{
     text-align: left; 
     font-size: 16px;
+    font-weight: 500;
     padding-right: 35px;
-    color:#424242;
 }
 .cart--detail{
     text-align: left;
@@ -89,20 +89,20 @@
     margin-top: 12px;
 }
 .icon--best{
-  font-size: 12px;
-  color:#fff;
-  padding:1px 4px;
-  background: #FF6250;
-  border-radius: 2px;
-  margin-right: 4px;
+    font-size: 12px;
+    color:#fff;
+    padding:1px 4px;
+    background: #FF6250;
+    border-radius: 2px;
+    margin-right: 4px;
 }
 .icon--freedel{
-  font-size: 12px;
-  color:#ffffff;
-  padding:1px 4px;
-  background: #5090FF;
-  border-radius: 2px;
-  margin-right: 4px;
+    font-size: 12px;
+    color:#ffffff;
+    padding:1px 4px;
+    background: #5090FF;
+    border-radius: 2px;
+    margin-right: 4px;
 }
 .icon--delfee{
     font-size: 12px;
@@ -130,23 +130,26 @@
 }
 .count--num li{
     float:right;
-    margin:12px 0 0 19px;
+    margin-top: 12px;
 }
 .count--num img{
     width: 24px;
     height: 24px;
 }
 input{
-    width: 7px;
+    width:48px;
     text-align: center;
     border-style: none;
     background: none;
     font-weight: bold;
     font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
 }
 .count--price{
     float:left;
     font-size: 16px;
+    font-weight: 500;
     margin-top: 12px;
 }
 .count--total{

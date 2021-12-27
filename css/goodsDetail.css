@@ -127,19 +127,24 @@
 }
 .count li{
     float:right; 
-    margin:17px 16px 0 -2px;
+    margin-top:17px;
+}
+.count li:first-child{
+    margin-right: 16px;
 }
 .count--title{
+    font-size: 16px;
     float:left; 
     margin:17px 0 0 16px;
 }
 input[type="number"]{
-    width: 7px;
+    width:48px;
     text-align: center;
     border-style: none;
     background: none;
-    font-weight: bold;
+    font-weight:500;
     font-size: 16px;
+    line-height: 20px;
 }
 .all--price{
     height: 71px;

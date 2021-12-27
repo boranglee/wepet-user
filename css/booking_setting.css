@@ -47,6 +47,9 @@ input[type=date] {
 .booking--state{
     padding:12px 0 24px;
 }
+.booking--state span{
+    font-size: 12px;
+}
 .book-select{
     color:#4a61a3;
 }

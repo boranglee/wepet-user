@@ -95,6 +95,15 @@ a{text-decoration:none;}
 	width: 24px;
 	height: 24px;
 }
+.head__booking{
+	position: absolute;
+	right:16px;
+	top:17px;
+}
+.head__booking img{
+	width: 24px;
+	height: 24px;
+}
 .head__cart{
 	position: absolute;
 	right:16px;
@@ -105,6 +114,18 @@ a{text-decoration:none;}
 	height: 24px;
 }
 .head__cart p{
+	position: absolute;
+	top: -14%;
+	right: -14%;
+	font-size: 10px;
+	background: #FF6250;
+	color: #ffffff;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+.head__booking p{
 	position: absolute;
 	top: -14%;
 	right: -14%;
