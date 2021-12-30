@@ -18,77 +18,90 @@
     </header>
     <main class="main">
         <section class="process--head"> 
-            <div class="process--head-title">장바구니</div>
-            <div class="process--head-order">
-                <ul>
-                    <li class="order1"><span class="order_num">1</span></li>
-                    <li><img src="image/arrow_right.png"></li>
-                    <li class="order2"><span class="order_num">2</span></li>
-                    <li><img src="image/arrow_right.png"></li>
-                    <li class="order3"><span class="order_num">3</span></li>
-                </ul>
-            </div><!--processheadorder-->
+            <div class="process--head-top">
+                <div class="process--head-title">예약선택</div>
+                <div class="process--head-order">
+                    <ul>
+                        <li class="order1"><span class="order_num">1</span></li>
+                        <li><img src="image/arrow_right.png"></li>
+                        <li class="order2"><span class="order_num">2</span></li>
+                        <li><img src="image/arrow_right.png"></li>
+                        <li class="order3"><span class="order_num">3</span></li>
+                    </ul>
+                </div><!--processheadorder-->
+            </div><!--headtop-->
+            <div class="process--head-notice">
+                <p>한번에 하나의 예약만 가능합니다.<br/>두가지 이상 예약할 경우 각각 예약을 진행해 주세요.</p>
+            </div>
         </section><!--processtermshead-->
         <section class="cart--list-container">
-            <div class="store--name">꿈나라 애견 장례식장</div>
-            <div class="product--list">
-                <div class="box--content">                   
-                    <div class="cart--list">
-                        <div class="cart--title">맞춤형 장례</div>
-                        <div class="cart--detail">5kg 이하 / 픽업안함 / 염습 옵션 A / 입관안함 / 삼베수의 / 메모리얼스톤 제작</div>
-                    </div><!--cartlist-->
-                    <button class="closebtn" onclick="location.href=''"><img src="image/close.png"></button>
-                </div><!--boxcontent-->
-                <div class="cart-count">
-                    <div class="count--price">270,000원</div>
-                    <ul class="count--num">
-                        <li class="count--icon plus"><img src="image/plusicon.png"></li>
-                        <li><input type="number" value="1"/></li>
-                        <li class="count--icon minus"><img src="image/minusicon.png"></li>
+            <div class="countSelect"><em>1</em>개 선택<button class="delBtn">선택삭제</button></div>
+            <div class="store-container"> 
+            <div class="bookingList">
+                <p class="bookingList-title">꿈나라 애견 장례식장</p>
+                <div class="bookingList-list">
+                    <p class="round">
+                        <input type="checkbox" id="checkbox1" />
+                        <label for="checkbox1"></label>
+                    </p>
+                    <p class="bookingList-list-img"><img src="image/no_image_w.png"></p>
+                    <ul class="bookingList-list-sub">
+                        <p class="bookingList-list-title">맞춤형 장례</p>
+                        <li>5kg 이하</li>
+                        <li>픽업안함</li>
+                        <li>염습A</li>
+                        <li>입관X</li>
+                        <li>삼베수의</li>
+                        <li>메모리얼스톤</li>
                     </ul>
-                </div><!--count-->
-            </div><!--productlist-->
-            <div class="product--list">
-                <div class="box--content">
-                    <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
-                    <div class="cart--list">
-                        <div class="cart--title">오동나무 관</div>
-                        <div class="cart--detail">기본형 오동나무 관 입니다</div>
-                    </div><!--cartlist-->
                     <button class="closebtn" onclick="location.href=''"><img src="image/close.png"></button>
-                </div><!--boxcontent-->
-                <div class="cart-count">
-                    <div class="count--price">30,000원</div>
-                    <ul class="count--num">
-                        <li class="count--icon plus"><img src="image/plusicon.png"></li>
-                        <li><input type="number" value="1"/></li>
-                        <li class="count--icon minus"><img src="image/minusicon.png"></li>
+                </div>
+            <div class="cart-count"><p>예약금액<span>270,000원</span></p></div><!--count-->
+            </div><!--bookinglist-->
+            <div class="bookingList">
+                <div class="bookingList-list">
+                    <p class="round">
+                        <input type="checkbox" id="checkbox2" />
+                        <label for="checkbox2"></label>
+                    </p>
+                    <ul class="bookingList-list-sub">
+                        <p class="bookingList-list-title">기본형 장례</p>
+                        <li>5kg 이하</li>
+                        <li>픽업안함</li>
+                        <li>염습A</li>
+                        <li>입관X</li>
+                        <li>삼베수의</li>
+                        <li>메모리얼스톤</li>
                     </ul>
-                </div><!--count-->
-            </div><!--productlist-->
-            <div class="store--name">21그램 반려동물 장례식장</div>
-            <div class="product--list">
-                <div class="box--content">                   
-                    <div class="cart--list">
-                        <div class="cart--title">고급형 A장례</div>
-                        <div class="cart--detail">염습/소나무관/추모실/화장/백자유골함</div>
-                    </div><!--cartlist-->
                     <button class="closebtn" onclick="location.href=''"><img src="image/close.png"></button>
-                </div><!--boxcontent-->
-                <div class="cart-count">
-                    <div class="count--price">270,000원</div>
-                    <ul class="count--num">
-                        <li class="count--icon plus"><img src="image/plusicon.png"></li>
-                        <li><input type="number" value="1"/></li>
-                        <li class="count--icon minus"><img src="image/minusicon.png"></li>
+                </div>
+            <div class="cart-count"><p>예약금액<span>270,000원</span></p></div><!--count-->
+            </div><!--bookinglist-->
+            </div><!--storecontainer-->
+            <div class="store-container">
+            <div class="bookingList">
+                <p class="bookingList-title">꿈나라 애견 장례식장</p>
+                <div class="bookingList-list">
+                    <p class="round">
+                        <input type="checkbox" id="checkbox3" />
+                        <label for="checkbox3"></label>
+                    </p>
+                    <p class="bookingList-list-img"><img src="image/no_image_w.png"></p>
+                    <ul class="bookingList-list-sub">
+                        <p class="bookingList-list-title">맞춤형 장례</p>
+                        <li>5kg 이하</li>
+                        <li>픽업안함</li>
+                        <li>염습A</li>
+                        <li>입관X</li>
+                        <li>삼베수의</li>
+                        <li>메모리얼스톤</li>
                     </ul>
-                </div><!--count-->
-            </div><!--productlist-->
+                    <button class="closebtn" onclick="location.href=''"><img src="image/close.png"></button>
+                </div>
+            <div class="cart-count"><p>예약금액<span>270,000원</span></p></div><!--count-->
+            </div><!--bookinglist-->
+            </div><!--storecontainer-->
         </section><!--cartcontainer-->
-        <div class="count--total">
-            <span class="total--title">총 예약금액</span>
-            <span class="total--price">270,000원</span>
-        </div>
     </main>
     <footer>
         <div class="foot--btn">
