@@ -7,7 +7,7 @@
     <link href="css/booking2.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
     <link href="css/font.css" rel="stylesheet">
-    <title>예약2-2</title>
+    <title>위펫</title>
 </head>
 <body>
     <header class="header">
@@ -40,7 +40,7 @@
                 <input type="tel" id="searchText" placeholder="연락처를 입력해주세요." autocomplete="off">
             </div>  
         </div><!--bookinginfo-->
-        <div class="pay--info">
+        <div class="pickup--info">
             <div class="info--address">
                 <div class="info--address-title"><img src="image/location_mini.png">픽업위치</div>
                 <div class="info--address-detail">
@@ -52,27 +52,51 @@
                     <input type="text" id="searchText" placeholder="나머지 주소를 입력해주세요" autocomplete="off">
                 </div>    
             </div><!--infoaddress-->
-        </div><!--payinfo-->
+        </div><!--pickupinfo-->
         <div class="list--title">예약내역</div>
-        <div class="pay--list">
-            <div class="list--product-bg">
-                <div class="list--product">
-                    <ul class="product--title">
-                        <li class="product--title-name">맞춤형 장례</li>
-                        <li class="product--title-detail">5kg 이하 / 픽업안함 / 염습 옵션 A / 입관안함 / 삼베수의 / 메모리얼스톤 제작</li>
-                    </ul>
-                    <span>270,000원</span>
-                </div>
+        <div class="bookingList">
+            <div class="bookingList-bg">
+                <ul class="bookingList-list-sub">
+                    <p class="bookingList-list-title">맞춤형 장례</p>
+                    <li>5kg 이하</li>
+                    <li>픽업안함</li>
+                    <li>염습A</li>
+                    <li>입관X</li>
+                    <li>삼베수의</li>
+                    <li>메모리얼스톤</li>
+                </ul>
+                <span>270,000원</span>
             </div><!--listbg-->
-            <div class="all--price">
-                <span class="all--price-name">총 결제금액</span>
-                <span class="all--price-pay">270,000원</span>
+            <div class="cart-count"><p>예약금액<span>270,000원</span></p></div><!--count-->
+            <div class="cart-count"><p>예약금 (선결제)<span>30,000원</span></p></div><!--count-->
+        </div><!--bookinglist-->
+        <div class="all--price">
+            <span class="all--price-name">결제금액</span>
+            <span class="all--price-pay">30,000원</span>
+        </div>
+        <div class="payment--title">결제수단</div>
+        <div class="payment">
+            <a href="#">
+            <div class="payment--card">카드결제<span>변경</span></div></a>
+            <div class="info--accordian">
+                <div class="payment--confirm">예약 조건 확인 및 결제진행 동의 내용보기
+                <p class="accordian-arrow"><img src="image/blue_btn.png"></p>
+                </div>
             </div>
-        </div><!--paylist-->
+                <div class="content" style="display: none;">
+                    <p>내용보기내용보기내용보오오오오옹옹기</p>
+                </div>
+            <div class="payment--agree">위 내용을 확인하였으며, 결제에 동의합니다
+                <span class="round">
+                <input type="checkbox" id="checkbox" />
+                <label for="checkbox"></label>
+                </span>
+            </div><!--paymentagree-->
+        </div><!--payment-->
     </main>
     <footer>
         <button class="foot--price" onclick="location.href='booking3.html'">
-            <p>예약 접수하기</p>
+            <p>예약 접수하기 (30,000원)</p>
         </button>
     </footer>
     <script src="js/jquery-3.5.1.js"></script>

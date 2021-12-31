@@ -7,7 +7,7 @@
     <link href="css/goodsPay2.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
     <link href="css/font.css" rel="stylesheet">
-    <title>용품구매2</title>
+    <title>위펫</title>
 </head>
 <body>
     <header class="header">
@@ -30,7 +30,7 @@
             </div><!--processheadorder-->
         </section><!--processtermshead-->
         <div class="info--title">배송정보</div>
-        <div class="pay--info">
+        <div class="del--info">
             <div class="info--address">
                 <h2 class="info--address-title">
                     <img src="image/location_mini.png">배송주소
@@ -45,34 +45,23 @@
                     <input type="text" id="searchText" placeholder="연락처를 입력해주세요" autocomplete="off">
                 </div>    
             </div><!--infoaddress-->
-        </div><!--payinfo-->
+        </div><!--delinfo-->
         <div class="list--title">구매내역</div>
-        <div class="pay--list">
-            <div class="list--detail-title">주문상품 상세내역</div>
-                <div class="list--product-bg">
-                    <div class="list--product">
-                        <ul class="product--title">
-                            <li class="product--title-name">럭셔리 소나무 관</li>
-                            <li class="product--title-detail">10kg~15kg</li>
-                        </ul>
-                        <span>80,000원X2개</span>
-                    </div>
-                    <div class="list--product">
-                        <ul class="product--title">
-                            <li class="product--title-name">오동나무 관(고급형) 이름이 길어지는 경우</li>
-                            <li class="product--title-detail">선택한 옵션 정보가 표시됩니다</li>
-                        </ul>
-                        <span>30,000원X1개</span>
-                    </div><!--listproduct-->
-                </div><!--listbg-->
-                <div class="product--price">
-                    <p>상품금액 <span>190,000원</span></p>
-                    <p>배송비 <span>3,000원</span></p>
-                </div><!--productprice-->
-                <div class="all--price">
-                    <p>총 결제금액 <span>193,000원</span></p>
-                </div>
-        </div><!--paylist-->
+        <div class="bookingList">
+            <div class="bookingList-bg">
+                <ul class="bookingList-list-sub">
+                    <p class="bookingList-list-title">럭셔리 소나무 관</p>
+                    <li>10kg ~ 15kg</li>
+                </ul>
+                <span>80,000원</span>
+            </div><!--listbg-->
+            <div class="cart-count"><p>상품금액<span>80,000원</span></p></div><!--count-->
+            <div class="cart-count"><p>배송비<span>0</span></p></div><!--count-->
+        </div><!--bookinglist-->
+        <div class="all--price">
+            <span class="all--price-name">결제금액</span>
+            <span class="all--price-pay">80,000원</span>
+        </div>
         <div class="payment--title">결제수단</div>
             <div class="payment">
                 <a href="#">

@@ -7,7 +7,7 @@
     <link href="css/booking1.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
     <link href="css/font.css" rel="stylesheet">
-    <title>상품구매1</title>
+    <title>위펫</title>
 </head>
 <body>
     <header class="header">
@@ -18,28 +18,36 @@
     </header>
     <main class="main">
         <section class="process--head"> 
-            <div class="process--head-title">장바구니</div>
-            <div class="process--head-order">
-                <ul>
-                    <li class="order1"><span class="order_num">1</span></li>
-                    <li><img src="image/arrow_right.png"></li>
-                    <li class="order2"><span class="order_num">2</span></li>
-                    <li><img src="image/arrow_right.png"></li>
-                    <li class="order3"><span class="order_num">3</span></li>
-                </ul>
-            </div><!--processheadorder-->
+            <div class="process--head-top">
+                <div class="process--head-title">예약선택</div>
+                <div class="process--head-order">
+                    <ul>
+                        <li class="order1"><span class="order_num">1</span></li>
+                        <li><img src="image/arrow_right.png"></li>
+                        <li class="order2"><span class="order_num">2</span></li>
+                        <li><img src="image/arrow_right.png"></li>
+                        <li class="order3"><span class="order_num">3</span></li>
+                    </ul>
+                </div><!--processheadorder-->
+            </div><!--headtop-->
         </section><!--processtermshead-->
-        <section class="cart--list-container">
-            <h1 class="store--name">21그램 반려동물 장례식장</h1>
-            <div class="product--list">
-                <div class="box--content">   
-                    <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>                
-                    <div class="cart--list">
-                        <div class="cart--title">럭셔리 소나무관</div>
-                        <div class="cart--detail">10kg ~ 15kg</div>
-                    </div><!--cartlist-->
+        <section>
+            <div class="countSelect"><em>1</em>개 선택<button class="delBtn">선택삭제</button></div>
+            <div class="store-container"> 
+            <div class="bookingList">
+                <p class="bookingList-title">21그램 반려동물 장례식장</p>
+                <div class="bookingList-list">
+                    <p class="round">
+                        <input type="checkbox" id="checkbox1" />
+                        <label for="checkbox1"></label>
+                    </p>
+                    <p class="bookingList-list-img"><img src="image/no_image_w.png"></p>
+                    <ul class="bookingList-list-sub">
+                        <p class="bookingList-list-title">럭셔리 소나무 관</p>
+                        <li>10kg ~ 15kg</li>
+                    </ul>
                     <button class="closebtn" onclick="location.href=''"><img src="image/close.png"></button>
-                </div><!--boxcontent-->
+                </div>
                 <div class="cart-count">
                     <div class="count--price">80,000원</div>
                     <ul class="count--num">
@@ -48,12 +56,14 @@
                         <li class="count--icon minus"><img src="image/minusicon.png"></li>
                     </ul>
                 </div><!--count-->
-            </div><!--productlist-->
-        </section><!--cartcontainer-->
-        <div class="count--total">
-            <span class="total--title">총 상품금액</span>
-            <span class="total--price">80,000원</span>
+            </div><!--bookinglist-->
+            </div><!--storecontainer-->
+        </section>
+        <div class="all--price">
+            <span class="all--price-name">결제금액</span>
+            <span class="all--price-pay">30,000원</span>
         </div>
+
     </main>
     <footer>
         <div class="foot--btn">

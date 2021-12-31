@@ -45,13 +45,14 @@
     text-align:left;
     font-weight: bold;
     padding:0 16px;
+    clear: both;
 }
 .info--address{
     padding:0 16px 32px;
     border-bottom: 6px solid #DDDFE5;
     clear: both;
 }
-.pay--info{
+.pickup--info{
     border-top: 1px solid #e0e0e0;
 }
 .booking--info{
@@ -122,47 +123,82 @@
     margin: 16px 0 8px;
     font-size: 15px;
 }
-.pay--list{
-    padding:16px 16px 32px; 
-    border-bottom: 6px solid #DDDFE5;
+.bookingList{
+    padding:0 16px 8px;
+    border-bottom: 1px solid #e0e0e0;
 }
-.list--product-bg{
+.bookingList-list-img{
+   margin-right: 12px;
+}
+.bookingList-list-img img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+}
+.bookingList-title{
+    text-align: left;
+    font-weight: bold;
+    margin: 24px 0;
+    padding-bottom:8px;
+    border-bottom: 2px solid #212121;
+}
+.bookingList-bg{
     background: #F5F5F5;
-    padding:0 16px;
     border-radius: 4px;
-}
-.list--product{
+    padding:16px 14px;
+    margin:16px 0 16px;
     display: flex;
-    padding:16px 0;
     align-items: center;
 }
-.product--title {width:70%;}
-.product--title li{text-align: left;}
-.product--title-name{font-size: 15px;}
-.product--title-detail{
-    color:#757575;
-    margin-top: 2px;
+.bookingList-list-title{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
 }
-.list--product span{
-    font-size: 16px;
-    font-weight: bold;
-    width: 30%;
+.bookingList-list-title span{
+    float: right;
+    font-size: 15px;
+}
+.bookingList-list-sub{
+    width: 80%;
+    text-align: left;
+}
+.bookingList-sub span{
+    width: 20%;
     text-align: right;
 }
-.product--price{
-    height: 51px;
-    line-height: 51px;
+.bookingList-sub li{
+    text-align: left;
 }
-.product--price-name{
-    float: left;
+.bookingList-list-sub li{
+    color: #757575;
+    text-align: left;
+    line-height: 1.5em;
 }
-.product--price-pay{
+.bookingList-list-sub li::before{
+    content: '•';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 3px;
+}
+.cart-count p{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.cart-count span{
     float: right;
+    font-size: 15px;
 }
 .all--price{
-    padding: 16px 0 80px;
-    border-top: 1px solid #e0e0e0;
-    margin-top: 16px;
+    padding: 0 16px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 6px solid #dddfe5;
 }
 .all--price-name{
     float: left;
@@ -174,6 +210,74 @@
     font-size: 16px;
     font-weight: bold;
 }
+.payment{padding:16px 16px 80px;}
+.payment--card{
+    height:48px;
+    line-height: 48px;
+    background: #f6f7fc;
+    border:1px solid #4a61a3;
+    border-radius: 4px;
+    width: 100%;
+    font-size:16px;
+    position: relative;
+}
+.payment--card span{
+    position: absolute;
+    top:0;
+    right:16px;
+    color: #4a61a3;
+}
+.payment--confirm{
+    font-size:12px;
+    font-weight: bold;
+    color:#5090FF;
+    padding:24px 0 10px;
+}
+.accordian-arrow{
+    display: inline-block;
+    vertical-align: middle;
+}
+.accordian-arrow img{
+    width: 14px;
+    height: 14px;
+}
+.more{
+    transform: rotateX(0deg);
+}
+.less{
+    transform: rotateX(180deg) translateY(13%);
+}
+.payment--agree{
+    position: relative;
+    padding:20px 30px;
+    color:#424242;
+}
+.round{
+    position: absolute;
+    right:16px;
+}
+.round input[type="checkbox"]{display: none;}
+.round input[type="checkbox"] + label{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border-radius: 4px;
+    background-color: #bdbdbd;
+}
+.round input[type="checkbox"]:checked + label{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border-radius: 4px;
+    background-color: #4A61A3;
+}
+.round label:after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../image/check.png") no-repeat 0 2px / 16px auto;
+  }
 .foot--price{
     height: 56px;
     line-height: 56px;

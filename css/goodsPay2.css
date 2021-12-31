@@ -107,67 +107,85 @@ input[type="text"]::placeholder{
     color: #757575;
     font-weight: 400;
 }
-.pay--list{
-    padding:16px 16px 0; 
-    border-bottom: 6px solid #DDDFE5;
-}
-.list--detail-title{
-    display: flex;
-    font-weight: bold;
-    color:#4a61a3;
-    margin:16px 0 12px;
-}
-.list--product-bg{
-    background: #F5F5F5;
-    padding:0 16px;
-    border-radius: 4px;
-}
-.list--product{
-    display: flex;
-    padding:16px 0;
-    border-bottom:1px solid #e0e0e0;
-    align-items: center;
-}
-.list--product:last-child{border: none;}
-.product--title {width:60%;}
-.product--title li{text-align: left;}
-.product--title-name{font-size: 16px;}
-.product--title-detail{
-    font-size: 12px;
-    color:#757575;
-    margin-top: 2px;
-}
-.list--product span{
-    font-size: 16px;
-    font-weight: bold;
-    width: 40%;
-    text-align: right;
-}
-.product--price {
-    padding:16px 0; 
+.bookingList{
+    padding:0 16px 8px;
     border-bottom: 1px solid #e0e0e0;
 }
-.product--price p{
-    text-align: left; 
-    margin-bottom:8px;
+.bookingList-list-img{
+   margin-right: 12px;
+}
+.bookingList-list-img img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+}
+.bookingList-bg{
+    background: #F5F5F5;
+    border-radius: 4px;
+    padding:16px 14px;
+    margin:16px 0 16px;
+    display: flex;
+    align-items: center;
+}
+.bookingList-list-title{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+}
+.bookingList-list-title span{
+    float: right;
     font-size: 15px;
 }
-.product--price span{
-    float: right; 
-    font-weight:bold;
+.bookingList-list-sub{
+    width: 80%;
+    text-align: left;
+}
+.bookingList-list-sub span{
+    width: 20%;
+    text-align: right;
+}
+.bookingList-sub li{
+    text-align: left;
+}
+.bookingList-list-sub li{
+    color: #757575;
+    text-align: left;
+    line-height: 1.5em;
+}
+.bookingList-list-sub li::before{
+    content: '•';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 3px;
+}
+.cart-count p{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.cart-count span{
+    float: right;
     font-size: 15px;
 }
 .all--price{
-    padding:16px 0 32px;  
+    padding: 0 16px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 6px solid #dddfe5;
+}
+.all--price-name{
+    float: left;
+    font-size: 16px;
     font-weight: bold;
 }
-.all--price p{
-    text-align: left; 
-    font-size: 16px; 
-}
-.all--price span{
-    float: right; 
+.all--price-pay{
+    float: right;
     font-size: 16px;
+    font-weight: bold;
 }
 .payment{padding:16px;}
 .payment--card{
@@ -218,44 +236,38 @@ input[type="text"]::placeholder{
 .round input[type="checkbox"]{display: none;}
 .round input[type="checkbox"] + label{
     display:inline-block;
-    width:24px;
-    height:24px;
+    width:20px;
+    height:20px;
     border-radius: 4px;
     background-color: #bdbdbd;
 }
 .round input[type="checkbox"]:checked + label{
     display:inline-block;
-    width:24px;
-    height:24px;
+    width:20px;
+    height:20px;
     border-radius: 4px;
     background-color: #4A61A3;
-    vertical-align: middle;
 }
 .round label:after {
-    border: 2px solid #fff;
-    border-top: none;
-    border-right: none;
     content: "";
-    height: 5px;
-    left: 6px;
-    position: absolute;
-    top: 6px;
-    transform: rotate(-45deg);
-    width: 11px;
-  }
-  .foot--price{
-      height: 56px;
-      line-height: 56px;
-      background-color: #4a61a3;
-      display: block;
-      width: 100%;
-  }
-  .foot--price p{
-      color:#fff; 
-    }
-  .foot--price span{
-      color:#fff;
-      font-weight: bold;
-      font-size: 16px;
-      margin-left: 8px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../image/check.png") no-repeat 0 2px / 16px auto;
+}
+.foot--price{
+    height: 56px;
+    line-height: 56px;
+    background-color: #4a61a3;
+    display: block;
+    width: 100%;
+}
+.foot--price p{
+    color:#fff; 
+}
+.foot--price span{
+    color:#fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 8px;
 }
