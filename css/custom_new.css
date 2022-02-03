@@ -107,7 +107,7 @@
     text-align: left;
     margin-top: 2px;
 }
-.input--weightBtn{
+.input--weight--btn{
     font-size: 15px;
     font-weight: bold;
     color: #ffffff;
@@ -213,4 +213,8 @@ input[type="number"]{
 }
 .buyBtn span{
     color:#ffffff; 
+}
+
+.btnColor{
+    background-color: #4a61a3;
 }
