@@ -116,11 +116,13 @@
                     </div><!--tab_box_on-->
                 <div class="tab_box">
                     <section class="map">
+                        <div id="container"></div>
                     <div class="info--accordian">
                         <div class="accordian--up">서울/인천/경기 (<em>21</em>)
                             <p class="accordian-arrow"><img src="image/upbtn.png"></p></div>
                     </div><!--infoaccordian-->
                     <div class="content" style="display:none;">
+                    
                         <a href="storeView_new.html">
                             <div class="box--content">
                                 <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
@@ -194,5 +196,73 @@
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/jquery.bxslider.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/mapdata/countries/kr/kr-all.js"></script>
+<script>
+    // Prepare demo data
+// Data is joined to map using value of 'hc-key' property by default.
+// See API docs for 'joinBy' for more info on linking data and map.
+var data = [
+    ['kr-4194', 0],
+    ['kr-kg', 1],
+    ['kr-cb', 2],
+    ['kr-kn', 3],
+    ['kr-2685', 4],
+    ['kr-pu', 5],
+    ['kr-2688', 6],
+    ['kr-sj', 7],
+    ['kr-tj', 8],
+    ['kr-ul', 9],
+    ['kr-in', 10],
+    ['kr-kw', 11],
+    ['kr-gn', 12],
+    ['kr-cj', 13],
+    ['kr-gb', 14],
+    ['kr-so', 15],
+    ['kr-tg', 16],
+    ['kr-kj', 17]
+];
+
+// Create the chart
+Highcharts.mapChart('container', {
+    chart: {
+        map: 'countries/kr/kr-all'
+    },
+
+    title: {
+        text: ''
+    },
+
+    subtitle: {
+        text: ''
+    },
+
+    mapNavigation: {
+        enabled: true,
+        buttonOptions: {
+            verticalAlign: 'bottom'
+        }
+    },
+
+    colorAxis: {
+        min: 0
+    },
+
+    series: [{
+        data: data,
+        name: 'Random data',
+        states: {
+            hover: {
+                color: '#BADA55'
+            }
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.name}'
+        }
+    }]
+});
+</script>
 </body>
 </html>

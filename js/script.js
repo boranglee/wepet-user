@@ -5,6 +5,8 @@
         auto:true, mode:'fade', prevText:'', nextText:'', speed:500, 
     });
 
+    $(".fixed").scrollToGiveClass ();
+
     $('.tab_menu_btn').on('click',function(){
       $('.tab_menu_btn').removeClass('on');
       $(this).addClass('on')
