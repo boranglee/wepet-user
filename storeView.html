@@ -61,12 +61,20 @@
         </div> <!-- tab_menu_container e -->
         <div class="tab_box_container">
             <div class="tab_box on">
-                <div class="tab_menu_round_container fixed">
-                    <button class="tab_menu_round on" type="button">기본장례</button>
-                    <button class="tab_menu_round" type="button">고급장례</button>
-                    <button class="tab_menu_round" type="button">맞춤장례</button>
-                    <button class="tab_menu_round" type="button">장례용품</button>
-                </div> <!-- tab_menu_container e -->
+                <div class="swiper-container snbSwiper">
+                    <div class="swiper-wrapper fixed">
+                        <div class="swiper-slide on"><a href="#">기본장례</a></div>
+
+                        <div class="swiper-slide"><a href="#">고급장례</a></div>
+                        
+                        <div class="swiper-slide"><a href="#">맞춤장례</a></div>
+                        
+                        <div class="swiper-slide"><a href="#">장례이름이길어져요</a></div>
+                        
+                        <div class="swiper-slide"><a href="#">메뉴</a></div>
+
+                    </div> <!-- tab_menu_container e -->
+                </div>
                 <div class="menu"><span>기본장례</span></div>
                 <div class="box--content">
                     <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
@@ -117,10 +125,12 @@
             </div><!--tab_box_on-->
             <div class="tab_box">
                 <div class="tab_menu_round_container fixed">
+               
                     <button class="tab_menu_round on" type="button">업체소개</button>
                     <button class="tab_menu_round" type="button">영업정보</button>
                     <button class="tab_menu_round" type="button">위치정보</button>
                     <button class="tab_menu_round" type="button">시설안내</button>
+              
                 </div> <!-- tab_menu_container e -->
                 <div class="menu1">업체소개</div>
                 <div class="box--content">
@@ -243,5 +253,47 @@
 <script src="js/jquery.bxslider.js"></script>
 <script src="js/script.js"></script>
 <script src="js/jquery.scrollToGiveClass.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.snbSwiper', {
+            slidesPerView: 'auto',
+            preventClicks: true,
+            preventClicksPropagation: false,
+            observer: true,
+            observeParents: true
+        });
+        var $snbSwiperItem = $('.snbSwiper .swiper-wrapper .swiper-slide a');
+        $snbSwiperItem.click(function(){
+            var target = $(this).parent();
+            $snbSwiperItem.parent().removeClass('on')
+            target.addClass('on');
+            muCenter(target);
+        })
+
+        function muCenter(target){
+            var snbwrap = $('.snbSwiper .swiper-wrapper');
+            var targetPos = target.position();
+            var box = $('.snbSwiper');
+            var boxHarf = box.width()/2;
+            var pos;
+            var listWidth=0;
+            
+            snbwrap.find('.swiper-slide').each(function(){ listWidth += $(this).outerWidth(); })
+            
+            var selectTargetPos = targetPos.left + target.outerWidth()/2;
+            if (selectTargetPos <= boxHarf) { // left
+                pos = 0;
+            }else if ((listWidth - selectTargetPos) <= boxHarf) { //right
+                pos = listWidth-box.width();
+            }else {
+                pos = selectTargetPos - boxHarf;
+            }
+            
+            setTimeout(function(){snbwrap.css({
+                "transform": "translate3d("+ (pos*-1) +"px, 0, 0)",
+                "transition-duration": "500ms"
+            })}, 200);
+        }
+</script>
 </body>
 </html>
