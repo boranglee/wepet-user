@@ -246,17 +246,14 @@
 <script>
     var swiper = new Swiper('.snbSwiper', {
             slidesPerView: 'auto',
-            preventClicks: true,
-            preventClicksPropagation: false,
-            observer: true,
-            observeParents: true
+            preventClicks: true
         });
         var $snbSwiperItem = $('.snbSwiper .swiper-wrapper .swiper-slide a');
         $snbSwiperItem.click(function(){
             var target = $(this).parent();
             $snbSwiperItem.parent().removeClass('on')
             target.addClass('on');
-            muCenter(target);
+
         })
 
     
