@@ -259,30 +259,6 @@
             muCenter(target);
         })
 
-        function muCenter(target){
-            var snbwrap = $('.snbSwiper .swiper-wrapper');
-            var targetPos = target.position();
-            var box = $('.snbSwiper');
-            var boxHarf = box.width()/2;
-            var pos;
-            var listWidth=0;
-            
-            snbwrap.find('.swiper-slide').each(function(){ listWidth += $(this).outerWidth(); })
-            
-            var selectTargetPos = targetPos.left + target.outerWidth()/2;
-            if (selectTargetPos <= boxHarf) { // left
-                pos = 0;
-            }else if ((listWidth - selectTargetPos) <= boxHarf) { //right
-                pos = listWidth-box.width()/1.2;
-            }else {
-                pos = selectTargetPos - boxHarf;
-            }
-            
-            setTimeout(function(){snbwrap.css({
-                "transform": "translate3d("+ (pos*-1) +"px, 0, 0)",
-                "transition-duration": "500ms"
-            })}, 200);
-        }
 </script>
 </body>
 </html>
