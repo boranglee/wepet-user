@@ -430,6 +430,7 @@
 
 .snbSwiper {
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .swiper-wrapper{
