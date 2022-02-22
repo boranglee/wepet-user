@@ -273,7 +273,7 @@
             if (selectTargetPos <= boxHarf) { // left
                 pos = 0;
             }else if ((listWidth - selectTargetPos) <= boxHarf) { //right
-                pos = listWidth-box.width();
+                pos = listWidth-box.width()/1.2;
             }else {
                 pos = selectTargetPos - boxHarf;
             }
