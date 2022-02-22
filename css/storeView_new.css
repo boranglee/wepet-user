@@ -437,6 +437,7 @@
     padding: 10px 16px;
 }
 .swiper-slide {
+    width: auto !important;
     height:39px;
     line-height: 39px;
     padding: 0 5%;
@@ -466,3 +467,4 @@
     color: #ffffff;
     font-weight: bold;
 }
+
