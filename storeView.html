@@ -75,7 +75,7 @@
                         <div class="swiper-slide"><a href="#">탭탭ㅂ탭ㅌ배</a></div>
                     </div> <!-- tab_menu_container e -->
                 </div>
-                <div class="menu"><span></span></div>
+                <div class="menu"><span>기본장례</span></div>
                 <div class="box--content">
                     <div class="thumb--img"><img class="list--img" src="image/no_image_w.png"></div>
                     <div class="serviceinfo">
@@ -236,11 +236,11 @@
             
             snbwrap.find('.swiper-slide').each(function(){ listWidth += $(this).outerWidth(); })
             
-            var selectTargetPos = targetPos.left + target.outerWidth()/2;
+            var selectTargetPos = targetPos.left + target.outerWidth();
             if (selectTargetPos <= boxHarf) { // left
                 pos = 0;
             }else if ((listWidth - selectTargetPos) <= boxHarf) { //right
-                pos = listWidth-box.width();
+                pos = listWidth-box.width()/1.3;
             }else {
                 pos = selectTargetPos - boxHarf;
             }
