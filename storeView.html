@@ -238,9 +238,9 @@
             
             var selectTargetPos = targetPos.left + target.outerWidth()/2;
             if (selectTargetPos <= boxHarf) { // left
-                pos = 100;
+                pos = 0;
             }else if ((listWidth - selectTargetPos) <= boxHarf) { //right
-                pos = listWidth-box.width()/1.4;
+                pos = listWidth-box.width();
             }else {
                 pos = selectTargetPos - boxHarf;
             }
